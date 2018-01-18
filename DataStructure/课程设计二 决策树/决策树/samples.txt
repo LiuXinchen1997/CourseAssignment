@@ -1,0 +1,7 @@
+Num Outlook Temperature Humidity Wind Sort
+1 Sunny Hot Normal Weak ?
+2 Sunny Hot Normal Strong ?
+3 Rainy Hot Normal Weak ?
+4 Sunny Mild Normal Weak ?
+5 Sunny Cool High Strong ?
+6 Sunny Cool High Weak ?

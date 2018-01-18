@@ -1,0 +1,16 @@
+Num Outlook Temperature Humidity Wind Sort
+1 Sunny Hot High Weak N
+2 Sunny Hot High Strong N
+3 Cloudy Hot High Weak Y
+4 Rainy Mild High Weak Y
+5 Rainy Cool Normal Weak Y
+6 Rainy Cool Normal Strong N
+7 Cloudy Cool Normal Strong Y
+8 Sunny Mild High Weak N
+9 Sunny Cool Normal Weak Y
+10 Rainy Mild Normal Weak Y
+11 Sunny Mild Normal Strong Y
+12 Cloudy Mild High Strong Y
+13 Cloudy Hot Normal Weak Y
+14 Rainy Mild High Strong N
+end

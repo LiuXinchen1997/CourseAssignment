@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>363</width>
+    <height>284</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>363</width>
+    <height>284</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_8">
+     <item>
+      <widget class="QLabel" name="ContentLabel">
+       <property name="maximumSize">
+        <size>
+         <width>150</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 16pt &quot;微软雅黑&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Content Show:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="ContentShowLabel">
+       <property name="styleSheet">
+        <string notr="true">font: 75 italic 11pt &quot;新宋体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>aaa</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_7">
+     <item>
+      <widget class="QLabel" name="SetALabel">
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 16pt &quot;微软雅黑&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Set A:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="SetAContentLabel">
+       <property name="styleSheet">
+        <string notr="true">font: 75 italic 11pt &quot;新宋体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>aaa</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="CLEARForAButton">
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: italic 12pt &quot;楷体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>CLEAR</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_6">
+     <item>
+      <widget class="QPushButton" name="IN_SETForAButton">
+       <property name="styleSheet">
+        <string notr="true">font: italic 12pt &quot;楷体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>IN_SET</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="IN_SETForA"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="INSERTForAButton">
+       <property name="styleSheet">
+        <string notr="true">font: italic 12pt &quot;楷体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>INSERT_SET</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="INSERTForA"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="SHOWForAButton">
+       <property name="styleSheet">
+        <string notr="true">font: italic 12pt &quot;楷体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>SHOW</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QLabel" name="SetBLabel">
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 16pt &quot;微软雅黑&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Set B:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="SetBContentLabel">
+       <property name="styleSheet">
+        <string notr="true">font: 75 italic 11pt &quot;新宋体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>aaa</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="CLEARForBButton">
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: italic 12pt &quot;楷体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>CLEAR</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QPushButton" name="IN_SETForBButton">
+       <property name="styleSheet">
+        <string notr="true">font: italic 12pt &quot;楷体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>IN_SET</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="IN_SETForB"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="INSERTForBButton">
+       <property name="styleSheet">
+        <string notr="true">font: italic 12pt &quot;楷体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>INSERT_SET</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="INSERTForB"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="SHOWForBButton">
+       <property name="styleSheet">
+        <string notr="true">font: italic 12pt &quot;楷体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>SHOW</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="SetCLabel">
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 16pt &quot;微软雅黑&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Set C:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="SetCContentLabel">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 italic 11pt &quot;新宋体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>aaa</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="CLEARForCButton">
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: italic 12pt &quot;楷体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>CLEAR</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="IN_SETForCButton">
+       <property name="styleSheet">
+        <string notr="true">font: italic 12pt &quot;楷体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>IN_SET</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="IN_SETForC">
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="SHOWForCButton">
+       <property name="styleSheet">
+        <string notr="true">font: italic 12pt &quot;楷体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>SHOW</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="ANDButton">
+       <property name="styleSheet">
+        <string notr="true">font: italic 12pt &quot;楷体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>AND</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="XORButton">
+       <property name="styleSheet">
+        <string notr="true">font: italic 12pt &quot;楷体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>XOR</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="ORButton">
+       <property name="styleSheet">
+        <string notr="true">font: italic 12pt &quot;楷体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>OR</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="QuitButton">
+       <property name="styleSheet">
+        <string notr="true">font: italic 12pt &quot;楷体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>QUIT</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

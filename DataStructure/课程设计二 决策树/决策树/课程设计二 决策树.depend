@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1480842700 source:c:\users\dell\desktop\课程设计二 决策树\main.cpp
+	<fstream>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<string>
+	<map>
+	<cmath>
+
+1480229537 source:c:\users\dell\desktop\新建文件夹\课程设计二 决策树\main.cpp
+	<fstream>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<string>
+	<map>
+	<cmath>
+
+1480383360 source:c:\users\dell\desktop\新建文件夹\混乱版\课程设计二 决策树\main.cpp
+	<fstream>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<string>
+	<map>
+	<cmath>
+
+1480761042 source:f:\课程设计二 决策树\main.cpp
+	<fstream>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<string>
+	<map>
+	<cmath>
+
+1480842700 source:d:\课程设计二 决策树\main.cpp
+	<fstream>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<string>
+	<map>
+	<cmath>
+
+1483337921 source:c:\users\dell\desktop\课程设计二 决策树\决策树\main.cpp
+	<fstream>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<string>
+	<map>
+	<cmath>
+

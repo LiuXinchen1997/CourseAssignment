@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1467267313 source:c:\users\dell\desktop\educationalmanagementsystem\main.cpp
+	<fstream>
+	<iomanip>
+	<iostream>
+	<cstring>
+	"User.h"
+
+1467194481 c:\users\dell\desktop\educationalmanagementsystem\user.h
+	<cstring>
+
+1467203634 source:c:\users\dell\desktop\educationalmanagementsystem\user.cpp
+	"User.h"
+	<iostream>
+	<iomanip>
+	<cstring>
+
+1467267314 source:h:\课程设计\educationalmanagementsystem\main.cpp
+	<fstream>
+	<iomanip>
+	<iostream>
+	<cstring>
+	"User.h"
+
+1467194482 h:\课程设计\educationalmanagementsystem\user.h
+	<cstring>
+
+1467203636 source:h:\课程设计\educationalmanagementsystem\user.cpp
+	"User.h"
+	<iostream>
+	<iomanip>
+	<cstring>
+
+1467267314 source:h:\课程设计 刘昕宸2015214450\educationalmanagementsystem\main.cpp
+	<fstream>
+	<iomanip>
+	<iostream>
+	<cstring>
+	"User.h"
+
+1467194482 h:\课程设计 刘昕宸2015214450\educationalmanagementsystem\user.h
+	<cstring>
+
+1467203636 source:h:\课程设计 刘昕宸2015214450\educationalmanagementsystem\user.cpp
+	"User.h"
+	<iostream>
+	<iomanip>
+	<cstring>
+
