@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+
+.left{
+	width:30%;
+	height: 100%;
+	float:left;
+	border: 1px;
+	border-style: solid;
+}
+
+.right{
+	width:60%;
+	height: 100%;
+	float:left;
+	border: 1px;
+	border-style: solid;
+	text-align: center;
+}
+
+.right_preview{
+	width:60%;
+	height: 100%;
+	margin-left: 20%;
+}
+
+.right_preview_image{
+	width:100%;
+}
+
+.right_preview_text{
+	
+}

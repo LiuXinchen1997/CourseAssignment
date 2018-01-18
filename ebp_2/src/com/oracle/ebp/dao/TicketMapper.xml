@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3.dtd">
+
+<!-- 与对应的接口名相对应  -->
+<mapper namespace="com.oracle.ebp.dao.TicketMapper">
+    <select id="listTicketsByDate" parameterType="Date" resultType="ticket">
+    	select * from ticket where startTime between #{0} and #{1}
+    </select>
+    
+    <select id="getTicketDetailsByTid" parameterType="int" resultType="ticketDetail">
+    	select * from ticketdetail where tId = #{0}
+    </select>
+    
+    <insert id="addTicket" parameterType="ticket" useGeneratedKeys="true" keyProperty="tid">
+    	insert into ticket (descs, startTime, amount, balance, price, status) 
+    		values(#{descs}, #{startTime}, #{amount}, #{balance}, #{price}, 1)
+    </insert>
+    
+    <insert id="addTicketDetail" parameterType="ticketDetail" useGeneratedKeys="true" keyProperty="tid">
+    	insert into ticketdetail (tId, descs, images, sequence) 
+    		values(#{tId}, #{descs}, #{images}, #{sequence})
+    </insert>
+    
+    <select id = "Admin_GetALLTicket" resultType="ticket">
+	     select * from ticket limit #{0},#{1}    
+	</select>
+	
+	<select id = "Admin_GetALLTicket_Number" resultType="Integer">
+	     select count(*) from ticket
+	</select>
+	
+	<select id="Admin_GetTicketBySday_Eday" resultType="ticket">
+		select * from ticket
+		where tid > 0
+			<if test="param1!=null and param1!= ''">
+	         <![CDATA[and startTime >= #{0}]]>
+			</if>
+			<if test="param2!=null and param2!= ''">
+	        <![CDATA[and startTime <= #{1}]]>
+			</if>
+		limit #{2},#{3}
+	</select>
+
+	<select id="Admin_GetTicketBySday_Eday_GetRecordCount" resultType="Integer">
+		select count(*) from ticket
+		where tid > 0
+			<if test="param1!=null and param1!= ''">
+	         <![CDATA[and startTime >= #{0}]]>
+			</if>
+			<if test="param2!=null and param2!= ''">
+	        <![CDATA[and startTime <= #{1}]]>
+			</if>
+	</select>
+
+	<update id="Admin_UpdateTicketStatus">
+		update ticket set status = #{1} where tid = #{0}
+	</update>
+
+	<select id="Admin_Query_UpdateTicketStatus" parameterType="Integer"
+		resultType="Integer">
+		select status from ticket where tid = #{0}
+	</select>
+    
+    <select id = "Admin_get_TicketInformation" parameterType="Integer" resultType = "ticket">
+          select * from ticket where tid = #{0}
+    </select>
+    
+    <!-- <update id = "Admin_Update_TicketInformation"  parameterType="ticket">
+        update ticket set descs = #{descs}, amount = #{amount},balance = #{balance},price = #{price} where tid = #{tid};
+    </update> -->
+    
+    <update id = "Admin_Update_TicketInformation"  parameterType="updateTicketBean">
+        update ticket set descs = #{descs}, amount = #{amount},balance = #{balance},price = #{price} where tid = #{tid};
+    </update>
+    
+    <select id="getTicketByTid" parameterType="int" resultType="ticket">
+    	select * from ticket where tid = #{0}
+    </select>
+    
+    <update id="minusTicket">
+    	update ticket set balance=balance-#{1} where tid=#{0}
+    </update>
+    
+
+	<select id = "Admin_GetTicketByDescs_GetRecordCount" parameterType="String" resultType = "Integer">
+          select count(*) from ticket where descs like concat('%',#{0},'%')
+    </select>
+    
+    <select id = "Admin_GetTicketByDescs" resultType="ticket">
+         select * from ticket where descs like concat('%',#{0},'%') limit #{1},#{2}
+    </select>
+    
+    <!-- //用户根据价格查询票所有票项数目用来得到尾页数
+	public Integer User_GetTicketByPrice_GetRecordCount(Integer lowPrice,Integer highPrice);
+	
+	//用户根据价格查询票
+	public List<Ticket> User_GetTicketByPrice(Integer lowPrice,Integer highPrice); -->
+	<select id="User_GetTicketByPrice_GetRecordCount" resultType="Integer">
+		select count(*) from ticket
+		where tid > 0
+			<if test="param1!=null and param1!= ''">
+	         <![CDATA[and price >= #{0}]]>
+			</if>
+			<if test="param2!=null and param2!= ''">
+	        <![CDATA[and price <= #{1}]]>
+			</if>
+	</select>
+	
+	<select id="User_GetTicketByPrice" resultType="ticket">
+		select * from ticket
+		where tid > 0
+			<if test="param1!=null and param1!= ''">
+	         <![CDATA[and price >= #{0}]]>
+			</if>
+			<if test="param2!=null and param2!= ''">
+	        <![CDATA[and price <= #{1}]]>
+			</if>
+		limit #{2},#{3}
+	</select>
+</mapper>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3.dtd">
+
+<!-- 与对应的接口名相对应  -->
+<mapper namespace="com.oracle.ebp.dao.UserMapper">
+	<update id="topUpMoney">
+    	update user set balance = balance + #{0} where username = #{1}
+	</update>
+    
+	<select id="getUserByUsername" parameterType="String" resultType="user">
+    	select * from user where username = #{username}
+	</select>
+    
+	<select id = "AdminGetUserBySday_Eday" resultType= "user"> 
+	   select * from user where uid > 0
+            <if test = "param1 != null and param1 != ''">
+              <![CDATA[and regTime >= #{0}]]>
+            </if>
+            <if test = "param2 != null and param2 != ''">
+               <![CDATA[and regTime <= #{1}]]>
+            </if>
+              limit #{2},#{3}
+	 </select>
+	 
+	 <select id = "AdminGetUserBySday_Eday_recordCount" resultType= "Integer"> 
+	   select count(*) from user where uid > 0
+            <if test = "param1 != null and param1 != ''">
+              <![CDATA[and regTime >= #{0}]]>
+            </if>
+            <if test = "param2 != null and param2 != ''">
+               <![CDATA[and regTime <= #{1}]]>
+            </if>
+	 </select>
+	 
+	<select id = "AdminGetUserBynuit" resultType= "user"> 
+	   select * from user
+	   where uid > 0
+          <if  test = "param1!=null and param1!= ''" >
+	          and ( (name like concat('%',#{0},'%')) or (username like concat('%',#{0},'%')) )
+	      </if>
+          <if  test = "param2!=null and param2!= ''" >
+	         and idCard like concat('%',#{1},'%')
+	     </if>
+	     <if  test = "param3!=null and param3!= ''" >
+	        and telno like concat('%',#{2},'%')
+	     </if>
+          limit #{3},#{4}
+	</select>
+	 
+	<select id = "AdminGetUserBynuit_recordCount" resultType= "Integer"> 
+	   select count(*) from user
+	   where uid > 0
+          <if test = "param1!=null and param1!= ''" >
+	         and ( (name like concat('%',#{0},'%')) or (username like concat('%',#{0},'%')) )
+	      </if>
+          <if test = "param2!=null and param2!= ''" >
+	         and idCard like concat('%',#{1},'%')
+	     </if>
+	     <if test = "param3!=null and param3!= ''" >
+	        and telno like concat('%',#{2},'%')
+	     </if>
+	</select>
+ 
+	<update id = "AdminChangeUserStatus">
+           update user set status = #{1} where uid = #{0}
+	</update>
+	
+	<select id = "AdminQueryChangeUserStatus" parameterType = "Integer" resultType = "Integer">
+	        select status from user where uid = #{0}
+	</select>
+	
+	<insert id="saveUser" parameterType="user">
+		insert into
+		user(username,password,name,gender,age,idCard,address,telno,regTime,balance,status)
+		values(#{username},#{password},#{name},#{gender},#{age},#{idCard},#{address},#{telno},#{regTime},#{balance},#{status})
+	</insert>
+	
+	<update id="updateUser" parameterType="updateUserBean">
+		update user set userName = #{username}, password = #{password}, name = #{name}, gender = #{gender}, age = #{age}, idCard = #{idCard}, address = #{address}, telno = #{telno}
+			where uid = #{uid}
+	</update>
+	
+	<update id="decreaseMoney">
+    	update user set balance = balance - #{0} where username = #{1}
+	</update>
+	
+	<update id="modifyPassword">
+		update user set password = #{0} where uid = #{1}
+	</update>
+	
+	<select id="getUserByUid" parameterType="int" resultType="user">
+		select * from user where uid = #{0}
+	</select>
+</mapper>

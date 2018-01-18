@@ -1,0 +1,21 @@
+/* ================================================== */
+/* Theme Custom Fonts */
+/* ================================================== */
+
+@font-face {
+    font-family: 'texgyreadventorbold';
+    src: url('../fonts/texgyreadventor-bold-webfont.woff2') format('woff2'),
+         url('../fonts/texgyreadventor-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'texgyreadventorregular';
+    src: url('../fonts/texgyreadventor-regular-webfont.woff2') format('woff2'),
+         url('../fonts/texgyreadventor-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
