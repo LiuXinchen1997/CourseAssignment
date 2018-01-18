@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/router.css" type="text/css" />
+</head>
+<body>
+    <div id = "center">
+        <div v-for="item in routers"  v-bind:id=" 'router_'+ item.id" :style="item.routerClass" @click = "showPosition($event)">    
+            {{item.id}}
+        </div>
+        <svg >
+            <path v-for="item in pathes" :d="item.path" class = "segment" :id = "'path_'+ item.id"/>
+        </svg> 
+    </div>
+    
+</body>
+<script src="js/vue.min.js">
+</script>
+<script src="js/position.js"></script>
+</html>

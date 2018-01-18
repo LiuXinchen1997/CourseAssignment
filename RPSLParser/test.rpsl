@@ -1,0 +1,11 @@
+mnt-by:  MAINT-APNIC-AP
+aut-num:  AS0
+as-name:  CNCNET-CN
+descr:  China Netcon Crop
+descr:  New Telecommunication Carrier
+descr:  Base on IP Backbone
+country:  CN
+
+import:    from AS1 action pref=10; med=1; accept ANY
+export:    to AS2 action pref=20; med=3; announce ANY
+export:    to AS1 action pref=20; med=2; announce ANY

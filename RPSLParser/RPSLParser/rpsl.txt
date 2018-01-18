@@ -1,0 +1,19 @@
+mnt-by:  MAINT-APNIC-AP
+aut-num:  AS9929
+as-name:  CNCNET-CN
+descr:  China Netcon Crop
+descr:  New Telecommunication Carrier
+descr:  Base on IP Backbone
+country:  CN
+
+import:     from AS6 action pref=100; accept ANY
+import:     from AS4 action pref=90; accept AS4
+import:    from AS2 action pref= 80;  accept AS2
+import:    from AS3 action pref= 80; accept AS3
+export:    to AS6 action pref=50; med=30; announce AS5
+export:    to AS4 action pref = 10; announce AS5
+export:   to AS2 action med = 20; announce ANY
+export:   to AS3 action med = 10; announce ANY
+
+as-set:   AS5:aaaa
+members:   AS5:aasa, AS6, AS7, AS3:aa11

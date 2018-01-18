@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/router.css" type="text/css" />
+</head>
+<body>
+        <div id="box">                                                       HTML
+                位置
+                <br>x:{{val.x}} <br>y:{{val.y}}
+                <div v-drag="greet" id="drag" :style="style">
+                //注意这里要通过指令绑定函数将当前元素的位置数据传出来
+                </div>
+            </div>
+    <img id = "router" v-if="true"></img>
+   <svg>
+    <path d="M100,10 L150,10" class = "segment"/>
+   </svg> 
+   <script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js">  </script>  
+ <script src="js/drop.js">  </script>
+
+</body>
+
+<script src="js/vue.min.js">  </script>   
+</html>
+
+<defs>
+        <marker id="markerCircle" markerWidth="8" markerHeight="8" refX="5" refY="5">
+            <circle cx="5" cy="5" r="3" style="stroke: none; fill:#000000;"/>
+        </marker>
+   
+        <marker id="markerArrow" markerWidth="13" markerHeight="13" refX="2" refY="6"
+               orient="auto">
+               <circle cx="5" cy="5" r="3" style="stroke: none; fill:#000000;"/>
+        </marker>
+    </defs>

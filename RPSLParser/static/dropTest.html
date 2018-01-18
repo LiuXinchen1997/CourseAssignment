@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">   
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+                <meta name="description" content="">
+                <meta name="author" content="">
+            
+                <title>SB Admin 2 - Bootstrap Admin Theme</title>
+            
+                <!-- Bootstrap Core CSS -->
+                <link href="./index_test_files/bootstrap.min.css" rel="stylesheet">
+            
+                <!-- MetisMenu CSS -->
+                <link href="./index_test_files/metisMenu.min.css" rel="stylesheet">
+            
+                <!-- Custom CSS -->
+                <link href="./index_test_files/sb-admin-2.css" rel="stylesheet">
+            
+                <!-- Custom Fonts -->
+                <link href="./index_test_files/font-awesome.min.css" rel="stylesheet" type="text/css">
+                <link rel = "stylesheet" href="">
+                <link rel="stylesheet" href="../element-ui/lib/theme-chalk/index.css">
+</head>
+<body>
+    <div id = "addRouterDialogShow"class="btn btn-default btn-lg" data-toggle="modal" data-target="#addRouterDialog" style="display: none;">
+    </div>
+        <div class="modal fade" id="addRouterDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" style="display: none;">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="modal-title" id="myModalLabel">添加路由器</h4>
+                        </div>
+                        <div class="modal-body">
+                            <textarea class="form-control" v-model = "addRouter"></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal" @click="deleteNewRouter">关闭</button>
+                            <button type="button" class="btn btn-primary" @click="addRouterFunction">添加路由器</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <div id="app">
+            <button @click="add('a-component', 'test')">添加路由器</button>
+            <ul>
+              <li :is="item.component" :text="item.text" v-for="item in items"></li>
+            </ul>
+    </div>
+     <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="./index_test_files/jquery.min.js.下载"></script>
+    
+        <!-- Bootstrap Core JavaScript -->
+        <script src="./index_test_files/bootstrap.min.js.下载"></script>
+    
+        <!-- Metis Menu Plugin JavaScript -->
+        <script src="./index_test_files/metisMenu.min.js.下载"></script>
+    
+        <!-- Custom Theme JavaScript -->
+        <script src="./index_test_files/sb-admin-2.js.下载"></script>
+</body>
+<script src="../js/vue.min.js">  </script>   
+<script src="../js/drop.js">  </script>   
+</html>
+
+<defs>
+        <marker id="markerCircle" markerWidth="8" markerHeight="8" refX="5" refY="5">
+            <circle cx="5" cy="5" r="3" style="stroke: none; fill:#000000;"/>
+        </marker>
+   
+        <marker id="markerArrow" markerWidth="13" markerHeight="13" refX="2" refY="6"
+               orient="auto">
+               <circle cx="5" cy="5" r="3" style="stroke: none; fill:#000000;"/>
+        </marker>
+    </defs>

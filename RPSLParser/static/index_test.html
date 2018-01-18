@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="./index_test_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="./index_test_files/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="./index_test_files/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="./index_test_files/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../element-ui/lib/theme-chalk/index.css">
+    <link rel="stylesheet" href="../css/rpsl.css">
+</head>
+
+<body id="center">
+
+    <div id="wrapper">
+        <!-- 添加路由器状态框显示的隐藏按钮 -->
+        <div id="addRouterDialogShow" class="btn" data-toggle="modal" data-target="#addRouterDialog" style="display: none;">
+        </div>
+        <div id="updateRouterDialogShow" class="btn" data-toggle="modal" data-target="#updateRouterDialog" style="display: none;">
+        </div>
+        <div id="whoisDialogShow" class="btn" data-toggle="modal" data-target="#whoisDialog" style="display: none;">
+        </div>
+        <div class="modal fade" id="whoisDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" style="display: none;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" @click="whoisText = '';resetErrorMsg();">×</button>
+                        <h4 class="modal-title" id="myModalLabel">Whois命令</h4>
+                    </div>
+                    <div class="modal-body">
+                        <input class="form-control" v-model='whoisText'></input>
+                    </div>
+                    <div class="alert alert-warning" v-if="ifError">
+                        {{errorMsg}}
+                    </div>
+                    <div class="modal-footer">
+                        <button id="whoisConsole" type="button" class="btn btn-default" data-dismiss="modal" @click="whoisText = '';resetErrorMsg();">关闭</button>
+                        <button type="button" class="btn btn-primary" @click="whoisFunction">Whois</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="addRouterDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"
+            style="display: none;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" @click="deleteNewRouter">×</button>
+                        <h4 class="modal-title" id="myModalLabel">添加路由器</h4>
+                    </div>
+                    <div class="modal-body">
+                        <textarea class="form-control" v-model='addRouterText'></textarea>
+                    </div>
+                    <div class="alert alert-warning" v-if="ifError">
+                        {{errorMsg}}
+                    </div>
+                    <div class="modal-footer">
+                        <button id="addRouterConsole" type="button" class="btn btn-default" data-dismiss="modal" @click="deleteNewRouter">关闭</button>
+                        <button type="button" class="btn btn-primary" @click="addRouterFunction">添加路由器</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="updateRouterDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"
+            style="display: none;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <label style="display: none;" v-model="updateRouterId"></label>
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" @click="updateRouterText = '';resetErrorMsg();">×</button>
+                        <h4 class="modal-title" id="myModalLabel">修改路由器</h4>
+                    </div>
+                    <div class="modal-body">
+                        <textarea class="form-control" v-model='updateRouterText'></textarea>
+                    </div>
+                    <div class="alert alert-warning" v-if="ifError">
+                        {{errorMsg}}
+                    </div>
+                    <div class="modal-footer">
+                        <button id="updateRouterConsole" type="button" class="btn btn-default" data-dismiss="modal" @click="updateRouterText = '';resetErrorMsg();">关闭</button>
+                        <button type="button" class="btn btn-primary" @click="updateRouterFunction">修改路由器</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="addASDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" style="display: none;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" @click="addASText = '';resetErrorMsg();">×</button>
+                        <h4 class="modal-title" id="myModalLabel">添加AS</h4>
+                    </div>
+                    <div class="modal-body">
+                        <textarea class="form-control" v-model="addASText"></textarea>
+                    </div>
+                    <div class="alert alert-warning" v-if="ifError">
+                        {{errorMsg}}
+                    </div>
+                    <div class="modal-footer">
+                        <button id="addASConsole" type="button" class="btn btn-default" data-dismiss="modal" @click="addASText = '';resetErrorMsg();">关闭</button>
+                        <button type="button" class="btn btn-primary" @click="addASFunction">添加AS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="updateASDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"
+            style="display: none;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <label style="display: none;" v-model="updateASNum"></label>
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" @click="updateASText = '';resetErrorMsg();">×</button>
+                        <h4 class="modal-title" id="myModalLabel">修改AS</h4>
+                    </div>
+                    <div class="modal-body">
+                        <textarea class="form-control" v-model="updateASText"></textarea>
+                    </div>
+                    <div class="alert alert-warning" v-if="ifError">
+                        {{errorMsg}}
+                    </div>
+                    <div class="modal-footer">
+                        <button id="updateASConsole" type="button" class="btn btn-default" data-dismiss="modal" @click="updateASText = '';resetErrorMsg();">关闭</button>
+                        <button type="button" class="btn btn-primary" @click="updateASFunction">修改AS</button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                </button>
+                <a class="navbar-brand">RPSL解析</a>
+            </div>
+            <!-- /.navbar-header -->
+
+            <ul class="nav navbar-top-links navbar-right">
+                <li>
+                    <div class="btn btn-default btn-lg" @click="addNewRouter('router-component')">
+                        添加路由器
+                    </div>
+                </li>
+                <li>
+                    <div class="btn btn-default btn-lg" data-toggle="modal" data-target="#addASDialog">
+                        添加AS
+                    </div>
+                </li>
+                <li>
+                    <div class="btn btn-primary btn-lg" @click="logout">
+                        登出
+                    </div>
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            <!-- /.navbar-top-links -->
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <h2>AS列表</h2>
+                    <div class="table-responsive nav in">
+                        <table class="table table-striped table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th>AS</th>
+                                    <th>功能</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr v-for="item in as_num">
+                                    <td>
+                                        <h4>{{item}}</h4>
+                                    </td>
+                                    <td>
+                                        <div :id="item" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#updateASDialog" @click="updateASDialogLable(item)">
+                                            修改AS
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" style="min-height: 699px;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">可视化显示区</h1>
+                </div>
+            </div>
+            <!--用来添加拖动的路由器-->
+            <div id="newRouter" v-if="IsAddNewRouter">
+                <img v-drag id="drag" class="addRouterImg" src="../source/router.PNG" v-if="IsAddNewRouter">
+                </img>
+            </div>
+            <!--从数据库里查询生成的路由器-->
+            <div v-for="item in routers">
+                <img class="addRouterImg" :id="'router_'+ item.id" :style="item.style" src="../source/router.PNG" @click="showWhoisAndUpdate = !showWhoisAndUpdate"
+                    @click.right="showWhoisDialog(item.id)">
+                </img>
+                <div class="panel panel-primary col-xs-2" v-if="showWhoisAndUpdate" :style="item.showDialogStyle">
+                    <div class="panel-heading">
+                        <div class="middle" data-toggle="modal" data-target="#updateRouterDialog">修改路由器</div>
+                    </div>
+                    <div class="panel-footer" data-toggle="modal" data-target="#whoisDialog">
+                        whois命令
+                    </div>
+                </div>
+            </div>
+            <svg>
+                <path v-for="item in pathes" :d="item.path" class="segment" :id="'path_'+ item.id" />
+            </svg>
+        </div>
+        <!-- /#page-wrapper -->
+
+        <!--<div :is="item.component" :text="item.text" v-for="item in routers"></div>-->
+        <!--<div :id="item.id" v-for="item in routers">-->
+
+
+        <!--</div>-->
+        <!--   :style = "{width: 100px;
+                      height: 100px;
+                      position: absolute;
+                      left: item.left + 'px';
+                      top:  item.top + 'px'}"></div>-->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="./index_test_files/jquery.min.js.下载"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./index_test_files/bootstrap.min.js.下载"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="./index_test_files/metisMenu.min.js.下载"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="./index_test_files/sb-admin-2.js.下载"></script>
+
+</body>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="../js/vue.min.js"></script>
+<!-- 引入组件库 -->
+<script src="../element-ui/lib/index.js"></script>
+<script src="../js/showRouter.js"></script>
+
+</html>
