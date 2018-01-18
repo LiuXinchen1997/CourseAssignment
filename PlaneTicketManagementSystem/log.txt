@@ -1,0 +1,1726 @@
+
+Sun May 21 14:18:10 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Sun May 21 14:18:16 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 14:18:17 CST 2017   select * from orderlist where uid = ?
+Sun May 21 14:18:22 CST 2017   select * from flight  where 1=1 order by fid
+Sun May 21 14:18:24 CST 2017   select * from ticket where fid = 00001
+Sun May 21 14:18:24 CST 2017   select * from flight where fid = 00001
+Sun May 21 14:18:24 CST 2017   select * from insuranceplane where pid = 000001
+Sun May 21 14:18:24 CST 2017   select * from insurance where inid = 1
+Sun May 21 14:18:24 CST 2017   select * from insurance where inid = 2
+Sun May 21 14:18:24 CST 2017   select * from movieplane where pid = 000001
+Sun May 21 14:18:24 CST 2017   select * from movie where mid = 1
+Sun May 21 14:18:24 CST 2017   select * from movie where mid = 2
+Sun May 21 14:18:24 CST 2017   select * from mealplane where pid = 000001
+Sun May 21 14:18:24 CST 2017   select * from meal where mealid = 1
+Sun May 21 14:18:24 CST 2017   select * from meal where mealid = 2
+Sun May 21 14:18:26 CST 2017   select * from ticket where fid = 00001
+Sun May 21 14:18:26 CST 2017   select * from seat where tid = ?
+Sun May 21 14:18:26 CST 2017   update seat set flag = 1 where tid = ? and seatnum = ?
+Sun May 21 14:18:26 CST 2017   update Ticket set remainSeat = remainSeat - 1 where tid = ?
+Sun May 21 14:18:27 CST 2017   insert into orderlist (uid,tid,seatno,inid,mid,mealid,time) values(?,?,?,?,?,?,?)
+Sun May 21 14:18:27 CST 2017   select * from orderlist where uid = ?
+Sun May 21 14:18:27 CST 2017   select * from ticket where tid = ?
+Sun May 21 14:18:27 CST 2017   select * from insurance where inid = 0
+Sun May 21 14:18:27 CST 2017   select * from movie where mid = 0
+Sun May 21 14:18:27 CST 2017   select * from meal where mealid = 0
+Sun May 21 14:18:28 CST 2017   select * from orderlist where uid = ?
+Sun May 21 14:18:28 CST 2017   select * from ticket where tid = ?
+Sun May 21 14:18:28 CST 2017   select * from insurance where inid = 0
+Sun May 21 14:18:28 CST 2017   select * from movie where mid = 0
+Sun May 21 14:18:28 CST 2017   select * from meal where mealid = 0
+Sun May 21 14:18:30 CST 2017   select * from ticket where tid = ?
+Sun May 21 14:18:30 CST 2017   select * from flight where fid = 00001
+Sun May 21 14:18:30 CST 2017   select * from flight  where pid = '000001' and startPoint =  'ºÏ·Ê' and endPoint = 'ÉÏº£'
+Sun May 21 14:18:30 CST 2017   select * from orderlist where tid = ? and uid = ?
+Sun May 21 14:18:30 CST 2017   select * from plane where pid = 000001
+Sun May 21 14:18:33 CST 2017   select * from ticket where tid = ?
+Sun May 21 14:18:33 CST 2017   delete from orderlist where tid = 00001 and uid = 5
+Sun May 21 14:18:33 CST 2017   update Ticket set remainSeat = remainSeat + 1 where tid = ?
+Sun May 21 14:18:33 CST 2017   update seat set flag = 0 where tid = ? and seatnum = ?
+Sun May 21 14:18:33 CST 2017   select * from ticket where fid = 00001
+Sun May 21 14:18:33 CST 2017   select * from seat where tid = ?
+Sun May 21 14:18:33 CST 2017   update seat set flag = 1 where tid = ? and seatnum = ?
+Sun May 21 14:18:33 CST 2017   update Ticket set remainSeat = remainSeat - 1 where tid = ?
+Sun May 21 14:18:33 CST 2017   insert into orderlist (uid,tid,seatno,inid,mid,mealid,time) values(?,?,?,?,?,?,?)
+Sun May 21 14:18:34 CST 2017   select * from orderlist where uid = ?
+Sun May 21 14:18:34 CST 2017   select * from ticket where tid = ?
+Sun May 21 14:18:34 CST 2017   select * from insurance where inid = 0
+Sun May 21 14:18:34 CST 2017   select * from movie where mid = 0
+Sun May 21 14:18:34 CST 2017   select * from meal where mealid = 0
+Sun May 21 14:18:34 CST 2017   select * from orderlist where uid = ?
+Sun May 21 14:18:34 CST 2017   select * from ticket where tid = ?
+Sun May 21 14:18:34 CST 2017   select * from insurance where inid = 0
+Sun May 21 14:18:34 CST 2017   select * from movie where mid = 0
+Sun May 21 14:18:34 CST 2017   select * from meal where mealid = 0
+Sun May 21 14:18:37 CST 2017   select * from ticket where tid = ?
+Sun May 21 14:18:37 CST 2017   delete from orderlist where tid = 00003 and uid = 5
+Sun May 21 14:18:37 CST 2017   update Ticket set remainSeat = remainSeat + 1 where tid = ?
+Sun May 21 14:18:37 CST 2017   update seat set flag = 0 where tid = ? and seatnum = ?
+Sun May 21 14:18:37 CST 2017   select * from orderlist where uid = ?
+Sun May 21 14:18:38 CST 2017   select * from orderlist where uid = ?
+Sun May 21 14:37:10 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Sun May 21 14:37:48 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 15:06:16 CST 2017   select * from flight  where 1=1 order by fid
+Sun May 21 15:06:49 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Sun May 21 15:07:14 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 15:10:40 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Sun May 21 15:11:00 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 17:37:26 CST 2017   select * from flight  where 1=1 order by fid
+Sun May 21 17:37:46 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Sun May 21 17:37:57 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 17:39:48 CST 2017   insert into bankInfo(bankId,bankName,username) values(?,?,?)
+Sun May 21 17:39:50 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 17:39:55 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 17:40:00 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 17:41:34 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 17:41:44 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 18:04:42 CST 2017   update bankInfo set bankId = ?, bankName = ? where username = ?
+Sun May 21 18:06:59 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Sun May 21 18:07:05 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 18:07:17 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 18:07:17 CST 2017   insert into bankInfo(bankId,bankName,username) values(?,?,?)
+Sun May 21 18:07:18 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 18:07:30 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 18:07:30 CST 2017   update bankInfo set bankId = ?, bankName = ? where username = ?
+Sun May 21 18:07:32 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 18:28:01 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Sun May 21 18:28:18 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 18:28:36 CST 2017   select password from usertbl where username = 'lxc'
+Sun May 21 18:28:36 CST 2017   update usertbl set password = '1978acea5fe2c2dbc4bea2bfd147c8ec' where username = 'lxc'
+Sun May 21 18:28:37 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 18:28:47 CST 2017   select password from usertbl where username = 'lxc'
+Sun May 21 18:28:47 CST 2017   update usertbl set password = '3b41cfe52236b18078d237cac3bd4735' where username = 'lxc'
+Sun May 21 18:28:49 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 18:28:59 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 18:33:25 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Sun May 21 18:33:28 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 18:33:37 CST 2017   select password from usertbl where username = 'lxc'
+Sun May 21 18:33:37 CST 2017   update usertbl set password = 'e8587521f52f5622a456461bf9482dce' where username = 'lxc'
+Sun May 21 18:54:27 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Sun May 21 18:54:32 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 18:55:17 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 18:55:23 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 18:56:29 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Sun May 21 18:56:31 CST 2017   select * from orderlist where uid = ?
+Sun May 21 18:56:33 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 18:56:41 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 18:57:35 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Sun May 21 18:57:37 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 18:57:43 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 19:00:48 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Sun May 21 19:00:52 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 19:00:56 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 19:05:04 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Sun May 21 19:05:06 CST 2017   select * from orderlist where uid = ?
+Sun May 21 19:05:08 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 19:07:59 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Sun May 21 19:08:00 CST 2017   select * from orderlist where uid = ?
+Sun May 21 19:08:02 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 19:08:08 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 19:18:36 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Sun May 21 19:18:42 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 19:19:04 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 19:19:13 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 19:20:35 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Sun May 21 19:20:37 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 19:20:50 CST 2017   update usertbl set sex = ?, email = ?, tel = ?, idnum = ? where username = ?
+Sun May 21 19:20:51 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 19:21:18 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 19:21:20 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 19:21:24 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 19:21:53 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 19:31:58 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Sun May 21 19:32:00 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 19:32:07 CST 2017   update usertbl set sex = ?, email = ?, tel = ?, idnum = ? where username = ?
+Sun May 21 19:32:09 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 19:32:14 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 19:34:16 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Sun May 21 19:34:18 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 19:34:27 CST 2017   update usertbl set sex = ?, email = ?, tel = ?, idnum = ? where username = ?
+Sun May 21 19:34:29 CST 2017   select * from bankInfo where username = 'lxc'
+Sun May 21 23:46:04 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Sun May 21 23:46:14 CST 2017   select * from flight  where 1=1 order by fid
+Sun May 21 23:46:19 CST 2017   select * from ticket where fid = 00001
+Sun May 21 23:46:19 CST 2017   select * from flight where fid = 00001
+Sun May 21 23:46:19 CST 2017   select * from insuranceplane where pid = 000001
+Sun May 21 23:46:19 CST 2017   select * from insurance where inid = 1
+Sun May 21 23:46:19 CST 2017   select * from insurance where inid = 2
+Sun May 21 23:46:19 CST 2017   select * from movieplane where pid = 000001
+Sun May 21 23:46:19 CST 2017   select * from movie where mid = 1
+Sun May 21 23:46:19 CST 2017   select * from movie where mid = 2
+Sun May 21 23:46:19 CST 2017   select * from mealplane where pid = 000001
+Sun May 21 23:46:20 CST 2017   select * from meal where mealid = 1
+Sun May 21 23:46:20 CST 2017   select * from meal where mealid = 2
+Sun May 21 23:46:46 CST 2017   select * from ticket where fid = 00001
+Sun May 21 23:46:46 CST 2017   select * from seat where tid = ?
+Sun May 21 23:46:46 CST 2017   update seat set flag = 1 where tid = ? and seatnum = ?
+Sun May 21 23:46:47 CST 2017   update Ticket set remainSeat = remainSeat - 1 where tid = ?
+Sun May 21 23:46:47 CST 2017   insert into orderlist (uid,tid,seatno,inid,mid,mealid,time) values(?,?,?,?,?,?,?)
+Sun May 21 23:46:48 CST 2017   select * from orderlist where uid = ?
+Sun May 21 23:46:48 CST 2017   select * from ticket where tid = ?
+Sun May 21 23:46:48 CST 2017   select * from insurance where inid = 0
+Sun May 21 23:46:48 CST 2017   select * from movie where mid = 1
+Sun May 21 23:46:48 CST 2017   select * from meal where mealid = 1
+Sun May 21 23:46:49 CST 2017   select * from orderlist where uid = ?
+Sun May 21 23:46:49 CST 2017   select * from ticket where tid = ?
+Sun May 21 23:46:49 CST 2017   select * from insurance where inid = 0
+Sun May 21 23:46:49 CST 2017   select * from movie where mid = 1
+Sun May 21 23:46:49 CST 2017   select * from meal where mealid = 1
+Sun May 21 23:46:56 CST 2017   select * from ticket where tid = ?
+Sun May 21 23:46:56 CST 2017   select * from flight where fid = 00001
+Sun May 21 23:46:56 CST 2017   select * from flight  where pid = '000001' and startPoint =  'ºÏ·Ê' and endPoint = 'ÉÏº£'
+Sun May 21 23:46:56 CST 2017   select * from orderlist where tid = ? and uid = ?
+Sun May 21 23:46:56 CST 2017   select * from plane where pid = 000001
+Sun May 21 23:47:03 CST 2017   select * from ticket where tid = ?
+Sun May 21 23:47:04 CST 2017   delete from orderlist where tid = 00001 and uid = 5
+Sun May 21 23:47:04 CST 2017   update Ticket set remainSeat = remainSeat + 1 where tid = ?
+Sun May 21 23:47:04 CST 2017   update seat set flag = 0 where tid = ? and seatnum = ?
+Sun May 21 23:47:05 CST 2017   select * from ticket where fid = 00001
+Sun May 21 23:47:05 CST 2017   select * from seat where tid = ?
+Sun May 21 23:47:05 CST 2017   update seat set flag = 1 where tid = ? and seatnum = ?
+Sun May 21 23:47:05 CST 2017   update Ticket set remainSeat = remainSeat - 1 where tid = ?
+Sun May 21 23:47:05 CST 2017   insert into orderlist (uid,tid,seatno,inid,mid,mealid,time) values(?,?,?,?,?,?,?)
+Sun May 21 23:47:05 CST 2017   select * from orderlist where uid = ?
+Sun May 21 23:47:05 CST 2017   select * from ticket where tid = ?
+Sun May 21 23:47:05 CST 2017   select * from insurance where inid = 0
+Sun May 21 23:47:05 CST 2017   select * from movie where mid = 1
+Sun May 21 23:47:05 CST 2017   select * from meal where mealid = 1
+Sun May 21 23:47:09 CST 2017   select * from orderlist where uid = ?
+Sun May 21 23:47:09 CST 2017   select * from ticket where tid = ?
+Sun May 21 23:47:09 CST 2017   select * from insurance where inid = 0
+Sun May 21 23:47:09 CST 2017   select * from movie where mid = 1
+Sun May 21 23:47:09 CST 2017   select * from meal where mealid = 1
+Sun May 21 23:47:12 CST 2017   select * from ticket where tid = ?
+Sun May 21 23:47:12 CST 2017   delete from orderlist where tid = 00002 and uid = 5
+Sun May 21 23:47:12 CST 2017   update Ticket set remainSeat = remainSeat + 1 where tid = ?
+Sun May 21 23:47:12 CST 2017   update seat set flag = 0 where tid = ? and seatnum = ?
+Sun May 21 23:47:13 CST 2017   select * from orderlist where uid = ?
+Sun May 21 23:47:15 CST 2017   select * from orderlist where uid = ?
+Sun May 21 23:47:31 CST 2017   select * from bankInfo where username = 'lxc'
+Mon May 22 22:52:52 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Mon May 22 22:54:28 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Mon May 22 22:55:10 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Mon May 22 22:57:58 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Mon May 22 23:01:44 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 2
+Mon May 22 23:01:51 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Mon May 22 23:04:05 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 2
+Mon May 22 23:04:12 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Mon May 22 23:06:42 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 2
+Mon May 22 23:09:11 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 2
+Mon May 22 23:14:52 CST 2017   select * from usertbl where username = 'lxc' and password = '123' and privilege = 2
+Tue May 23 09:48:43 CST 2017   insert into plane (pid, company) values(?,?)
+Tue May 23 09:51:56 CST 2017   insert into plane (pid, company) values(?,?)
+Tue May 23 09:53:20 CST 2017   insert into plane (pid, company) values(?,?)
+Tue May 23 09:53:20 CST 2017   insert into mealplane values(?,?)
+Tue May 23 09:53:20 CST 2017   insert into mealplane values(?,?)
+Tue May 23 09:59:31 CST 2017   insert into plane (pid, company) values(?,?)
+Tue May 23 19:22:48 CST 2017   delete from plane where pid = ?
+Tue May 23 19:22:54 CST 2017   delete from plane where pid = ?
+Tue May 23 19:23:28 CST 2017   delete from plane where pid = ?
+Tue May 23 19:37:21 CST 2017   select * from plane where pid = 000001
+Tue May 23 19:43:43 CST 2017   select * from plane where pid = 000001
+Tue May 23 19:43:54 CST 2017   select * from plane where pid = 000001
+Tue May 23 20:39:52 CST 2017   insert into insurance (inname, inmoney) values(?,?)
+Tue May 23 20:40:02 CST 2017   delete from insurance where inid = ?
+Tue May 23 20:59:28 CST 2017   select * from insurance where inid = 1
+Tue May 23 21:01:20 CST 2017   select * from insurance where inid = 1
+Tue May 23 21:01:41 CST 2017   select * from insurance where inid = 1
+Tue May 23 21:01:57 CST 2017   insert into insurance (inname, inmoney) values(?,?)
+Tue May 23 21:02:04 CST 2017   select * from insurance where inid = 4
+Tue May 23 21:02:23 CST 2017   delete from insurance where inid = ?
+Tue May 23 21:05:03 CST 2017   insert into insurance (inname, inmoney) values(?,?)
+Tue May 23 21:05:10 CST 2017   select * from insurance where inid = 5
+Tue May 23 21:08:23 CST 2017   select * from insurance where inid = 5
+Tue May 23 21:08:26 CST 2017   update insurance set inname = ?, inmoney = ?  where inid = ?
+Tue May 23 21:08:31 CST 2017   select * from insurance where inid = 2
+Tue May 23 21:08:33 CST 2017   update insurance set inname = ?, inmoney = ?  where inid = ?
+Tue May 23 21:08:40 CST 2017   select * from insurance where inid = 2
+Tue May 23 21:08:44 CST 2017   update insurance set inname = ?, inmoney = ?  where inid = ?
+Tue May 23 21:08:47 CST 2017   select * from insurance where inid = 5
+Tue May 23 21:08:50 CST 2017   delete from insurance where inid = ?
+Tue May 23 21:54:22 CST 2017   select * from movie where mid = 2
+Tue May 23 21:55:11 CST 2017   select * from movie where mid = 1
+Tue May 23 21:56:12 CST 2017   insert into movie (mname, mmoney, mlong, mhot, mpoint) values(?,?,?,?,?)
+Tue May 23 21:56:19 CST 2017   select * from movie where mid = 3
+Tue May 23 21:56:34 CST 2017   delete from movie where mid = ?
+Tue May 23 22:11:17 CST 2017   select * from movie where mid = 1
+Tue May 23 22:15:55 CST 2017   select * from movie where mid = 1
+Tue May 23 22:16:01 CST 2017   update movie set mname = ?, mmoney = ?, mlong = ?, mhot = ?, mpoint = ?  where mid = ?
+Tue May 23 22:16:10 CST 2017   select * from movie where mid = 1
+Tue May 23 22:18:39 CST 2017   select * from movie where mid = 1
+Tue May 23 22:18:43 CST 2017   update movie set mname = ?, mmoney = ?, mlong = ?, mhot = ?, mpoint = ?  where mid = ?
+Tue May 23 22:19:34 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Tue May 23 22:19:41 CST 2017   select * from flight  where 1=1 order by fid
+Tue May 23 22:19:44 CST 2017   select * from ticket where fid = 00001
+Tue May 23 22:19:44 CST 2017   select * from flight where fid = 00001
+Tue May 23 22:19:44 CST 2017   select * from insuranceplane where pid = 000001
+Tue May 23 22:19:44 CST 2017   select * from insurance where inid = 1
+Tue May 23 22:19:44 CST 2017   select * from insurance where inid = 2
+Tue May 23 22:19:44 CST 2017   select * from movieplane where pid = 000001
+Tue May 23 22:19:44 CST 2017   select * from movie where mid = 1
+Tue May 23 22:19:44 CST 2017   select * from movie where mid = 2
+Tue May 23 22:19:44 CST 2017   select * from mealplane where pid = 000001
+Tue May 23 22:19:45 CST 2017   select * from meal where mealid = 1
+Tue May 23 22:19:45 CST 2017   select * from meal where mealid = 2
+Tue May 23 22:19:53 CST 2017   select * from ticket where fid = 00001
+Tue May 23 22:19:53 CST 2017   select * from seat where tid = ?
+Tue May 23 22:19:53 CST 2017   update seat set flag = 1 where tid = ? and seatnum = ?
+Tue May 23 22:19:54 CST 2017   update Ticket set remainSeat = remainSeat - 1 where tid = ?
+Tue May 23 22:19:54 CST 2017   insert into orderlist (uid,tid,seatno,inid,mid,mealid,time) values(?,?,?,?,?,?,?)
+Tue May 23 22:19:54 CST 2017   select * from orderlist where uid = ?
+Tue May 23 22:19:54 CST 2017   select * from ticket where tid = ?
+Tue May 23 22:19:54 CST 2017   select * from insurance where inid = 1
+Tue May 23 22:19:54 CST 2017   select * from movie where mid = 1
+Tue May 23 22:19:54 CST 2017   select * from meal where mealid = 0
+Tue May 23 22:19:56 CST 2017   select * from orderlist where uid = ?
+Tue May 23 22:19:56 CST 2017   select * from ticket where tid = ?
+Tue May 23 22:19:56 CST 2017   select * from insurance where inid = 1
+Tue May 23 22:19:56 CST 2017   select * from movie where mid = 1
+Tue May 23 22:19:56 CST 2017   select * from meal where mealid = 0
+Tue May 23 22:20:03 CST 2017   select * from ticket where tid = ?
+Tue May 23 22:20:03 CST 2017   select * from flight where fid = 00001
+Tue May 23 22:20:03 CST 2017   select * from flight  where pid = '000001' and startPoint =  'ºÏ·Ê' and endPoint = 'ÉÏº£'
+Tue May 23 22:20:03 CST 2017   select * from orderlist where tid = ? and uid = ?
+Tue May 23 22:20:03 CST 2017   select * from plane where pid = 000001
+Tue May 23 22:20:06 CST 2017   select * from ticket where tid = ?
+Tue May 23 22:20:06 CST 2017   delete from orderlist where tid = 00002 and uid = 5
+Tue May 23 22:20:07 CST 2017   update Ticket set remainSeat = remainSeat + 1 where tid = ?
+Tue May 23 22:20:07 CST 2017   update seat set flag = 0 where tid = ? and seatnum = ?
+Tue May 23 22:20:07 CST 2017   select * from ticket where fid = 00001
+Tue May 23 22:20:07 CST 2017   select * from seat where tid = ?
+Tue May 23 22:20:07 CST 2017   update seat set flag = 1 where tid = ? and seatnum = ?
+Tue May 23 22:20:07 CST 2017   update Ticket set remainSeat = remainSeat - 1 where tid = ?
+Tue May 23 22:20:07 CST 2017   insert into orderlist (uid,tid,seatno,inid,mid,mealid,time) values(?,?,?,?,?,?,?)
+Tue May 23 22:20:07 CST 2017   select * from orderlist where uid = ?
+Tue May 23 22:20:07 CST 2017   select * from ticket where tid = ?
+Tue May 23 22:20:07 CST 2017   select * from insurance where inid = 1
+Tue May 23 22:20:07 CST 2017   select * from movie where mid = 1
+Tue May 23 22:20:07 CST 2017   select * from meal where mealid = 0
+Tue May 23 22:20:09 CST 2017   select * from orderlist where uid = ?
+Tue May 23 22:20:09 CST 2017   select * from ticket where tid = ?
+Tue May 23 22:20:09 CST 2017   select * from insurance where inid = 1
+Tue May 23 22:20:09 CST 2017   select * from movie where mid = 1
+Tue May 23 22:20:09 CST 2017   select * from meal where mealid = 0
+Tue May 23 22:20:13 CST 2017   select * from ticket where tid = ?
+Tue May 23 22:20:13 CST 2017   delete from orderlist where tid = 00003 and uid = 5
+Tue May 23 22:20:13 CST 2017   update Ticket set remainSeat = remainSeat + 1 where tid = ?
+Tue May 23 22:20:13 CST 2017   update seat set flag = 0 where tid = ? and seatnum = ?
+Tue May 23 22:20:13 CST 2017   select * from orderlist where uid = ?
+Tue May 23 22:20:15 CST 2017   select * from orderlist where uid = ?
+Tue May 23 22:23:01 CST 2017   select * from flight  where 1=1 order by fid
+Tue May 23 22:23:03 CST 2017   select * from ticket where fid = 00001
+Tue May 23 22:23:03 CST 2017   select * from flight where fid = 00001
+Tue May 23 22:23:03 CST 2017   select * from insuranceplane where pid = 000001
+Tue May 23 22:23:03 CST 2017   select * from insurance where inid = 1
+Tue May 23 22:23:03 CST 2017   select * from insurance where inid = 2
+Tue May 23 22:23:03 CST 2017   select * from movieplane where pid = 000001
+Tue May 23 22:23:03 CST 2017   select * from movie where mid = 1
+Tue May 23 22:23:03 CST 2017   select * from movie where mid = 2
+Tue May 23 22:23:03 CST 2017   select * from mealplane where pid = 000001
+Tue May 23 22:23:03 CST 2017   select * from meal where mealid = 1
+Tue May 23 22:23:03 CST 2017   select * from meal where mealid = 2
+Tue May 23 22:23:17 CST 2017   select * from flight  where 1=1 order by endDate
+Tue May 23 22:23:31 CST 2017   select * from ticket where fid = 00004
+Tue May 23 22:23:31 CST 2017   select * from flight where fid = 00004
+Tue May 23 22:23:31 CST 2017   select * from insuranceplane where pid = 000003
+Tue May 23 22:23:31 CST 2017   select * from movieplane where pid = 000003
+Tue May 23 22:23:31 CST 2017   select * from mealplane where pid = 000003
+Tue May 23 22:23:51 CST 2017   select * from ticket where fid = 00004
+Tue May 23 22:23:51 CST 2017   select * from flight where fid = 00004
+Tue May 23 22:23:51 CST 2017   select * from insuranceplane where pid = 000003
+Tue May 23 22:23:51 CST 2017   select * from movieplane where pid = 000003
+Tue May 23 22:23:51 CST 2017   select * from mealplane where pid = 000003
+Tue May 23 22:23:58 CST 2017   select * from ticket where fid = 00001
+Tue May 23 22:23:58 CST 2017   select * from flight where fid = 00001
+Tue May 23 22:23:58 CST 2017   select * from insuranceplane where pid = 000001
+Tue May 23 22:23:58 CST 2017   select * from insurance where inid = 1
+Tue May 23 22:23:58 CST 2017   select * from insurance where inid = 2
+Tue May 23 22:23:58 CST 2017   select * from movieplane where pid = 000001
+Tue May 23 22:23:58 CST 2017   select * from movie where mid = 1
+Tue May 23 22:23:58 CST 2017   select * from movie where mid = 2
+Tue May 23 22:23:58 CST 2017   select * from mealplane where pid = 000001
+Tue May 23 22:23:58 CST 2017   select * from meal where mealid = 1
+Tue May 23 22:23:58 CST 2017   select * from meal where mealid = 2
+Tue May 23 22:25:03 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Tue May 23 22:25:08 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Tue May 23 22:25:23 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Tue May 23 22:25:24 CST 2017   select * from orderlist where uid = ?
+Wed May 24 13:58:55 CST 2017   insert into movie (mname, mmoney, mlong, mhot, mpoint) values(?,?,?,?,?)
+Wed May 24 13:59:08 CST 2017   delete from movie where mid = ?
+Wed May 24 13:59:38 CST 2017   select * from meal where mealid = 0
+Wed May 24 14:02:27 CST 2017   insert into meal (mealname, mealmoney, mealtext, mealhot, mealpoint) values(?,?,?,?,?)
+Wed May 24 14:02:34 CST 2017   delete from meal where mealid = ?
+Wed May 24 14:02:49 CST 2017   delete from meal where mealid = ?
+Wed May 24 14:17:01 CST 2017   delete from meal where mealid = ?
+Wed May 24 14:19:57 CST 2017   delete from meal where mealid = ?
+Wed May 24 14:25:12 CST 2017   insert into movie (mname, mmoney, mlong, mhot, mpoint) values(?,?,?,?,?)
+Wed May 24 14:25:20 CST 2017   select * from movie where mid = 5
+Wed May 24 14:25:24 CST 2017   update movie set mname = ?, mmoney = ?, mlong = ?, mhot = ?, mpoint = ?  where mid = ?
+Wed May 24 14:25:29 CST 2017   delete from movie where mid = ?
+Wed May 24 14:25:50 CST 2017   insert into meal (mealname, mealmoney, mealtext, mealhot, mealpoint) values(?,?,?,?,?)
+Wed May 24 14:26:52 CST 2017   delete from meal where mealid = ?
+Wed May 24 14:27:56 CST 2017   select * from meal where mealid = 0
+Wed May 24 14:32:18 CST 2017   select * from meal where mealid = 4
+Wed May 24 14:32:30 CST 2017   delete from meal where mealid = ?
+Wed May 24 14:35:19 CST 2017   insert into movie (mname, mmoney, mlong, mhot, mpoint) values(?,?,?,?,?)
+Wed May 24 14:35:52 CST 2017   select * from movie where mid = 6
+Wed May 24 14:35:54 CST 2017   update movie set mname = ?, mmoney = ?, mlong = ?, mhot = ?, mpoint = ?  where mid = ?
+Wed May 24 14:36:00 CST 2017   delete from movie where mid = ?
+Wed May 24 14:36:13 CST 2017   select * from meal where mealid = 2
+Wed May 24 14:36:19 CST 2017   update meal set mealname = ?, mealmoney = ?, mealtext = ?, mealhot = ?, mealpoint = ?  where mealid = ?
+Wed May 24 14:36:26 CST 2017   select * from meal where mealid = 2
+Wed May 24 14:36:34 CST 2017   update meal set mealname = ?, mealmoney = ?, mealtext = ?, mealhot = ?, mealpoint = ?  where mealid = ?
+Wed May 24 14:36:38 CST 2017   select * from meal where mealid = 2
+Wed May 24 14:36:43 CST 2017   update meal set mealname = ?, mealmoney = ?, mealtext = ?, mealhot = ?, mealpoint = ?  where mealid = ?
+Wed May 24 14:36:50 CST 2017   select * from meal where mealid = 2
+Wed May 24 14:36:55 CST 2017   update meal set mealname = ?, mealmoney = ?, mealtext = ?, mealhot = ?, mealpoint = ?  where mealid = ?
+Wed May 24 14:39:39 CST 2017   update meal set mealname = ?, mealmoney = ?, mealtext = ?, mealhot = ?, mealpoint = ?  where mealid = ?
+Wed May 24 14:42:15 CST 2017   select * from meal where mealid = 2
+Wed May 24 14:42:19 CST 2017   update meal set mealname = ?, mealmoney = ?, mealtext = ?, mealhot = ?, mealpoint = ?  where mealid = ?
+Wed May 24 14:42:35 CST 2017   select * from meal where mealid = 2
+Wed May 24 14:42:39 CST 2017   update meal set mealname = ?, mealmoney = ?, mealtext = ?, mealhot = ?, mealpoint = ?  where mealid = ?
+Wed May 24 14:42:47 CST 2017   select * from meal where mealid = 1
+Wed May 24 14:42:52 CST 2017   update meal set mealname = ?, mealmoney = ?, mealtext = ?, mealhot = ?, mealpoint = ?  where mealid = ?
+Wed May 24 14:45:22 CST 2017   select * from meal where mealid = 1
+Wed May 24 14:45:28 CST 2017   update meal set mealname = ?, mealmoney = ?, mealtext = ?, mealhot = ?, mealpoint = ?  where mealid = ?
+Wed May 24 14:47:37 CST 2017   select * from meal where mealid = 2
+Wed May 24 14:47:43 CST 2017   update meal set mealname = ?, mealmoney = ?, mealtext = ?, mealhot = ?, mealpoint = ?  where mealid = ?
+Wed May 24 14:47:54 CST 2017   select * from meal where mealid = 2
+Wed May 24 14:48:08 CST 2017   update meal set mealname = ?, mealmoney = ?, mealtext = ?, mealhot = ?, mealpoint = ?  where mealid = ?
+Wed May 24 14:49:46 CST 2017   select * from movie where mid = 2
+Wed May 24 14:50:04 CST 2017   select * from meal where mealid = 2
+Wed May 24 14:50:07 CST 2017   update meal set mealname = ?, mealmoney = ?, mealtext = ?, mealhot = ?, mealpoint = ?  where mealid = ?
+Wed May 24 14:52:29 CST 2017   select * from meal where mealid = 2
+Wed May 24 14:52:33 CST 2017   update meal set mealname = ?, mealmoney = ?, mealtext = ?, mealhot = ?, mealpoint = ?  where mealid = ?
+Wed May 24 15:00:24 CST 2017   select * from meal where mealid = 2
+Wed May 24 15:00:36 CST 2017   select * from meal where mealid = 2
+Wed May 24 15:06:02 CST 2017   select * from meal where mealid = 2
+Wed May 24 15:06:13 CST 2017   select * from meal where mealid = 2
+Wed May 24 15:06:18 CST 2017   select * from meal where mealid = 2
+Wed May 24 15:06:23 CST 2017   select * from meal where mealid = 2
+Wed May 24 15:27:29 CST 2017   select * from insurance where inid = 2
+Wed May 24 15:27:51 CST 2017   select * from meal where mealid = 2
+Wed May 24 15:28:07 CST 2017   select * from movie where mid = 2
+Wed May 24 15:38:04 CST 2017   select * from flight 
+Wed May 24 15:48:22 CST 2017   select * from flight 
+Wed May 24 15:56:12 CST 2017   delete from flight whereë“ü:DÂ_‚¸&‡¾ôÈ1††êFw09Õ¶O®äB­¾Òv»ä³!Vøs+úµ˜Ísu˜xT—ÿÁ>	±*¥-,í§ñ+à·HwÚ$©S`õûÄikfý(-¶ï8ïÖÚ´¼ÎÑ†É#fbqÇÖí¡%Æ}–,l·ü‰ÜdHRz<]LÑé…oÞ†KBßíÞK!çÞëM<Þ˜ýhŽ©"ùàŠv8Qð%Ø¬KœŠÏ1—}?g¿îí=ë*—! &>{£L©ØRP‹Éªx=–mç0NãÜM¢]«ò—¬‘€í¥z§pœ«#ÿà¶?aUq™Ð;ûÐ"êîw‡Õ`Cs~ß×<ÕÌ‡(8/FuÉ^\Xì› ¿¦`äžõ ©P¢$Ñh;6¾®L\ÒjC‚ð3bÔ[NS,ÒyE	b|S¹cž+¬öAtN½ƒ|ÜÛöÑƒ\âà¯»4¦&ñClÄšLÜ0ßÁÎ+Q6º†;Ó¼e¨MÐØRÏg†]-|}H€íIÊ¥{†€ªoÊl¿@yx8%pÕd+¹ÝÛÙy„Ý²FTi%BÂÜQÉä‚)•¸³Ø5°}`M.2^p`#;a“Ü;‰¥ÅÀ_îŽµ¢Ã'ZÂÅ8¿ô7Y„{Øö©<bVÜÕ‘Ž2¡ÁÔíLùƒÂw»Láƒg8¯4~S‘ÖôFôšæmc†Þ8‘eŠ³oZùL¼î÷RŠgGyóO³—»«êÖòÝê¹º~~Ô}]LÚ8Vþ?º¬›€²–ÑÙ«ÿCùÝ¥;Å¬b¬î¢eFŒm¾eG`âÂëlß˜ÝOT+'ÉeÄ];ŽV–ê¨»ô÷~dM¾’r»4Ë}õÖëÚ#O
+¯×…•‹J¿é¥,‰ß³wËìÖŽ ImñåÇ=ô’Ñ…õøžzcjscêa9½ÕŠÚ9ÿw*hE Òº¯Jé°’óÎg1õ¦Z‡–í¸"©nrp~=5àëíz Î(Z~ò€aúôÕ1Ðg•ÅÂEÍÙ0öÚþìxZ¢›QºNÁ†²ƒéªÅµ$ö?8
+Ó%=À¥ñ¤>²,[€.‡1{<ù¾áÌwä°Ôh!‡Îi:AÆŠ±sdÿ:†L ¢DÂó]ºasª(±]À;¹pZÚÖ}‚ñÖdµÚ—Ü‡¸Û”¯Ê¼˜:ô`9ÈË ›ƒ Xf½ËÙÍ™g@ý ÄC&ÊÂ-ÌÀµÛ ‘QJ-¢S«4QëÒ'üÐáêcõæ2¹ºæ5¸NJYÜüÎæë"ìs•#€ ôéx×‰?‘ÁÆ¦l­W‰8.ìíÜôÐ9<s‹ÅNhqãú£êEøfaBl?ê¹c†1 o]™ýö¤P3†­Í‹í-«¦yg7‹uÛ¾.nÿÕÞYË§wáÛõÇ}‚…äÃ¤šºø!i0šÚö4­TÃ[*=(ZèJX½Ñ+8‘UDŽ!.Å=Œ=ô5´’œ&Nu»o¹¯J¸OxÇHtà© ¹¸ÓµÝ‘P-°=2$§ÐûQ™‰A·ÿžQBÊXø}\Í€iØ$gQ×_RŒÒŸ,Ý\Ï.ã‡õæ­±4Ö¤v›û[X¢Ñ–v‚fYÂ&+õ”W^
+I;<}SQº­hoîŽ¡„Ržv&7çCàaP~½>¤ ìb¡¡éªß]S–X<+4Ûõ“eMëÌ‡®Z´µåûâœƒ¸-è—
+Y‹Nïñ¥Wó*ZèÛÏ@»xï(ÇËŸäžÉqK'E+GØàIž¹®dnÀ²ˆ—sAJOª˜Ä*+ß-uð1®Ú÷¦’E“‘¥Mig&AýCÛ )Àax+¿9þÅ)¸#N&–A‹L_0·°30°‡fÞœ|”VÏ,6rªLÓl	¸zµ¡xÝê8šE(.+ÒÊ±ž©æ'ïÞî&û ~P‘îÔ›mÆÜm.*®?¹?P	2LûP•®ý”s¬nêÉZwˆaóå9ÑÆ¾À
+=›s5¨^×­ª­TÄÿc†)èÍ3¤K>HÿEýùÖ¯GU<ØØpØ˜Õ¡Ü ´z˜fvA<¨_}ê¢ãŸT­›zq´Ïq—.ØM,EI£/vî3¬lSC|°RÙðŒõ‰4‹áÒÁR™WT¸¢WcÄcLóO©Éæ‡² ø{÷ÔŒ†¼ŽŠ »ÝVqØùâ£!ru²™Ä~aú©d­¥„ Ú5ÚÈ“]Ãòre|E%Ø ©È-Í|âx7hYÎÕ+A½Nçµ¿±e*ÍnðoˆJf”ìbÂS9we¥T·3Üµ+ÛVù>äÊ@ìÇ`qÔF	wÛCM:Æ&zšwç!§ÍÐE‰¹„³¾ã¹qX)Pô³WÈøç•A{]/+	?ûÚw’xîn`TPv9B’Žmûä·Wþ2TÌµÙMù–ç½²]~à¡ýDï+êváÌ'(ÚY>«$£	CIªÁ¹Øí0©oa	à„s‰!_ä—†jÔÕ/1âf„Âôã _¢†²èâi¶$ô£p›9#<‹xîI‡OR,[Â`£4¦pŒg¢»‡Û.‹)^»â¿¬‹ÞIž¾p®æ.ißÇ1æí±¶bØ‚¥
+ûËôÅ™ÓÄ	»]ÁìIW
+éî”…who[C½Me›¢s¼§Zzèñv@ŽÐzÔÕFo5¨’ÞÒÃAtàdûtÛßjjx¥ÇÝƒ'ySêÌðDG„&nÁzþ×¢
+1L:¸±­ A§A<ÙìÝÔò\¤1žWãÅ8ÃE¡0õŸ¿À¯“sµÞ-ÚµÞypÅÛu:|¶H¶ÅoõÚ•pc8&b‹ç~­ÃàiKçaMè«Ýe§Š?2ŽÌ
+w[0&¤y×Œâæ 
+§FÐª@p£# <?9¯,FÃTSýŠ†²Ô—$7zæ‘¬P2«ãÞTËf§\æøx¯&D.,L=sv_5~CÅËa’¾µœGàÀ<ÐMÕ4™7¹TÙsk»×¤çx²pì4œ{F;ç›ç„¢	8õÏx)ÇÕÒ³ ð QÉ/×ë&.K•dw“)¡ã&»þpÕâÃK|VMÞOeÎÙ»Ðñï®<„òr§×rr¢ã ¶R6€5Ô¦|ŸØƒ õ ÕS–àh3È‡rù®|ˆ¤í^²H±>/I<@A6P÷Ji†Pl‚Gê
+Yž’Î(…ñà¤ëXú‘(µ<p0@I÷Â–-y°B´‚çÐ´¾÷èËhçDãªn¢žÍAÜß1Uƒj^‹$@…ø[`´|AüŸ­HÀ± ÝìÀxš5ù@“ŽF¸r†åÖ·dÐ$Q¹P.Êê®G†ßmà0
+w@]fÖXJ&-%LG6ý‘±´ýªf‡Úw4bÇ4NÂLH’î¡÷â½/0ÎÓ‡kÓ¢Š³c]ÆKÅ:çå9!Ps3T*
+1Ãú»ú0QÒ ¬é§Üü]^Ì›„‹Y¦Q½V×7£kÖ².æz?>‘6Ûž*ÉÍQú¯C&(À°gºcmñJ×}ˆ+^	€}Äz—0BƒôA˜êÀD6å58dkO‰@³¢n*ówj>I±&{h ‡ÿ²BbÈÜ'lAð£åÄVLyå‹Ì€tp8žã$1DUc™“–…™G»ºIþ‹®VÃÇWiÃx¡¹>HJœ ¯Ýì‹-,Sý9ÊGõô\ó´bçA±iN?‘œ*62³ÏÝ)Ü¼‡gdïTRl‘ÿñêhaË˜''r=¾p(7,@=@j5lèVÍn7ÿM: X0ReÜI°>e&=ü~—’zËJîëëD£þ”cÄn¥p¤”Áj±ÜÅÇXw¾­ÕêÙæ‚S/Ê¸®éˆà_ƒ:‡”žaHŸ,iÚP–ôG8u=DËtÎ´ætd5ÀŽºêÊè<Ýÿ\˜¤uµè@ô_Ÿ³¶AÏðª‚|€Õ^Ç¦Óœ¤6hc;&\x2[9uì!£>âTbÞã¯'åo-ŠôlâYTBTÂÒYK¤æts™EæÝ\ED%qÎ™é*o)üÓïr1ÚøH›65kq°÷ZSÍ1yÎ•×6Åu²¤Ó2X¬È?añ*ªÏ ŸªY}Í…ê Å	AHÊ;b~Š½'b`÷øãqð3°IÍ¢/óDj’‹v`¡†Ý/¤½Õ¸°Õ“ˆÚlÐ÷ÅÉ$?¨Gd‡nDk^\`i³GööÛ.6Y"î/~çù˜aB³@Œ{ ÷»-†‚PÍbÈDP|a”WTÅhL·…9ØNEÙTR˜Ùeè•D¿˜«Ð›OµÚcls•–l‰j–ÃŠ´Ä"÷ZÔž¶!Ýò7/š,,ÄùOG8ÐJ¦~ôví€úùÍ¢kC1É½—íÊØ}Æ÷…%vA!_îæ¾)p²-#âŽÇ¤Ù¯SÀ®eŒåãü”¨º†C'6ÇVRÝOài"Ç²@¯N½Á†zî¸K¦ÂìïªJBì¢;ÊL}µ~KÝ¯ýaØ1òÓ¬ˆÐíÞŠöh¨hÕÙî…¹Æö§…b(´w_SKìG,@þMö_üî‹£ì…³™mñÍYIZ¾_÷y2;¿< Z/—üØZEl¬kíÀêcF2h°Íà„~#p”—Ê’6ó(u+Øïñ»Žör·®ø²¦¯ÄÞ˜U/u(Ð,u}€¶àH®C`2ùVNÛõSTY·â˜ùI›òofŸ`Ê=´pþy.@Ý„¤+Ùk#¾ï«•ÛÃ–|TAË-hœX»D] …É‘‡³ç–ª:ûšõZ–×Ô8«¢V€t\ÊS#ˆãÈÖ±pF.Uc¤Þ:Òñûâ<4§˜l¨ÐâF«QûM8¢f ŸVÜüBðÊvuöèd¸UÍ6“~ßeaîíá“žòçRæ r‚6‹´;Æù²jqÛÖ((ÝÖK1n…G@]É{Tã´[]¸u*Ñ„íQîQ„õ©±½T^QY-4¶1IdflÜ¢ëO²r5AYc‚Ò?tÒªòÉü™Ä°‡®šíÎg×˜®ïÓz¶T@œk{~¡mÜÜwè\÷4Åã.ÙîârÛÛ‚.!çQ}ê™AòµÚ_¸ZŽÄ‰»n”qsw³Àf•ÒÆ'l-ðÕ1‘c·ék¶z-ÞùêÝ4%Î.Ó§Ñ{ï$Ö0óŸ}Ï4­ßÍªÁ`Æ‚VTÝâp\;h?r"BHt±÷å³^}â×ÿîX:žT–FàÕ•’`®ëÖår'*S@÷Óuó©Ç½£´Àú±>~7„'A‚{ÔžEÀîòñEé®9o?‡÷³}ñ/½èc÷{ª†KcêLMŒÅùƒÍÀ‡Øˆi^…*<¶"i$²/0å‘Û,ÉšÄ»/öFÿ†¡#BïïtRMEŠ¶³rêQŽ¹I±\kÇL¹B…¹ˆ‹NõØép«y‡Ñ¨“°9Zåg-GÃ¸ÚgxVLu®E0È7\a‹TCñ"Uå6MÚêó*ÿ°.ÄzQõiÊaÍêžfŠ/Q$…€-ÖinmÌcÀUo…¦µÛ³?¡ì­_vë.ÙåÏqÅ`B"q%Cº[±g.6cÒ¡Õ­Ðp¹Ó8aÄ±åxtäÓQ“A~³Žg«]Lnn8TŠ©ÔEåEŸG›tD¶
+°Ï]/~ü{/c%8è%£H] O‘üú›r°æ)ÓèF~ië^8×lÕ€¤Ív±'Àír¾Ã_ÏS¡¼9’˜N(a]±8èÒ}ÅÖ~Ÿä,ÛÛü{¥ø@¨Ø«î™Çr!1|hi-ðî,vÙð!PS©1ûŸVi'Ñ“îÞãSŒä}ÐWôBcÃ<éÈŽ<GÁñªðœ¥ü(Gý!wÇ³€Ó% ÔŒ‘D›xî:Õ×nùQ}òÑâE­yNod¾îUé&Æâîa¾/¢«õ	±v½¿÷;ºs[5«3·sÈtD,gOÉRŒëïZï]~áðCs:W"ÐN>Ÿ³zo2Ã”ÀL–`<|èƒÈ—UX’ÂK*gžâ(2NÝÂL®ÌµBo¤ûhB)ùPòG,T_¸hÙ6§¨Û¸›dÕ½,Ì ’¤]køì4îš™Ñu­Éã«îtRuÌ‚ýr‡eÆë”¼wµˆð¥;ñRT	U³Ûm¢?¯ß2LP£[Æ¢vÜ~ÞùdH)’¢V(Ô}UöãÀ‘íÁ5ÌP_ªýk¾[ÿúÅ*óW¸‚OmRÜlD"7_ª‰yáï#	Ø:­ÿÊU
+‡›-„æAËSI®?Å1°§|`0QàÆ¹¥Ç&æÖƒIø`êC¤TÄüÀz¹F§AªË÷eýÇÇ÷ûF÷‚†¾YªŒ¥x$_ )&‹`r;È„äî–¶¥ƒËí	êÚçB÷ÀÞ-[1úË›)„$ŽÅ„-ÐaÇþÇ=´QÇg\š€Šçi…L$"×æß/äò`Á?Ü²ÅêüÅ™r¸=ç¾?H	ÔMPåKt:ÌË®ŒñìÓuìú9XÏOÀpvÏWuÝ]ÁmÇILÙî¥|†œ%Ö0.-¤Ô7ëö–æUÎeÜ"¾«ñŠ°‘Kh;øO¹k;ÅVzãX £;1LÂfóì-ø¾^®Îß÷P´< ®•?´ë‰;‡þp(@9itmË§'.5ÜsÕ„‰&¥öì~ŽÃäDòM+„á,\Äñê°vêÔ’0™e+DÌ¥ò»‹½c:Œñµ‹·†MØBÈÐ%ÚÚ6?ÀEqÛ#™œ½TÊ\}¾°^G%_+¿!øYÁd ¾Iá‹qËÐèš¼ÏÙ¥GZ{³"#ÿ]=³Ïõ?Q²L-‡Ç'í_N„	i
+e²H‡\¿>@Ô¼XLñðºÛ6æõúo\Â>µˆûF.}j¶Æ4!cþ ª`(™¾ðâ]¤úûŒRñ®(º"@Ž¼=0”ºôü«ÍÚÉæ5“ªs‚"~h(þ6úD\ÀÌ¢›cê¨üz–ÒL~ß¼”qèc’ÊÏ:Æ'q”åòf¸çº<FžäIn*0è¼N—ž¬¾µ4qâ=ÓU ¤`l±"E¢äxÏ¼øÁK2¼î`}#DEÇWÖyèp&QÔLòŸ-ÎðBIßØ“Ï›Ü‹þXÁÜ•7?ËÒ0ËüÐŒPO´~¸¬Ì¶
+ÉïÍ[nŒ¯,“€Ló|Ò·mŒ™ÕV ¿-Ûü¶ÖytÃíô®VàÂxÊâeóäÀÔŠC#¾Ñkii!YÜ\Ý([cúØ
+1Ä3…´ž†·<`>Å
+jeãÀ!:žÓ¿æêŒý/;õ…›ÇZå¹ûà¼{´ºÈïƒd‘æw7Òp·:u’^Ý3ÝDˆeÑXÃWë¬@D%¤»‚À¼ž¯,£6¸äÁš.û¼[0CÏS¨zHÆÔ„T‰V}©3’s!^µ!4È{@¬EõØË Å}òò¡°+¯œB0ådXnw©ËÌ™ºx) §3@!ÂðuÛ;ø?ûe,DØHsâÑÕáØ°œàQ‹‚¸ÊëàèñB[€”gß;º£nŸ«–ÄîÛƒq¼$ìgª›jCöá ¤†Ø¢™ûŽ…O¸È(ïá2¡rH÷ËÜ“C{DJºØ½ÂCv€;
+9H.2 a¿e@u Ì/©8ÎÂÉƒÿ¥Ù-DãÃ©¾1#Üÿ3kRQ@ÚbK%Þ§seéCtïžÊä{ÙÅëSÓÁ,30…lZDÖ÷&‚_êB‡û»‹\¿aQ*ûïÐ²H4øÑqÅdGi~²Åÿ÷2çìÄ‘íøÑˆ‰ð‰m°ŸÕ-[“ñ,-cõìÉ-ÅÕþ;µ×ŠÉLfð™>ß0µfÂªÇy$5·+«ÓX“Ýdö²¾ßa˜5^HZi>#‡¨N]_O|M˜>"ä=¶Æâ”=Å%9ßúm§sÙ|C]ÛæpÓ
+á< [®àá	¡¦É:»m°¦XÓR¼Z‰x5QË¿>ÁG ¡\ý1<öÎq3"W{ƒYÉîÝ9EØV½‚5·ªôYú³°¿HËãéðü Á
+³ƒ9â¿Á$ýñ?ú¢4o=CU•°bg›C-Eá±^bBÑŒ÷j\†œ¬ÞO,Ê’@:Ù,ÃYSe$±ÌFzŠ´<“‹âÊ;4ÜW¾³‹³¸&Ê‰ô4MÍì+ÄŽx#ªÞñŒ¯-¥ùvM1ã¥zá™°yB‘ä->×ÍòÄ¶£i¦T<_ŠCè†
+™Ï'Øº8ü!…\†ƒW?tqÊé8ÇOP¢{ˆ+ÞÐ%tmh± —4ë cVýëQpW\úúŠl"ì=¯]-Õ”8¨=Š¬+h5­ýS´%b•`¤÷'ô^w§W¾=‡óáÐy¯N¸mQ~;ì|Ä“XÅFs’ÛÈøž$ˆ·³åùà%®oöQË‚ÓŠÝŒCd—>KÝ°UïsSwN%,†}Ž¨ÌÆiø=•²¾éÒÙ&\~š’[mísR½ªÈ›t`¿™£ÿÃQÖ#JvG~ò[´j00í@Acï(¡Tµ‰å™C0ÈDÓ5ø§ÞÙãRLÃa,×nHƒR ‘M«&u÷”ÇJTØÍcq í¯ s0µŠ	®ö°k:aŒ§ûÚ;d4åÀW¢†SÜðc°xREÑÃÈÿš¬ã%u²ø‘ïý™øQMcË/ÉXÀ~êâŸšo<köí8>Ë  Ã«?ð•ó"‹¡w²ÚÏù¯/³÷c=µQ‹$æ»ôÞ \Ð[ã =ËoÛfÏ c	Šå4Ä\Á©ã„Á\•á6fMKÏôªÈOs;h÷Î#<¶sf-Z5âÛ±»Š‚ ažŸBQ•9üÎ²OèÅ'4±¡xÄjÞºÁßkÔŽR·Iç&	J"î½ÓïDk5ÆkUÏµ8x6ži‘¬ý¨cÅ²TEbðç(%åû70£¾Žõe-ç2ëRwÞvÒxÓ°0Ù&EÕþ×g¥v•¤_¥æ'.ÔºÖâY™ˆ*ÞÈÃ’q6WÊ×5GÂ#)+&@/q¿á¡qŠvßx3Ž Gût‰æg¿˜ÏgFÙ%[b	0‰½ìŽBHv07®“N&‚çflåû\*=¬7&~pätÓ«Y~1µs„Yòð oì:ì‘É¼ôÆ†ÓSëâ®ÄMBÍ‡ªi»Ú×$+§Ì¿7»šzñ>dbÔíÏ·AN&à>Ä? õ¨ZDû•Î””Õ2Ã…zéÍ3ÂL‚yx °€Ñ4¹b^ÏC<®u‡67
+Þü°P‡sÃW˜›ZaK¸SXtÏ®sCGŽÅ-Ðaµ	!;‹…D´‹¯¥º®^÷(OPõ_žT?œó¬ƒüæ>.9£FÂÆi€Õ°ŽÄ˜¸ªZ4êúïTß'È@Š}{ Ü”šþ[vöÔûØN~¹âÉírÅ1àÃ²Æ´vÿR0`ç¨XƒJÅ*|^M •XNivÒäó¯¼õ·ºÆpü=i§g‚¦s,í›¤Øä!¥\ –_êþ®XIkˆ(L¦à»º=x/;itIŽhÀ£bæ»8J¶X¬·ýëÇf¹˜9ºûo‹T›A-_y"XÞµó‡£=ûë¡RÖÞ^ó½ø 7à§!½Ž½óš"WïlmwÚey@…TtFe¾–éŽ‚åœ2Yóy|u#t<1²¶Bb»JkAøÇ;hTºwœ®uøIøfiý2³!#à¨Ó¾æ!äd3yš<$hès6Íî·U¥óË)ÚRáF‡3ªŸç»=(–_Jð ÇÆi”kGÜ`M1þ'jM”Þ´ÚX­f¸°¥ÝEbr¬öc|k£Ç =Ùâ¶.ÔÌtÔë2]îýãp¬ð0SZ(AñåHïQJY ‘Rñ'ÌVgÌ;±+ô6x•qñÇÛ
+}Zs‘–èœ2ãí7}°`ó§Å»x4,y9¿¥¤‰UÐµIÌã÷9@p(e,ÛmëŸ!¼c¾hGÃP¸jTëþ*áß‹$µPEëbeÿ92ª;`Óà37D)Œ•xPûìá@‚ZâÅN~¯ÞB{Œ¨Ò—AYïEf_Foßâgž€.iN+ì>œ!<F'÷uÖzZŒØ©Ì¶rÁÅØÂv‰…¤“×$1øû]k¤,ßÑá”~èn×ÃîéÙGè‘B‘zÈ`c¯PíÊ„À˜öSq‡òÆúÛ¸¢s‚ ò³“·šÈŠL=&e»Œ §Û‰Ú~ ÔŽÌd+…³`+¹Æ¹ AÙQ×u—ÂŠ=_{
+Óµ)ãµÝ/ÞïsZ;çûÇÿ­Âð}ÎÈ†s½Rg	èHQLàe€^»j>ëhVI)õÿš×U"B#‹cd‹æ´Ë]¤ ¿4†L°¶hå¥ÇÍšT‘†Ä…––èÒC:b4N´J;;aÀ¾O˜éÅ"Žþ;CÑnrTÏ¼ò©Àýñlè2šõnëkÓ2aÅ±D‚tm&LvxÝÄïtÞ™ì[§eØ¦†ËP­Vö$êg†ÃV7|]BÒ-»í‘HÜKmµ“Ð^Ô.	Ã<EŽ„ž‰Ž£Ù!t\b&ì·²cYÇœ]¬¥çYŠ9"®ÜSÓ{Os‘QKq·Mbšsó*uÊë“ü:DÂ_‚¸&‡¾ôÈ1††êFw09Õ¶O®äB­¾Òv»ä³!Vøs+úµ˜Ísu˜xT—ÿÁ>	±*¥-,í§ñ+à·HwÚ$©S`õûÄikfý(-¶ï8ïÖÚ´¼ÎÑ†É#fbqÇÖí¡%Æ}–,l·ü‰ÜdHRz<]LÑé…oÞ†KBßíÞK!çÞëM<Þ˜ýhŽ©"ùàŠv8Qð%Ø¬KœŠÏ1—}?g¿îí=ë*—! &>{£L©ØRP‹Éªx=–mç0NãÜM¢]«ò—¬‘€í¥z§pœ«#ÿà¶?aUq™Ð;ûÐ"êîw‡Õ`Cs~ß×<ÕÌ‡(8/FuÉ^\Xì› ¿¦`äžõ ©P¢$Ñh;6¾®L\ÒjC‚ð3bÔ[NS,ÒyE	b|S¹cž+¬öAtN½ƒ|ÜÛöÑƒ\âà¯»4¦&ñClÄšLÜ0ßÁÎ+Q6º†;Ó¼e¨MÐØRÏg†]-|}H€íIÊ¥{†€ªoÊl¿@yx8%pÕd+¹ÝÛÙy„Ý²FTi%BÂÜQÉä‚)•¸³Ø5°}`M.2^p`#;a“Ü;‰¥ÅÀ_îŽµ¢Ã'ZÂÅ8¿ô7Y„{Øö©<bVÜÕ‘Ž2¡ÁÔíLùƒÂw»Láƒg8¯4~S‘ÖôFôšæmc†Þ8‘eŠ³oZùL¼î÷RŠgGyóO³—»«êÖòÝê¹º~~Ô}]LÚ8Vþ?º¬›€²–ÑÙ«ÿCùÝ¥;Å¬b¬î¢eFŒm¾eG`âÂëlß˜ÝOT+'ÉeÄ];ŽV–ê¨»ô÷~dM¾’r»4Ë}õÖëÚ#O
+¯×…•‹J¿é¥,‰ß³wËìÖŽ ImñåÇ=ô’Ñ…õøžzcjscêa9½ÕŠÚ9ÿw*hE Òº¯Jé°’óÎg1õ¦Z‡–í¸"©nrp~=5àëíz Î(Z~ò€aúôÕ1Ðg•ÅÂEÍÙ0öÚþìxZ¢›QºNÁ†²ƒéªÅµ$ö?8
+Ó%=À¥ñ¤>²,[€.‡1{<ù¾áÌwä°Ôh!‡Îi:AÆŠ±sdÿ:†L ¢DÂó]ºasª(±]À;¹pZÚÖ}‚ñÖdµÚ—Ü‡¸Û”¯Ê¼˜:ô`9ÈË ›ƒ Xf½ËÙÍ™g@ý ÄC&ÊÂ-ÌÀµÛ ‘QJ-¢S«4QëÒ'üÐáêcõæ2¹ºæ5¸NJYÜüÎæë"ìs•#€ ôéx×‰?‘ÁÆ¦l­W‰8.ìíÜôÐ9<s‹ÅNhqãú£êEøfaBl?ê¹c†1 o]™ýö¤P3†­Í‹í-«¦yg7‹uÛ¾.nÿÕÞYË§wáÛõÇ}‚…äÃ¤šºø!i0šÚö4­TÃ[*=(ZèJX½Ñ+8‘UDŽ!.Å=Œ=ô5´’œ&Nu»o¹¯J¸OxÇHtà© ¹¸ÓµÝ‘P-°=2$§ÐûQ™‰A·ÿžQBÊXø}\Í€iØ$gQ×_RŒÒŸ,Ý\Ï.ã‡õæ­±4Ö¤v›û[X¢Ñ–v‚fYÂ&+õ”W^
+I;<}SQº­hoîŽ¡„Ržv&7çCàaP~½>¤ ìb¡¡éªß]S–X<+4Ûõ“eMëÌ‡®Z´µåûâœƒ¸-è—
+Y‹Nïñ¥Wó*ZèÛÏ@»xï(ÇËŸäžÉqK'E+GØàIž¹®dnÀ²ˆ—sAJOª˜Ä*+ß-uð1®Ú÷¦’E“‘¥Mig&AýCÛ )Àax+¿9þÅ)¸#N&–A‹L_0·°30°‡fÞœ|”VÏ,6rªLÓl	¸zµ¡xÝê8šE(.+ÒÊ±ž©æ'ïÞî&û ~P‘îÔ›mÆÜm.*®?¹?P	2LûP•®ý”s¬nêÉZwˆaóå9ÑÆ¾À
+=›s5¨^×­ª­TÄÿc†)èÍ3¤K>HÿEýùÖ¯GU<ØØpØ˜Õ¡Ü ´z˜fvA<¨_}ê¢ãŸT­›zq´Ïq—.ØM,EI£/vî3¬lSC|°RÙðŒõ‰4‹áÒÁR™WT¸¢WcÄcLóO©Éæ‡² ø{÷ÔŒ†¼ŽŠ »ÝVqØùâ£!ru²™Ä~aú©d­¥„ Ú5ÚÈ“]Ãòre|E%Ø ©È-Í|âx7hYÎÕ+A½Nçµ¿±e*ÍnðoˆJf”ìbÂS9we¥T·3Üµ+ÛVù>äÊ@ìÇ`qÔF	wÛCM:Æ&zšwç!§ÍÐE‰¹„³¾ã¹qX)Pô³WÈøç•A{]/+	?ûÚw’xîn`TPv9B’Žmûä·Wþ2TÌµÙMù–ç½²]~à¡ýDï+êváÌ'(ÚY>«$£	CIªÁ¹Øí0©oa	à„s‰!_ä—†jÔÕ/1âf„Âôã _¢†²èâi¶$ô£p›9#<‹xîI‡OR,[Â`£4¦pŒg¢»‡Û.‹)^»â¿¬‹ÞIž¾p®æ.ißÇ1æí±¶bØ‚¥
+ûËôÅ™ÓÄ	»]ÁìIW
+éî”…who[C½Me›¢s¼§Zzèñv@ŽÐzÔÕFo5¨’ÞÒÃAtàdûtÛßjjx¥ÇÝƒ'ySêÌðDG„&nÁzþ×¢
+1L:¸±­ A§A<ÙìÝÔò\¤1žWãÅ8ÃE¡0õŸ¿À¯“sµÞ-ÚµÞypÅÛu:|¶H¶ÅoõÚ•pc8&b‹ç~­ÃàiKçaMè«Ýe§Š?2ŽÌ
+w[0&¤y×Œâæ 
+§FÐª@p£# <?9¯,FÃTSýŠ†²Ô—$7zæ‘¬P2«ãÞTËf§\æøx¯&D.,L=sv_5~CÅËa’¾µœGàÀ<ÐMÕ4™7¹TÙsk»×¤çx²pì4œ{F;ç›ç„¢	8õÏx)ÇÕÒ³ ð QÉ/×ë&.K•dw“)¡ã&»þpÕâÃK|VMÞOeÎÙ»Ðñï®<„òr§×rr¢ã ¶R6€5Ô¦|ŸØƒ õ ÕS–àh3È‡rù®|ˆ¤í^²H±>/I<@A6P÷Ji†Pl‚Gê
+Yž’Î(…ñà¤ëXú‘(µ<p0@I÷Â–-y°B´‚çÐ´¾÷èËhçDãªn¢žÍAÜß1Uƒj^‹$@…ø[`´|AüŸ­HÀ± ÝìÀxš5ù@“ŽF¸r†åÖ·dÐ$Q¹P.Êê®G†ßmà0
+w@]fÖXJ&-%LG6ý‘±´ýªf‡Úw4bÇ4NÂLH’î¡÷â½/0ÎÓ‡kÓ¢Š³c]ÆKÅ:çå9!Ps3T*
+1Ãú»ú0QÒ ¬é§Üü]^Ì›„‹Y¦Q½V×7£kÖ².æz?>‘6Ûž*ÉÍQú¯C&(À°gºcmñJ×}ˆ+^	€}Äz—0BƒôA˜êÀD6å58dkO‰@³¢n*ówj>I±&{h ‡ÿ²BbÈÜ'lAð£åÄVLyå‹Ì€tp8žã$1DUc™“–…™G»ºIþ‹®VÃÇWiÃx¡¹>HJœ ¯Ýì‹-,Sý9ÊGõô\ó´bçA±iN?‘œ*62³ÏÝ)Ü¼‡gdïTRl‘ÿñêhaË˜''r=¾p(7,@=@j5lèVÍn7ÿM: X0ReÜI°>e&=ü~—’zËJîëëD£þ”cÄn¥p¤”Áj±ÜÅÇXw¾­ÕêÙæ‚S/Ê¸®éˆà_ƒ:‡”žaHŸ,iÚP–ôG8u=DËtÎ´ætd5ÀŽºêÊè<Ýÿ\˜¤uµè@ô_Ÿ³¶AÏðª‚|€Õ^Ç¦Óœ¤6hc;&\x2[9uì!£>âTbÞã¯'åo-ŠôlâYTBTÂÒYK¤æts™EæÝ\ED%qÎ™é*o)üÓïr1ÚøH›65kq°÷ZSÍ1yÎ•×6Åu²¤Ó2X¬È?añ*ªÏ ŸªY}Í…ê Å	AHÊ;b~Š½'b`÷øãqð3°IÍ¢/óDj’‹v`¡†Ý/¤½Õ¸°Õ“ˆÚlÐ÷ÅÉ$?¨Gd‡nDk^\`i³GööÛ.6Y"î/~çù˜aB³@Œ{ ÷»-†‚PÍbÈDP|a”WTÅhL·…9ØNEÙTR˜Ùeè•D¿˜«Ð›OµÚcls•–l‰j–ÃŠ´Ä"÷ZÔž¶!Ýò7/š,,ÄùOG8ÐJ¦~ôví€úùÍ¢kC1É½—íÊØ}Æ÷…%vA!_îæ¾)p²-#âŽÇ¤Ù¯SÀ®eŒåãü”¨º†C'6ÇVRÝOài"Ç²@¯N½Á†zî¸K¦ÂìïªJBì¢;ÊL}µ~KÝ¯ýaØ1òÓ¬ˆÐíÞŠöh¨hÕÙî…¹Æö§…b(´w_SKìG,@þMö_üî‹£ì…³™mñÍYIZ¾_÷y2;¿< Z/—üØZEl¬kíÀêcF2h°Íà„~#p”—Ê’6ó(u+Øïñ»Žör·®ø²¦¯ÄÞ˜U/u(Ð,u}€¶àH®C`2ùVNÛõSTY·â˜ùI›òofŸ`Ê=´pþy.@Ý„¤+Ùk#¾ï«•ÛÃ–|TAË-hœX»D] …É‘‡³ç–ª:ûšõZ–×Ô8«¢V€t\ÊS#ˆãÈÖ±pF.Uc¤Þ:Òñûâ<4§˜l¨ÐâF«QûM8¢f ŸVÜüBðÊvuöèd¸UÍ6“~ßeaîíá“žòçRæ r‚6‹´;Æù²jqÛÖ((ÝÖK1n…G@]É{Tã´[]¸u*Ñ„íQîQ„õ©±½T^QY-4¶1IdflÜ¢ëO²r5AYc‚Ò?tÒªòÉü™Ä°‡®šíÎg×˜®ïÓz¶T@œk{~¡mÜÜwè\÷4Åã.ÙîârÛÛ‚.!çQ}ê™AòµÚ_¸ZŽÄ‰»n”qsw³Àf•ÒÆ'l-ðÕ1‘c·ék¶z-ÞùêÝ4%Î.Ó§Ñ{ï$Ö0óŸ}Ï4­ßÍªÁ`Æ‚VTÝâp\;h?r"BHt±÷å³^}â×ÿîX:žT–FàÕ•’`®ëÖår'*S@÷Óuó©Ç½£´Àú±>~7„'A‚{ÔžEÀîòñEé®9o?‡÷³}ñ/½èc÷{ª†KcêLMŒÅùƒÍÀ‡Øˆi^…*<¶"i$²/0å‘Û,ÉšÄ»/öFÿ†¡#BïïtRMEŠ¶³rêQŽ¹I±\kÇL¹B…¹ˆ‹NõØép«y‡Ñ¨“°9Zåg-GÃ¸ÚgxVLu®E0È7\a‹TCñ"Uå6MÚêó*ÿ°.ÄzQõiÊaÍêžfŠ/Q$…€-ÖinmÌcÀUo…¦µÛ³?¡ì­_vë.ÙåÏqÅ`B"q%Cº[±g.6cÒ¡Õ­Ðp¹Ó8aÄ±åxtäÓQ“A~³Žg«]Lnn8TŠ©ÔEåEŸG›tD¶
+°Ï]/~ü{/c%8è%£H] O‘üú›r°æ)ÓèF~ië^8×lÕ€¤Ív±'Àír¾Ã_ÏS¡¼9’˜N(a]±8èÒ}ÅÖ~Ÿä,ÛÛü{¥ø@¨Ø«î™Çr!1|hi-ðî,vÙð!PS©1ûŸVi'Ñ“îÞãSŒä}ÐWôBcÃ<éÈŽ<GÁñªðœ¥ü(Gý!wÇ³€Ó% ÔŒ‘D›xî:Õ×nùQ}òÑâE­yNod¾îUé&Æâîa¾/¢«õ	±v½¿÷;ºs[5«3·sÈtD,gOÉRŒëïZï]~áðCs:W"ÐN>Ÿ³zo2Ã”ÀL–`<|èƒÈ—UX’ÂK*gžâ(2NÝÂL®ÌµBo¤ûhB)ùPòG,T_¸hÙ6§¨Û¸›dÕ½,Ì ’¤]køì4îš™Ñu­Éã«îtRuÌ‚ýr‡eÆë”¼wµˆð¥;ñRT	U³Ûm¢?¯ß2LP£[Æ¢vÜ~ÞùdH)’¢V(Ô}UöãÀ‘íÁ5ÌP_ªýk¾[ÿúÅ*óW¸‚OmRÜlD"7_ª‰yáï#	Ø:­ÿÊU
+‡›-„æAËSI®?Å1°§|`0QàÆ¹¥Ç&æÖƒIø`êC¤TÄüÀz¹F§AªË÷eýÇÇ÷ûF÷‚†¾YªŒ¥x$_ )&‹`r;È„äî–¶¥ƒËí	êÚçB÷ÀÞ-[1úË›)„$ŽÅ„-ÐaÇþÇ=´QÇg\š€Šçi…L$"×æß/äò`Á?Ü²ÅêüÅ™r¸=ç¾?H	ÔMPåKt:ÌË®ŒñìÓuìú9XÏOÀpvÏWuÝ]ÁmÇILÙî¥|†œ%Ö0.-¤Ô7ëö–æUÎeÜ"¾«ñŠ°‘Kh;øO¹k;ÅVzãX £;1LÂfóì-ø¾^®Îß÷P´< ®•?´ë‰;‡þp(@9itmË§'.5ÜsÕ„‰&¥öì~ŽÃäDòM+„á,\Äñê°vêÔ’0™e+DÌ¥ò»‹½c:Œñµ‹·†MØBÈÐ%ÚÚ6?ÀEqÛ#™œ½TÊ\}¾°^G%_+¿!øYÁd ¾Iá‹qËÐèš¼ÏÙ¥GZ{³"#ÿ]=³Ïõ?Q²L-‡Ç'í_N„	i
+e²H‡\¿>@Ô¼XLñðºÛ6æõúo\Â>µˆûF.}j¶Æ4!cþ ª`(™¾ðâ]¤úûŒRñ®(º"@Ž¼=0”ºôü«ÍÚÉæ5“ªs‚"~h(þ6úD\ÀÌ¢›cê¨üz–ÒL~ß¼”qèc’ÊÏ:Æ'q”åòf¸çº<FžäIn*0è¼N—ž¬¾µ4qâ=ÓU ¤`l±"E¢äxÏ¼øÁK2¼î`}#DEÇWÖyèp&QÔLòŸ-ÎðBIßØ“Ï›Ü‹þXÁÜ•7?ËÒ0ËüÐŒPO´~¸¬Ì¶
+ÉïÍ[nŒ¯,“€Ló|Ò·mŒ™ÕV ¿-Ûü¶ÖytÃíô®VàÂxÊâeóäÀÔŠC#¾Ñkii!YÜ\Ý([cúØ
+1Ä3…´ž†·<`>Å
+jeãÀ!:žÓ¿æêŒý/;õ…›ÇZå¹ûà¼{´ºÈïƒd‘æw7Òp·:u’^Ý3ÝDˆeÑXÃWë¬@D%¤»‚À¼ž¯,£6¸äÁš.û¼[0CÏS¨zHÆÔ„T‰V}©3’s!^µ!4È{@¬EõØË Å}òò¡°+¯œB0ådXnw©ËÌ™ºx) §3@!ÂðuÛ;ø?ûe,DØHsâÑÕáØ°œàQ‹‚¸ÊëàèñB[€”gß;º£nŸ«–ÄîÛƒq¼$ìgª›jCöá ¤†Ø¢™ûŽ…O¸È(ïá2¡rH÷ËÜ“C{DJºØ½ÂCv€;
+9H.2 a¿e@u Ì/©8ÎÂÉƒÿ¥Ù-DãÃ©¾1#Üÿ3kRQ@ÚbK%Þ§seéCtïžÊä{ÙÅëSÓÁ,30…lZDÖ÷&‚_êB‡û»‹\¿aQ*ûïÐ²H4øÑqÅdGi~²Åÿ÷2çìÄ‘íøÑˆ‰ð‰m°ŸÕ-[“ñ,-cõìÉ-ÅÕþ;µ×ŠÉLfð™>ß0µfÂªÇy$5·+«ÓX“Ýdö²¾ßa˜5^HZi>#‡¨N]_O|M˜>"ä=¶Æâ”=Å%9ßúm§sÙ|C]ÛæpÓ
+á< [®àá	¡¦É:»m°¦XÓR¼Z‰x5QË¿>ÁG ¡\ý1<öÎq3"W{ƒYÉîÝ9EØV½‚5·ªôYú³°¿HËãéðü Á
+³ƒ9â¿Á$ýñ?ú¢4o=CU•°bg›C-Eá±^bBÑŒ÷j\†œ¬ÞO,Ê’@:Ù,ÃYSe$±ÌFzŠ´<“‹âÊ;4ÜW¾³‹³¸&Ê‰ô4MÍì+ÄŽx#ªÞñŒ¯-¥ùvM1ã¥zá™°yB‘ä->×ÍòÄ¶£i¦T<_ŠCè†
+™Ï'Øº8ü!…\†ƒW?tqÊé8ÇOP¢{ˆ+ÞÐ%tmh± —4ë cVýëQpW\úúŠl"ì=¯]-Õ”8¨=Š¬+h5­ýS´%b•`¤÷'ô^w§W¾=‡óáÐy¯N¸mQ~;ì|Ä“XÅFs’ÛÈøž$ˆ·³åùà%®oöQË‚ÓŠÝŒCd—>KÝ°UïsSwN%,†}Ž¨ÌÆiø=•²¾éÒÙ&\~š’[mísR½ªÈ›t`¿™£ÿÃQÖ#JvG~ò[´j00í@Acï(¡Tµ‰å™C0ÈDÓ5ø§ÞÙãRLÃa,×nHƒR ‘M«&u÷”ÇJTØÍcq í¯ s0µŠ	®ö°k:aŒ§ûÚ;d4åÀW¢†SÜðc°xREÑÃÈÿš¬ã%u²ø‘ïý™øQMcË/ÉXÀ~êâŸšo<köí8>Ë  Ã«?ð•ó"‹¡w²ÚÏù¯/³÷c=µQ‹$æ»ôÞ \Ð[ã =ËoÛfÏ c	Šå4Ä\Á©ã„Á\•á6fMKÏôªÈOs;h÷Î#<¶sf-Z5âÛ±»Š‚ ažŸBQ•9üÎ²OèÅ'4±¡xÄjÞºÁßkÔŽR·Iç&	J"î½ÓïDk5ÆkUÏµ8x6ži‘¬ý¨cÅ²TEbðç(%åû70£¾Žõe-ç2ëRwÞvÒxÓ°0Ù&EÕþ×g¥v•¤_¥æ'.ÔºÖâY™ˆ*ÞÈÃ’q6WÊ×5GÂ#)+&@/q¿á¡qŠvßx3Ž Gût‰æg¿˜ÏgFÙ%[b	0‰½ìŽBHv07®“N&‚çflåû\*=¬7&~pätÓ«Y~1µs„Yòð oì:ì‘É¼ôÆ†ÓSëâ®ÄMBÍ‡ªi»Ú×$+§Ì¿7»šzñ>dbÔíÏ·AN&à>Ä? õ¨ZDû•Î””Õ2Ã…zéÍ3ÂL‚yx °€Ñ4¹b^ÏC<®u‡67
+Þü°P‡sÃW˜›ZaK¸SXtÏ®sCGŽÅ-Ðaµ	!;‹…D´‹¯¥º®^÷(OPõ_žT?œó¬ƒüæ>.9£FÂÆi€Õ°ŽÄ˜¸ªZ4êúïTß'È@Š}{ Ü”šþ[vöÔûØN~¹âÉírÅ1àÃ²Æ´vÿR0`ç¨XƒJÅ*|^M •XNivÒäó¯¼õ·ºÆpü=i§g‚¦s,í›¤Øä!¥\ –_êþ®XIkˆ(L¦à»º=x/;itIŽhÀ£bæ»8J¶X¬·ýëÇf¹˜9ºûo‹T›A-_y"XÞµó‡£=ûë¡RÖÞ^ó½ø 7à§!½Ž½óš"WïlmwÚey@…TtFe¾–éŽ‚åœ2Yóy|u#t<1²¶Bb»JkAøÇ;hTºwœ®uøIøfiý2³!#à¨Ó¾æ!äd3yš<$hès6Íî·U¥óË)ÚRáF‡3ªŸç»=(–_Jð ÇÆi”kGÜ`M1þ'jM”Þ´ÚX­f¸°¥ÝEbr¬öc|k£Ç =Ùâ¶.ÔÌtÔë2]îýãp¬ð0SZ(AñåHïQJY ‘Rñ'ÌVgÌ;±+ô6x•qñÇÛ
+}Zs‘–èœ2ãí7}°`ó§Å»x4,y9¿¥¤‰UÐµIÌã÷9@p(e,ÛmëŸ!¼c¾hGÃP¸jTëþ*áß‹$µPEëbeÿ92ª;`Óà37D)Œ•xPûìá@‚ZâÅN~¯ÞB{Œ¨Ò—AYïEf_Foßâgž€.iN+ì>œ!<F'÷uÖzZŒØ©Ì¶rÁÅØÂv‰…¤“×$1øû]k¤,ßÑá”~èn×ÃîéÙGè‘B‘zÈ`c¯PíÊ„À˜öSq‡òÆúÛ¸¢s‚ ò³“·šÈŠL=&e»Œ §Û‰Ú~ ÔŽÌd+…³`+¹Æ¹ AÙQ×u—ÂŠ=_{
+Óµ)ãµÝ/ÞïsZ;çûÇÿ­Âð}ÎÈ†s½Rg	èHQLàe€^»j>ëhVI)õÿš×U"B#‹cd‹æ´Ë]¤ ¿4†L°¶hå¥ÇÍšT‘†Ä…––èÒC:b4N´J;;aÀ¾O˜éÅ"Žþ;CÑnrTÏ¼ò©Àýñlè2šõnëkÓ2aÅ±D‚tm&LvxÝÄïtÞ™ì[§eØ¦†ËP­Vö$êg†ÃV7|]BÒ-»í‘HÜKmµ“Ð^Ô.	Ã<EŽ„ž‰Ž£Ù!t\b&ì·²cYÇœ]¬¥çYŠ9"®ÜSÓ{Os‘QKq·Mbšsó*uÊë“ü:DÂ_‚¸&‡¾ôÈ1††êFw09Õ¶O®äB­¾Òv»ä³!Vøs+úµ˜Ísu˜xT—ÿÁ>	±*¥-,í§ñ+à·HwÚ$©S`õûÄikfý(-¶ï8ïÖÚ´¼ÎÑ†É#fbqÇÖí¡%Æ}–,l·ü‰ÜdHRz<]LÑé…oÞ†KBßíÞK!çÞëM<Þ˜ýhŽ©"ùàŠv8Qð%Ø¬KœŠÏ1—}?g¿îí=ë*—! &>{£L©ØRP‹Éªx=–mç0NãÜM¢]«ò—¬‘€í¥z§pœ«#ÿà¶?aUq™Ð;ûÐ"êîw‡Õ`Cs~ß×<ÕÌ‡(8/FuÉ^\Xì› ¿¦`äžõ ©P¢$Ñh;6¾®L\ÒjC‚ð3bÔ[NS,ÒyE	b|S¹cž+¬öAtN½ƒ|ÜÛöÑƒ\âà¯»4¦&ñClÄšLÜ0ßÁÎ+Q6º†;Ó¼e¨MÐØRÏg†]-|}H€íIÊ¥{†€ªoÊl¿@yx8%pÕd+¹ÝÛÙy„Ý²FTi%BÂÜQÉä‚)•¸³Ø5°}`M.2^p`#;a“Ü;‰¥ÅÀ_îŽµ¢Ã'ZÂÅ8¿ô7Y„{Øö©<bVÜÕ‘Ž2¡ÁÔíLùƒÂw»Láƒg8¯4~S‘ÖôFôšæmc†Þ8‘eŠ³oZùL¼î÷RŠgGyóO³—»«êÖòÝê¹º~~Ô}]LÚ8Vþ?º¬›€²–ÑÙ«ÿCùÝ¥;Å¬b¬î¢eFŒm¾eG`âÂëlß˜ÝOT+'ÉeÄ];ŽV–ê¨»ô÷~dM¾’r»4Ë}õÖëÚ#O
+¯×…•‹J¿é¥,‰ß³wËìÖŽ ImñåÇ=ô’Ñ…õøžzcjscêa9½ÕŠÚ9ÿw*hE Òº¯Jé°’óÎg1õ¦Z‡–í¸"©nrp~=5àëíz Î(Z~ò€aúôÕ1Ðg•ÅÂEÍÙ0öÚþìxZ¢›QºNÁ†²ƒéªÅµ$ö?8
+Ó%=À¥ñ¤>²,[€.‡1{<ù¾áÌwä°Ôh!‡Îi:AÆŠ±sdÿ:†L ¢DÂó]ºasª(±]À;¹pZÚÖ}‚ñÖdµÚ—Ü‡¸Û”¯Ê¼˜:ô`9ÈË ›ƒ Xf½ËÙÍ™g@ý ÄC&ÊÂ-ÌÀµÛ ‘QJ-¢S«4QëÒ'üÐáêcõæ2¹ºæ5¸NJYÜüÎæë"ìs•#€ ôéx×‰?‘ÁÆ¦l­W‰8.ìíÜôÐ9<s‹ÅNhqãú£êEøfaBl?ê¹c†1 o]™ýö¤P3†­Í‹í-«¦yg7‹uÛ¾.nÿÕÞYË§wáÛõÇ}‚…äÃ¤šºø!i0šÚö4­TÃ[*=(ZèJX½Ñ+8‘UDŽ!.Å=Œ=ô5´’œ&Nu»o¹¯J¸OxÇHtà© ¹¸ÓµÝ‘P-°=2$§ÐûQ™‰A·ÿžQBÊXø}\Í€iØ$gQ×_RŒÒŸ,Ý\Ï.ã‡õæ­±4Ö¤v›û[X¢Ñ–v‚fYÂ&+õ”W^
+I;<}SQº­hoîŽ¡„Ržv&7çCàaP~½>¤ ìb¡¡éªß]S–X<+4Ûõ“eMëÌ‡®Z´µåûâœƒ¸-è—
+Y‹Nïñ¥Wó*ZèÛÏ@»xï(ÇËŸäžÉqK'E+GØàIž¹®dnÀ²ˆ—sAJOª˜Ä*+ß-uð1®Ú÷¦’E“‘¥Mig&AýCÛ )Àax+¿9þÅ)¸#N&–A‹L_0·°30°‡fÞœ|”VÏ,6rªLÓl	¸zµ¡xÝê8šE(.+ÒÊ±ž©æ'ïÞî&û ~P‘îÔ›mÆÜm.*®?¹?P	2LûP•®ý”s¬nêÉZwˆaóå9ÑÆ¾À
+=›s5¨^×­ª­TÄÿc†)èÍ3¤K>HÿEýùÖ¯GU<ØØpØ˜Õ¡Ü ´z˜fvA<¨_}ê¢ãŸT­›zq´Ïq—.ØM,EI£/vî3¬lSC|°RÙðŒõ‰4‹áÒÁR™WT¸¢WcÄcLóO©Éæ‡² ø{÷ÔŒ†¼ŽŠ »ÝVqØùâ£!ru²™Ä~aú©d­¥„ Ú5ÚÈ“]Ãòre|E%Ø ©È-Í|âx7hYÎÕ+A½Nçµ¿±e*ÍnðoˆJf”ìbÂS9we¥T·3Üµ+ÛVù>äÊ@ìÇ`qÔF	wÛCM:Æ&zšwç!§ÍÐE‰¹„³¾ã¹qX)Pô³WÈøç•A{]/+	?ûÚw’xîn`TPv9B’Žmûä·Wþ2TÌµÙMù–ç½²]~à¡ýDï+êváÌ'(ÚY>«$£	CIªÁ¹Øí0©oa	à„s‰!_ä—†jÔÕ/1âf„Âôã _¢†²èâi¶$ô£p›9#<‹xîI‡OR,[Â`£4¦pŒg¢»‡Û.‹)^»â¿¬‹ÞIž¾p®æ.ißÇ1æí±¶bØ‚¥
+ûËôÅ™ÓÄ	»]ÁìIW
+éî”…who[C½Me›¢s¼§Zzèñv@ŽÐzÔÕFo5¨’ÞÒÃAtàdûtÛßjjx¥ÇÝƒ'ySêÌðDG„&nÁzþ×¢
+1L:¸±­ A§A<ÙìÝÔò\¤1žWãÅ8ÃE¡0õŸ¿À¯“sµÞ-ÚµÞypÅÛu:|¶H¶ÅoõÚ•pc8&b‹ç~­ÃàiKçaMè«Ýe§Š?2ŽÌ
+w[0&¤y×Œâæ 
+§FÐª@p£# <?9¯,FÃTSýŠ†²Ô—$7zæ‘¬P2«ãÞTËf§\æøx¯&D.,L=sv_5~CÅËa’¾µœGàÀ<ÐMÕ4™7¹TÙsk»×¤çx²pì4œ{F;ç›ç„¢	8õÏx)ÇÕÒ³ ð QÉ/×ë&.K•dw“)¡ã&»þpÕâÃK|VMÞOeÎÙ»Ðñï®<„òr§×rr¢ã ¶R6€5Ô¦|ŸØƒ õ ÕS–àh3È‡rù®|ˆ¤í^²H±>/I<@A6P÷Ji†Pl‚Gê
+Yž’Î(…ñà¤ëXú‘(µ<p0@I÷Â–-y°B´‚çÐ´¾÷èËhçDãªn¢žÍAÜß1Uƒj^‹$@…ø[`´|AüŸ­HÀ± ÝìÀxš5ù@“ŽF¸r†åÖ·dÐ$Q¹P.Êê®G†ßmà0
+w@]fÖXJ&-%LG6ý‘±´ýªf‡Úw4bÇ4NÂLH’î¡÷â½/0ÎÓ‡kÓ¢Š³c]ÆKÅ:çå9!Ps3T*
+1Ãú»ú0QÒ ¬é§Üü]^Ì›„‹Y¦Q½V×7£kÖ².æz?>‘6Ûž*ÉÍQú¯C&(À°gºcmñJ×}ˆ+^	€}Äz—0BƒôA˜êÀD6å58dkO‰@³¢n*ówj>I±&{h ‡ÿ²BbÈÜ'lAð£åÄVLyå‹Ì€tp8žã$1DUc™“–…™G»ºIþ‹®VÃÇWiÃx¡¹>HJœ ¯Ýì‹-,Sý9ÊGõô\ó´bçA±iN?‘œ*62³ÏÝ)Ü¼‡gdïTRl‘ÿñêhaË˜''r=¾p(7,@=@j5lèVÍn7ÿM: X0ReÜI°>e&=ü~—’zËJîëëD£þ”cÄn¥p¤”Áj±ÜÅÇXw¾­ÕêÙæ‚S/Ê¸®éˆà_ƒ:‡”žaHŸ,iÚP–ôG8u=DËtÎ´ætd5ÀŽºêÊè<Ýÿ\˜¤uµè@ô_Ÿ³¶AÏðª‚|€Õ^Ç¦Óœ¤6hc;&\x2[9uì!£>âTbÞã¯'åo-ŠôlâYTBTÂÒYK¤æts™EæÝ\ED%qÎ™é*o)üÓïr1ÚøH›65kq°÷ZSÍ1yÎ•×6Åu²¤Ó2X¬È?añ*ªÏ ŸªY}Í…ê Å	AHÊ;b~Š½'b`÷øãqð3°IÍ¢/óDj’‹v`¡†Ý/¤½Õ¸°Õ“ˆÚlÐ÷ÅÉ$?¨Gd‡nDk^\`i³GööÛ.6Y"î/~çù˜aB³@Œ{ ÷»-†‚PÍbÈDP|a”WTÅhL·…9ØNEÙTR˜Ùeè•D¿˜«Ð›OµÚcls•–l‰j–ÃŠ´Ä"÷ZÔž¶!Ýò7/š,,ÄùOG8ÐJ¦~ôví€úùÍ¢kC1É½—íÊØ}Æ÷…%vA!_îæ¾)p²-#âŽÇ¤Ù¯SÀ®eŒåãü”¨º†C'6ÇVRÝOài"Ç²@¯N½Á†zî¸K¦ÂìïªJBì¢;ÊL}µ~KÝ¯ýaØ1òÓ¬ˆÐíÞŠöh¨hÕÙî…¹Æö§…b(´w_SKìG,@þMö_üî‹£ì…³™mñÍYIZ¾_÷y2;¿< Z/—üØZEl¬kíÀêcF2h°Íà„~#p”—Ê’6ó(u+Øïñ»Žör·®ø²¦¯ÄÞ˜U/u(Ð,u}€¶àH®C`2ùVNÛõSTY·â˜ùI›òofŸ`Ê=´pþy.@Ý„¤+Ùk#¾ï«•ÛÃ–|TAË-hœX»D] …É‘‡³ç–ª:ûšõZ–×Ô8«¢V€t\ÊS#ˆãÈÖ±pF.Uc¤Þ:Òñûâ<4§˜l¨ÐâF«QûM8¢f ŸVÜüBðÊvuöèd¸UÍ6“~ßeaîíá“žòçRæ r‚6‹´;Æù²jqÛÖ((ÝÖK1n…G@]É{Tã´[]¸u*Ñ„íQîQ„õ©±½T^QY-4¶1IdflÜ¢ëO²r5AYc‚Ò?tÒªòÉü™Ä°‡®šíÎg×˜®ïÓz¶T@œk{~¡mÜÜwè\÷4Åã.ÙîârÛÛ‚.!çQ}ê™AòµÚ_¸ZŽÄ‰»n”qsw³Àf•ÒÆ'l-ðÕ1‘c·ék¶z-ÞùêÝ4%Î.Ó§Ñ{ï$Ö0óŸ}Ï4­ßÍªÁ`Æ‚VTÝâp\;h?r"BHt±÷å³^}â×ÿîX:žT–FàÕ•’`®ëÖår'*S@÷Óuó©Ç½£´Àú±>~7„'A‚{ÔžEÀîòñEé®9o?‡÷³}ñ/½èc÷{ª†KcêLMŒÅùƒÍÀ‡Øˆi^…*<¶"i$²/0å‘Û,ÉšÄ»/öFÿ†¡#BïïtRMEŠ¶³rêQŽ¹I±\kÇL¹B…¹ˆ‹NõØép«y‡Ñ¨“°9Zåg-GÃ¸ÚgxVLu®E0È7\a‹TCñ"Uå6MÚêó*ÿ°.ÄzQõiÊaÍêžfŠ/Q$…€-ÖinmÌcÀUo…¦µÛ³?¡ì­_vë.ÙåÏqÅ`B"q%Cº[±g.6cÒ¡Õ­Ðp¹Ó8aÄ±åxtäÓQ“A~³Žg«]Lnn8TŠ©ÔEåEŸG›tD¶
+°Ï]/~ü{/c%8è%£H] O‘üú›r°æ)ÓèF~ië^8×lÕ€¤Ív±'Àír¾Ã_ÏS¡¼9’˜N(a]±8èÒ}ÅÖ~Ÿä,ÛÛü{¥ø@¨Ø«î™Çr!1|hi-ðî,vÙð!PS©1ûŸVi'Ñ“îÞãSŒä}ÐWôBcÃ<éÈŽ<GÁñªðœ¥ü(Gý!wÇ³€Ó% ÔŒ‘D›xî:Õ×nùQ}òÑâE­yNod¾îUé&Æâîa¾/¢«õ	±v½¿÷;ºs[5«3·sÈtD,gOÉRŒëïZï]~áðCs:W"ÐN>Ÿ³zo2Ã”ÀL–`<|èƒÈ—UX’ÂK*gžâ(2NÝÂL®ÌµBo¤ûhB)ùPòG,T_¸hÙ6§¨Û¸›dÕ½,Ì ’¤]køì4îš™Ñu­Éã«îtRuÌ‚ýr‡eÆë”¼wµˆð¥;ñRT	U³Ûm¢?¯ß2LP£[Æ¢vÜ~ÞùdH)’¢V(Ô}UöãÀ‘íÁ5ÌP_ªýk¾[ÿúÅ*óW¸‚OmRÜlD"7_ª‰yáï#	Ø:­ÿÊU
+‡›-„æAËSI®?Å1°§|`0QàÆ¹¥Ç&æÖƒIø`êC¤TÄüÀz¹F§AªË÷eýÇÇ÷ûF÷‚†¾YªŒ¥x$_ )&‹`r;È„äî–¶¥ƒËí	êÚçB÷ÀÞ-[1úË›)„$ŽÅ„-ÐaÇþÇ=´QÇg\š€Šçi…L$"×æß/äò`Á?Ü²ÅêüÅ™r¸=ç¾?H	ÔMPåKt:ÌË®ŒñìÓuìú9XÏOÀpvÏWuÝ]ÁmÇILÙî¥|†œ%Ö0.-¤Ô7ëö–æUÎeÜ"¾«ñŠ°‘Kh;øO¹k;ÅVzãX £;1LÂfóì-ø¾^®Îß÷P´< ®•?´ë‰;‡þp(@9itmË§'.5ÜsÕ„‰&¥öì~ŽÃäDòM+„á,\Äñê°vêÔ’0™e+DÌ¥ò»‹½c:Œñµ‹·†MØBÈÐ%ÚÚ6?ÀEqÛ#™œ½TÊ\}¾°^G%_+¿!øYÁd ¾Iá‹qËÐèš¼ÏÙ¥GZ{³"#ÿ]=³Ïõ?Q²L-‡Ç'í_N„	i
+e²H‡\¿>@Ô¼XLñðºÛ6æõúo\Â>µˆûF.}j¶Æ4!cþ ª`(™¾ðâ]¤úûŒRñ®(º"@Ž¼=0”ºôü«ÍÚÉæ5“ªs‚"~h(þ6úD\ÀÌ¢›cê¨üz–ÒL~ß¼”qèc’ÊÏ:Æ'q”åòf¸çº<FžäIn*0è¼N—ž¬¾µ4qâ=ÓU ¤`l±"E¢äxÏ¼øÁK2¼î`}#DEÇWÖyèp&QÔLòŸ-ÎðBIßØ“Ï›Ü‹þXÁÜ•7?ËÒ0ËüÐŒPO´~¸¬Ì¶
+ÉïÍ[nŒ¯,“€Ló|Ò·mŒ™ÕV ¿-Ûü¶ÖytÃíô®VàÂxÊâeóäÀÔŠC#¾Ñkii!YÜ\Ý([cúØ
+1Ä3…´ž†·<`>Å
+jeãÀ!:žÓ¿æêŒý/;õ…›ÇZå¹ûà¼{´ºÈïƒd‘æw7Òp·:u’^Ý3ÝDˆeÑXÃWë¬@D%¤»‚À¼ž¯,£6¸äÁš.û¼[0CÏS¨zHÆÔ„T‰V}©3’s!^µ!4È{@¬EõØË Å}òò¡°+¯œB0ådXnw©ËÌ™ºx) §3@!ÂðuÛ;ø?ûe,DØHsâÑÕáØ°œàQ‹‚¸ÊëàèñB[€”gß;º£nŸ«–ÄîÛƒq¼$ìgª›jCöá ¤†Ø¢™ûŽ…O¸È(ïá2¡rH÷ËÜ“C{DJºØ½ÂCv€;
+9H.2 a¿e@u Ì/©8ÎÂÉƒÿ¥Ù-DãÃ©¾1#Üÿ3kRQ@ÚbK%Þ§seéCtïžÊä{ÙÅëSÓÁ,30…lZDÖ÷&‚_êB‡û»‹\¿aQ*ûïÐ²H4øÑqÅdGi~²Åÿ÷2çìÄ‘íøÑˆ‰ð‰m°ŸÕ-[“ñ,-cõìÉ-ÅÕþ;µ×ŠÉLfð™>ß0µfÂªÇy$5·+«ÓX“Ýdö²¾ßa˜5^HZi>#‡¨N]_O|M˜>"ä=¶Æâ”=Å%9ßúm§sÙ|C]ÛæpÓ
+á< [®àá	¡¦É:»m°¦XÓR¼Z‰x5QË¿>ÁG ¡\ý1<öÎq3"W{ƒYÉîÝ9EØV½‚5·ªôYú³°¿HËãéðü Á
+³ƒ9â¿Á$ýñ?ú¢4o=CU•°bg›C-Eá±^bBÑŒ÷j\†œ¬ÞO,Ê’@:Ù,ÃYSe$±ÌFzŠ´<“‹âÊ;4ÜW¾³‹³¸&Ê‰ô4MÍì+ÄŽx#ªÞñŒ¯-¥ùvM1ã¥zá™°yB‘ä->×ÍòÄ¶£i¦T<_ŠCè†
+™Ï'Øº8ü!…\†ƒW?tqÊé8ÇOP¢{ˆ+ÞÐ%tmh± —4ë cVýëQpW\úúŠl"ì=¯]-Õ”8¨=Š¬+h5­ýS´%b•`¤÷'ô^w§W¾=‡óáÐy¯N¸mQ~;ì|Ä“XÅFs’ÛÈøž$ˆ·³åùà%®oöQË‚ÓŠÝŒCd—>KÝ°UïsSwN%,†}Ž¨ÌÆiø=•²¾éÒÙ&\~š’[mísR½ªÈ›t`¿™£ÿÃQÖ#JvG~ò[´j00í@Acï(¡Tµ‰å™C0ÈDÓ5ø§ÞÙãRLÃa,×nHƒR ‘M«&u÷”ÇJTØÍcq í¯ s0µŠ	®ö°k:aŒ§ûÚ;d4åÀW¢†SÜðc°xREÑÃÈÿš¬ã%u²ø‘ïý™øQMcË/ÉXÀ~êâŸšo<köí8>Ë  Ã«?ð•ó"‹¡w²ÚÏù¯/³÷c=µQ‹$æ»ôÞ \Ð[ã =ËoÛfÏ c	Šå4Ä\Á©ã„Á\•á6fMKÏôªÈOs;h÷Î#<¶sf-Z5âÛ±»Š‚ ažŸBQ•9üÎ²OèÅ'4±¡xÄjÞºÁßkÔŽR·Iç&	J"î½ÓïDk5ÆkUÏµ8x6ži‘¬ý¨cÅ²TEbðç(%åû70£¾Žõe-ç2ëRwÞvÒxÓ°0Ù&EÕþ×g¥v•¤_¥æ'.ÔºÖâY™ˆ*ÞÈÃ’q6WÊ×5GÂ#)+&@/q¿á¡qŠvßx3Ž Gût‰æg¿˜ÏgFÙ%[b	0‰½ìŽBHv07®“N&‚çflåû\*=¬7&~pätÓ«Y~1µs„Yòð oì:ì‘É¼ôÆ†ÓSëâ®ÄMBÍ‡ªi»Ú×$+§Ì¿7»šzñ>dbÔíÏ·AN&à>Ä? õ¨ZDû•Î””Õ2Ã…zéÍ3ÂL‚yx °€Ñ4¹b^ÏC<®u‡67
+Þü°P‡sÃW˜›ZaK¸SXtÏ®sCGŽÅ-Ðaµ	!;‹…D´‹¯¥º®^÷(OPõ_žT?œó¬ƒüæ>.9£FÂÆi€Õ°ŽÄ˜¸ªZ4êúïTß'È@Š}{ Ü”šþ[vöÔûØN~¹âÉírÅ1àÃ²Æ´vÿR0`ç¨XƒJÅ*|^M •XNivÒäó¯¼õ·ºÆpü=i§g‚¦s,í›¤Øä!¥\ –_êþ®XIkˆ(L¦à»º=x/;itIŽhÀ£bæ»8J¶X¬·ýëÇf¹˜9ºûo‹T›A-_y"XÞµó‡£=ûë¡RÖÞ^ó½ø 7à§!½Ž½óš"WïlmwÚey@…TtFe¾–éŽ‚åœ2Yóy|u#t<1²¶Bb»JkAøÇ;hTºwœ®uøIøfiý2³!#à¨Ó¾æ!äd3yš<$hès6Íî·U¥óË)ÚRáF‡3ªŸç»=(–_Jð ÇÆi”kGÜ`M1þ'jM”Þ´ÚX­f¸°¥ÝEbr¬öc|k£Ç =Ùâ¶.ÔÌtÔë2]îýãp¬ð0SZ(AñåHïQJY ‘Rñ'ÌVgÌ;±+ô6x•qñÇÛ
+}Zs‘–èœ2ãí7}°`ó§Å»x4,y9¿¥¤‰UÐµIÌã÷9@p(e,ÛmëŸ!¼c¾hGÃP¸jTëþ*áß‹$µPEëbeÿ92ª;`Óà37D)Œ•xPûìá@‚ZâÅN~¯ÞB{Œ¨Ò—AYïEf_Foßâgž€.iN+ì>œ!<F'÷uÖzZŒØ©Ì¶rÁÅØÂv‰…¤“×$1øû]k¤,ßÑá”~èn×ÃîéÙGè‘B‘zÈ`c¯PíÊ„À˜öSq‡òÆúÛ¸¢s‚ ò³“·šÈŠL=&e»Œ §Û‰Ú~ ÔŽÌd+…³`+¹Æ¹ AÙQ×u—ÂŠ=_{
+Óµ)ãµÝ/ÞïsZ;çûÇÿ­Âð}ÎÈ†s½Rg	èHQLàe€^»j>ëhVI)õÿš×U"B#‹cd‹æ´Ë]¤ ¿4†L°¶hå¥ÇÍšT‘†Ä…––èÒC:b4N´J;;aÀ¾O˜éÅ"Žþ;CÑnrTÏ¼ò©Àýñlè2šõnëkÓ2aÅ±D‚tm&LvxÝÄïtÞ™ì[§eØ¦†ËP­Vö$êg†ÃV7|]BÒ-»í‘HÜKmµ“Ð^Ô.	Ã<EŽ„ž‰Ž£Ù!t\b&ì·²cYÇœ]¬¥çYŠ9"®ÜSÓ{Os‘QKq·Mbšsó*uÊë“ü:DÂ_‚¸&‡¾ôÈ1††êFw09Õ¶O®äB­¾Òv»ä³!Vøs+úµ˜Ísu˜xT—ÿÁ>	±*¥-,í§ñ+à·HwÚ$©S`õûÄikfý(-¶ï8ïÖÚ´¼ÎÑ†É#fbqÇÖí¡%Æ}–,l·ü‰ÜdHRz<]LÑé…oÞ†KBßíÞK!çÞëM<Þ˜ýhŽ©"ùàŠv8Qð%Ø¬KœŠÏ1—}?g¿îí=ë*—! &>{£L©ØRP‹Éªx=–mç0NãÜM¢]«ò—¬‘€í¥z§pœ«#ÿà¶?aUq™Ð;ûÐ"êîw‡Õ`Cs~ß×<ÕÌ‡(8/FuÉ^\Xì› ¿¦`äžõ ©P¢$Ñh;6¾®L\ÒjC‚ð3bÔ[NS,ÒyE	b|S¹cž+¬öAtN½ƒ|ÜÛöÑƒ\âà¯»4¦&ñClÄšLÜ0ßÁÎ+Q6º†;Ó¼e¨MÐØRÏg†]-|}H€íIÊ¥{†€ªoÊl¿@yx8%pÕd+¹ÝÛÙy„Ý²FTi%BÂÜQÉä‚)•¸³Ø5°}`M.2^p`#;a“Ü;‰¥ÅÀ_îŽµ¢Ã'ZÂÅ8¿ô7Y„{Øö©<bVÜÕ‘Ž2¡ÁÔíLùƒÂw»Láƒg8¯4~S‘ÖôFôšæmc†Þ8‘eŠ³oZùL¼î÷RŠgGyóO³—»«êÖòÝê¹º~~Ô}]LÚ8Vþ?º¬›€²–ÑÙ«ÿCùÝ¥;Å¬b¬î¢eFŒm¾eG`âÂëlß˜ÝOT+'ÉeÄ];ŽV–ê¨»ô÷~dM¾’r»4Ë}õÖëÚ#O
+¯×…•‹J¿é¥,‰ß³wËìÖŽ ImñåÇ=ô’Ñ…õøžzcjscêa9½ÕŠÚ9ÿw*hE Òº¯Jé°’óÎg1õ¦Z‡–í¸"©nrp~=5àëíz Î(Z~ò€aúôÕ1Ðg•ÅÂEÍÙ0öÚþìxZ¢›QºNÁ†²ƒéªÅµ$ö?8
+Ó%=À¥ñ¤>²,[€.‡1{<ù¾áÌwä°Ôh!‡Îi:AÆŠ±sdÿ:†L ¢DÂó]ºasª(±]À;¹pZÚÖ}‚ñÖdµÚ—Ü‡¸Û”¯Ê¼˜:ô`9ÈË ›ƒ Xf½ËÙÍ™g@ý ÄC&ÊÂ-ÌÀµÛ ‘QJ-¢S«4QëÒ'üÐáêcõæ2¹ºæ5¸NJYÜüÎæë"ìs•#€ ôéx×‰?‘ÁÆ¦l­W‰8.ìíÜôÐ9<s‹ÅNhqãú£êEøfaBl?ê¹c†1 o]™ýö¤P3†­Í‹í-«¦yg7‹uÛ¾.nÿÕÞYË§wáÛõÇ}‚…äÃ¤šºø!i0šÚö4­TÃ[*=(ZèJX½Ñ+8‘UDŽ!.Å=Œ=ô5´’œ&Nu»o¹¯J¸OxÇHtà© ¹¸ÓµÝ‘P-°=2$§ÐûQ™‰A·ÿžQBÊXø}\Í€iØ$gQ×_RŒÒŸ,Ý\Ï.ã‡õæ­±4Ö¤v›û[X¢Ñ–v‚fYÂ&+õ”W^
+I;<}SQº­hoîŽ¡„Ržv&7çCàaP~½>¤ ìb¡¡éªß]S–X<+4Ûõ“eMëÌ‡®Z´µåûâœƒ¸-è—
+Y‹Nïñ¥Wó*ZèÛÏ@»xï(ÇËŸäžÉqK'E+GØàIž¹®dnÀ²ˆ—sAJOª˜Ä*+ß-uð1®Ú÷¦’E“‘¥Mig&AýCÛ )Àax+¿9þÅ)¸#N&–A‹L_0·°30°‡fÞœ|”VÏ,6rªLÓl	¸zµ¡xÝê8šE(.+ÒÊ±ž©æ'ïÞî&û ~P‘îÔ›mÆÜm.*®?¹?P	2LûP•®ý”s¬nêÉZwˆaóå9ÑÆ¾À
+=›s5¨^×­ª­TÄÿc†)èÍ3¤K>HÿEýùÖ¯GU<ØØpØ˜Õ¡Ü ´z˜fvA<¨_}ê¢ãŸT­›zq´Ïq—.ØM,EI£/vî3¬lSC|°RÙðŒõ‰4‹áÒÁR™WT¸¢WcÄcLóO©Éæ‡² ø{÷ÔŒ†¼ŽŠ »ÝVqØùâ£!ru²™Ä~aú©d­¥„ Ú5ÚÈ“]Ãòre|E%Ø ©È-Í|âx7hYÎÕ+A½Nçµ¿±e*ÍnðoˆJf”ìbÂS9we¥T·3Üµ+ÛVù>äÊ@ìÇ`qÔF	wÛCM:Æ&zšwç!§ÍÐE‰¹„³¾ã¹qX)Pô³WÈøç•A{]/+	?ûÚw’xîn`TPv9B’Žmûä·Wþ2TÌµÙMù–ç½²]~à¡ýDï+êváÌ'(ÚY>«$£	CIªÁ¹Øí0©oa	à„s‰!_ä—†jÔÕ/1âf„Âôã _¢†²èâi¶$ô£p›9#<‹xîI‡OR,[Â`£4¦pŒg¢»‡Û.‹)^»â¿¬‹ÞIž¾p®æ.ißÇ1æí±¶bØ‚¥
+ûËôÅ™ÓÄ	»]ÁìIW
+éî”…who[C½Me›¢s¼§Zzèñv@ŽÐzÔÕFo5¨’ÞÒÃAtàdûtÛßjjx¥ÇÝƒ'ySêÌðDG„&nÁzþ×¢
+1L:¸±­ A§A<ÙìÝÔò\¤1žWãÅ8ÃE¡0õŸ¿À¯“sµÞ-ÚµÞypÅÛu:|¶H¶ÅoõÚ•pc8&b‹ç~­ÃàiKçaMè«Ýe§Š?2ŽÌ
+w[0&¤y×Œâæ 
+§FÐª@p£# <?9¯,FÃTSýŠ†²Ô—$7zæ‘¬P2«ãÞTËf§\æøx¯&D.,L=sv_5~CÅËa’¾µœGàÀ<ÐMÕ4™7¹TÙsk»×¤çx²pì4œ{F;ç›ç„¢	8õÏx)ÇÕÒ³ ð QÉ/×ë&.K•dw“)¡ã&»þpÕâÃK|VMÞOeÎÙ»Ðñï®<„òr§×rr¢ã ¶R6€5Ô¦|ŸØƒ õ ÕS–àh3È‡rù®|ˆ¤í^²H±>/I<@A6P÷Ji†Pl‚Gê
+Yž’Î(…ñà¤ëXú‘(µ<p0@I÷Â–-y°B´‚çÐ´¾÷èËhçDãªn¢žÍAÜß1Uƒj^‹$@…ø[`´|AüŸ­HÀ± ÝìÀxš5ù@“ŽF¸r†åÖ·dÐ$Q¹P.Êê®G†ßmà0
+w@]fÖXJ&-%LG6ý‘±´ýªf‡Úw4bÇ4NÂLH’î¡÷â½/0ÎÓ‡kÓ¢Š³c]ÆKÅ:çå9!Ps3T*
+1Ãú»ú0QÒ ¬é§Üü]^Ì›„‹Y¦Q½V×7£kÖ².æz?>‘6Ûž*ÉÍQú¯C&(À°gºcmñJ×}ˆ+^	€}Äz—0BƒôA˜êÀD6å58dkO‰@³¢n*ówj>I±&{h ‡ÿ²BbÈÜ'lAð£åÄVLyå‹Ì€tp8žã$1DUc™“–…™G»ºIþ‹®VÃÇWiÃx¡¹>HJœ ¯Ýì‹-,Sý9ÊGõô\ó´bçA±iN?‘œ*62³ÏÝ)Ü¼‡gdïTRl‘ÿñêhaË˜''r=¾p(7,@=@j5lèVÍn7ÿM: X0ReÜI°>e&=ü~—’zËJîëëD£þ”cÄn¥p¤”Áj±ÜÅÇXw¾­ÕêÙæ‚S/Ê¸®éˆà_ƒ:‡”žaHŸ,iÚP–ôG8u=DËtÎ´ætd5ÀŽºêÊè<Ýÿ\˜¤uµè@ô_Ÿ³¶AÏðª‚|€Õ^Ç¦Óœ¤6hc;&\x2[9uì!£>âTbÞã¯'åo-ŠôlâYTBTÂÒYK¤æts™EæÝ\ED%qÎ™é*o)üÓïr1ÚøH›65kq°÷ZSÍ1yÎ•×6Åu²¤Ó2X¬È?añ*ªÏ ŸªY}Í…ê Å	AHÊ;b~Š½'b`÷øãqð3°IÍ¢/óDj’‹v`¡†Ý/¤½Õ¸°Õ“ˆÚlÐ÷ÅÉ$?¨Gd‡nDk^\`i³GööÛ.6Y"î/~çù˜aB³@Œ{ ÷»-†‚PÍbÈDP|a”WTÅhL·…9ØNEÙTR˜Ùeè•D¿˜«Ð›OµÚcls•–l‰j–ÃŠ´Ä"÷ZÔž¶!Ýò7/š,,ÄùOG8ÐJ¦~ôví€úùÍ¢kC1É½—íÊØ}Æ÷…%vA!_îæ¾)p²-#âŽÇ¤Ù¯SÀ®eŒåãü”¨º†C'6ÇVRÝOài"Ç²@¯N½Á†zî¸K¦ÂìïªJBì¢;ÊL}µ~KÝ¯ýaØ1òÓ¬ˆÐíÞŠöh¨hÕÙî…¹Æö§…b(´w_SKìG,@þMö_üî‹£ì…³™mñÍYIZ¾_÷y2;¿< Z/—üØZEl¬kíÀêcF2h°Íà„~#p”—Ê’6ó(u+Øïñ»Žör·®ø²¦¯ÄÞ˜U/u(Ð,u}€¶àH®C`2ùVNÛõSTY·â˜ùI›òofŸ`Ê=´pþy.@Ý„¤+Ùk#¾ï«•ÛÃ–|TAË-hœX»D] …É‘‡³ç–ª:ûšõZ–×Ô8«¢V€t\ÊS#ˆãÈÖ±pF.Uc¤Þ:Òñûâ<4§˜l¨ÐâF«QûM8¢f ŸVÜüBðÊvuöèd¸UÍ6“~ßeaîíá“žòçRæ r‚6‹´;Æù²jqÛÖ((ÝÖK1n…G@]É{Tã´[]¸u*Ñ„íQîQ„õ©±½T^QY-4¶1IdflÜ¢ëO²r5AYc‚Ò?tÒªòÉü™Ä°‡®šíÎg×˜®ïÓz¶T@œk{~¡mÜÜwè\÷4Åã.ÙîârÛÛ‚.!çQ}ê™AòµÚ_¸ZŽÄ‰»n”qsw³Àf•ÒÆ'l-ðÕ1‘c·ék¶z-ÞùêÝ4%Î.Ó§Ñ{ï$Ö0óŸ}Ï4­ßÍªÁ`Æ‚VTÝâp\;h?r"BHt±÷å³^}â×ÿîX:žT–FàÕ•’`®ëÖår'*S@÷Óuó©Ç½£´Àú±>~7„'A‚{ÔžEÀîòñEé®9o?‡÷³}ñ/½èc÷{ª†KcêLMŒÅùƒÍÀ‡Øˆi^…*<¶"i$²/0å‘Û,ÉšÄ»/öFÿ†¡#BïïtRMEŠ¶³rêQŽ¹I±\kÇL¹B…¹ˆ‹NõØép«y‡Ñ¨“°9Zåg-GÃ¸ÚgxVLu®E0È7\a‹TCñ"Uå6MÚêó*ÿ°.ÄzQõiÊaÍêžfŠ/Q$…€-ÖinmÌcÀUo…¦µÛ³?¡ì­_vë.ÙåÏqÅ`B"q%Cº[±g.6cÒ¡Õ­Ðp¹Ó8aÄ±åxtäÓQ“A~³Žg«]Lnn8TŠ©ÔEåEŸG›tD¶
+°Ï]/~ü{/c%8è%£H] O‘üú›r°æ)ÓèF~ië^8×lÕ€¤Ív±'Àír¾Ã_ÏS¡¼9’˜N(a]±8èÒ}ÅÖ~Ÿä,ÛÛü{¥ø@¨Ø«î™Çr!1|hi-ðî,vÙð!PS©1ûŸVi'Ñ“îÞãSŒä}ÐWôBcÃ<éÈŽ<GÁñªðœ¥ü(Gý!wÇ³€Ó% ÔŒ‘D›xî:Õ×nùQ}òÑâE­yNod¾îUé&Æâîa¾/¢«õ	±v½¿÷;ºs[5«3·sÈtD,gOÉRŒëïZï]~áðCs:W"ÐN>Ÿ³zo2Ã”ÀL–`<|èƒÈ—UX’ÂK*gžâ(2NÝÂL®ÌµBo¤ûhB)ùPòG,T_¸hÙ6§¨Û¸›dÕ½,Ì ’¤]køì4îš™Ñu­Éã«îtRuÌ‚ýr‡eÆë”¼wµˆð¥;ñRT	U³Ûm¢?¯ß2LP£[Æ¢vÜ~ÞùdH)’¢V(Ô}UöãÀ‘íÁ5ÌP_ªýk¾[ÿúÅ*óW¸‚OmRÜlD"7_ª‰yáï#	Ø:­ÿÊU
+‡›-„æAËSI®?Å1°§|`0QàÆ¹¥Ç&æÖƒIø`êC¤TÄüÀz¹F§AªË÷eýÇÇ÷ûF÷‚†¾YªŒ¥x$_ )&‹`r;È„äî–¶¥ƒËí	êÚçB÷ÀÞ-[1úË›)„$ŽÅ„-ÐaÇþÇ=´QÇg\š€Šçi…L$"×æß/äò`Á?Ü²ÅêüÅ™r¸=ç¾?H	ÔMPåKt:ÌË®ŒñìÓuìú9XÏOÀpvÏWuÝ]ÁmÇILÙî¥|†œ%Ö0.-¤Ô7ëö–æUÎeÜ"¾«ñŠ°‘Kh;øO¹k;ÅVzãX £;1LÂfóì-ø¾^®Îß÷P´< ®•?´ë‰;‡þp(@9itmË§'.5ÜsÕ„‰&¥öì~ŽÃäDòM+„á,\Äñê°vêÔ’0™e+DÌ¥ò»‹½c:Œñµ‹·†MØBÈÐ%ÚÚ6?ÀEqÛ#™œ½TÊ\}¾°^G%_+¿!øYÁd ¾Iá‹qËÐèš¼ÏÙ¥GZ{³"#ÿ]=³Ïõ?Q²L-‡Ç'í_N„	i
+e²H‡\¿>@Ô¼XLñðºÛ6æõúo\Â>µˆûF.}j¶Æ4!cþ ª`(™¾ðâ]¤úûŒRñ®(º"@Ž¼=0”ºôü«ÍÚÉæ5“ªs‚"~h(þ6úD\ÀÌ¢›cê¨üz–ÒL~ß¼”qèc’ÊÏ:Æ'q”åòf¸çº<FžäIn*0è¼N—ž¬¾µ4qâ=ÓU ¤`l±"E¢äxÏ¼øÁK2¼î`}#DEÇWÖyèp&QÔLòŸ-ÎðBIßØ“Ï›Ü‹þXÁÜ•7?ËÒ0ËüÐŒPO´~¸¬Ì¶
+ÉïÍ[nŒ¯,“€Ló|Ò·mŒ™ÕV ¿-Ûü¶ÖytÃíô®VàÂxÊâeóäÀÔŠC#¾Ñkii!YÜ\Ý([cúØ
+1Ä3…´ž†·<`>Å
+jeãÀ!:žÓ¿æêŒý/;õ…›ÇZå¹ûà¼{´ºÈïƒd‘æw7Òp·:u’^Ý3ÝDˆeÑXÃWë¬@D%¤»‚À¼ž¯,£6¸äÁš.û¼[0CÏS¨zHÆÔ„T‰V}©3’s!^µ!4È{@¬EõØË Å}òò¡°+¯œB0ådXnw©ËÌ™ºx) §3@!ÂðuÛ;ø?ûe,DØHsâÑÕáØ°œàQ‹‚¸ÊëàèñB[€”gß;º£nŸ«–ÄîÛƒq¼$ìgª›jCöá ¤†Ø¢™ûŽ…O¸È(ïá2¡rH÷ËÜ“C{DJºØ½ÂCv€;
+9H.2 a¿e@u Ì/©8ÎÂÉƒÿ¥Ù-DãÃ©¾1#Üÿ3kRQ@ÚbK%Þ§seéCtïžÊä{ÙÅëSÓÁ,30…lZDÖ÷&‚_êB‡û»‹\¿aQ*ûïÐ²H4øÑqÅdGi~²Åÿ÷2çìÄ‘íøÑˆ‰ð‰m°ŸÕ-[“ñ,-cõìÉ-ÅÕþ;µ×ŠÉLfð™>ß0µfÂªÇy$5·+«ÓX“Ýdö²¾ßa˜5^HZi>#‡¨N]_O|M˜>"ä=¶Æâ”=Å%9ßúm§sÙ|C]ÛæpÓ
+á< [®àá	¡¦É:»m°¦XÓR¼Z‰x5QË¿>ÁG ¡\ý1<öÎq3"W{ƒYÉîÝ9EØV½‚5·ªôYú³°¿HËãéðü Á
+³ƒ9â¿Á$ýñ?ú¢4o=CU•°bg›C-Eá±^bBÑŒ÷j\†œ¬ÞO,Ê’@:Ù,ÃYSe$±ÌFzŠ´<“‹âÊ;4ÜW¾³‹³¸&Ê‰ô4MÍì+ÄŽx#ªÞñŒ¯-¥ùvM1ã¥zá™°yB‘ä->×ÍòÄ¶£i¦T<_ŠCè†
+™Ï'Øº8ü!…\†ƒW?tqÊé8ÇOP¢{ˆ+ÞÐ%tmh± —4ë cVýëQpW\úúŠl"ì=¯]-Õ”8¨=Š¬+h5­ýS´%b•`¤÷'ô^w§W¾=‡óáÐy¯N¸mQ~;ì|Ä“XÅFs’ÛÈøž$ˆ·³åùà%®oöQË‚ÓŠÝŒCd—>KÝ°UïsSwN%,†}Ž¨ÌÆiø=•²¾éÒÙ&\~š’[mísR½ªÈ›t`¿™£ÿÃQÖ#JvG~ò[´j00í@Acï(¡Tµ‰å™C0ÈDÓ5ø§ÞÙãRLÃa,×nHƒR ‘M«&u÷”ÇJTØÍcq í¯ s0µŠ	®ö°k:aŒ§ûÚ;d4åÀW¢†SÜðc°xREÑÃÈÿš¬ã%u²ø‘ïý™øQMcË/ÉXÀ~êâŸšo<köí8>Ë  Ã«?ð•ó"‹¡w²ÚÏù¯/³÷c=µQ‹$æ»ôÞ \Ð[ã =ËoÛfÏ c	Šå4Ä\Á©ã„Á\•á6fMKÏôªÈOs;h÷Î#<¶sf-Z5âÛ±»Š‚ ažŸBQ•9üÎ²OèÅ'4±¡xÄjÞºÁßkÔŽR·Iç&	J"î½ÓïDk5ÆkUÏµ8x6ži‘¬ý¨cÅ²TEbðç(%åû70£¾Žõe-ç2ëRwÞvÒxÓ°0Ù&EÕþ×g¥v•¤_¥æ'.ÔºÖâY™ˆ*ÞÈÃ’q6WÊ×5GÂ#)+&@/q¿á¡qŠvßx3Ž Gût‰æg¿˜ÏgFÙ%[b	0‰½ìŽBHv07®“N&‚çflåû\*=¬7&~pätÓ«Y~1µs„Yòð oì:ì‘É¼ôÆ†ÓSëâ®ÄMBÍ‡ªi»Ú×$+§Ì¿7»šzñ>dbÔíÏ·AN&à>Ä? õ¨ZDû•Î””Õ2Ã…zéÍ3ÂL‚yx °€Ñ4¹b^ÏC<®u‡67
+Þü°P‡sÃW˜›ZaK¸SXtÏ®sCGŽÅ-Ðaµ	!;‹…D´‹¯¥º®^÷(OPõ_žT?œó¬ƒüæ>.9£FÂÆi€Õ°ŽÄ˜¸ªZ4êúïTß'È@Š}{ Ü”šþ[vöÔûØN~¹âÉírÅ1àÃ²Æ´vÿR0`ç¨XƒJÅ*|^M •XNivÒäó¯¼õ·ºÆpü=i§g‚¦s,í›¤Øä!¥\ –_êþ®XIkˆ(L¦à»º=x/;itIŽhÀ£bæ»8J¶X¬·ýëÇf¹˜9ºûo‹T›A-_y"XÞµó‡£=ûë¡RÖÞ^ó½ø 7à§!½Ž½óš"WïlmwÚey@…TtFe¾–éŽ‚åœ2Yóy|u#t<1²¶Bb»JkAøÇ;hTºwœ®uøIøfiý2³!#à¨Ó¾æ!äd3yš<$hès6Íî·U¥óË)ÚRáF‡3ªŸç»=(–_Jð ÇÆi”kGÜ`M1þ'jM”Þ´ÚX­f¸°¥ÝEbr¬öc|k£Ç =Ùâ¶.ÔÌtÔë2]îýãp¬ð0SZ(AñåHïQJY ‘Rñ'ÌVgÌ;±+ô6x•qñÇÛ
+}Zs‘–èœ2ãí7}°`ó§Å»x4,y9¿¥¤‰UÐµIÌã÷9@p(e,ÛmëŸ!¼c¾hGÃP¸jTëþ*áß‹$µPEëbeÿ92ª;`Óà37D)Œ•xPûìá@‚ZâÅN~¯ÞB{Œ¨Ò—AYïEf_Foßâgž€.iN+ì>œ!<F'÷uÖzZŒØ©Ì¶rÁÅØÂv‰…¤“×$1øû]k¤,ßÑá”~èn×ÃîéÙGè‘B‘zÈ`c¯PíÊ„À˜öSq‡òÆúÛ¸¢s‚ ò³“·šÈŠL=&e»Œ §Û‰Ú~ ÔŽÌd+…³`+¹Æ¹ AÙQ×u—ÂŠ=_{
+Óµ)ãµÝ/ÞïsZ;çûÇÿ­Âð}ÎÈ†s½Rg	èHQLàe€^»j>ëhVI)õÿš×U"B#‹cd‹æ´Ë]¤ ¿4†L°¶hå¥ÇÍšT‘†Ä…––èÒC:b4N´J;;aÀ¾O˜éÅ"Žþ;CÑnrTÏ¼ò©Àýñlè2šõnëkÓ2aÅ±D‚tm&LvxÝÄïtÞ™ì[§eØ¦†ËP­Vö$êg†ÃV7|]BÒ-»í‘HÜKmµ“Ð^Ô.	Ã<EŽ„ž‰Ž£Ù!t\b&ì·²cYÇœ]¬¥çYŠ9"®ÜSÓ{Os‘QKq·Mbšsó*uÊselect * from meal where mealid = 0
+Thu May 25 13:34:30 CST 2017   select * from ticket where tid = ?
+Thu May 25 13:34:30 CST 2017   select * from flight where fid = 00001
+Thu May 25 13:34:30 CST 2017   select * from flight  where pid = '000001' and startPoint =  'ºÏ·Ê' and endPoint = 'ÉÏº£'
+Thu May 25 13:34:30 CST 2017   select * from orderlist where tid = ? and uid = ?
+Thu May 25 13:34:30 CST 2017   select * from plane where pid = 000001
+Thu May 25 13:34:30 CST 2017   select * from plane where pid = 000001
+Thu May 25 13:35:01 CST 2017   select * from ticket where tid = ?
+Thu May 25 13:35:01 CST 2017   select * from flight where fid = 00001
+Thu May 25 13:35:01 CST 2017   select * from flight  where pid = '000001' and startPoint =  'ºÏ·Ê' and endPoint = 'ÉÏº£'
+Thu May 25 13:35:01 CST 2017   select * from orderlist where tid = ? and uid = ?
+Thu May 25 13:35:01 CST 2017   select * from plane where pid = 000001
+Thu May 25 13:35:01 CST 2017   select * from plane where pid = 000001
+Thu May 25 13:35:20 CST 2017   select * from ticket where tid = ?
+Thu May 25 13:35:20 CST 2017   select * from flight where fid = 00001
+Thu May 25 13:35:20 CST 2017   select * from flight  where pid = '000001' and startPoint =  'ºÏ·Ê' and endPoint = 'ÉÏº£'
+Thu May 25 13:35:20 CST 2017   select * from orderlist where tid = ? and uid = ?
+Thu May 25 13:35:20 CST 2017   select * from plane where pid = 000001
+Thu May 25 13:35:20 CST 2017   select * from plane where pid = 000001
+Thu May 25 13:37:11 CST 2017   select * from flight  where 1=1 order by fid
+Thu May 25 13:37:12 CST 2017   select * from ticket where fid = 00001
+Thu May 25 13:37:12 CST 2017   select * from flight where fid = 00001
+Thu May 25 13:37:12 CST 2017   select * from insuranceplane where pid = 000001
+Thu May 25 13:37:12 CST 2017   select * from insurance where inid = 1
+Thu May 25 13:37:12 CST 2017   select * from insurance where inid = 2
+Thu May 25 13:37:12 CST 2017   select * from movieplane where pid = 000001
+Thu May 25 13:37:12 CST 2017   select * from movie where mid = 1
+Thu May 25 13:37:12 CST 2017   select * from movie where mid = 2
+Thu May 25 13:37:12 CST 2017   select * from mealplane where pid = 000001
+Thu May 25 13:37:12 CST 2017   select * from meal where mealid = 1
+Thu May 25 13:37:12 CST 2017   select * from meal where mealid = 2
+Thu May 25 13:37:24 CST 2017   select * from orderlist where uid = ?
+Thu May 25 13:37:24 CST 2017   select * from ticket where tid = ?
+Thu May 25 13:37:24 CST 2017   select * from insurance where inid = 0
+Thu May 25 13:37:24 CST 2017   select * from movie where mid = 0
+Thu May 25 13:37:24 CST 2017   select * from meal where mealid = 0
+Thu May 25 13:37:26 CST 2017   select * from ticket where tid = ?
+Thu May 25 13:37:26 CST 2017   select * from flight where fid = 00001
+Thu May 25 13:37:26 CST 2017   select * from flight  where pid = '000001' and startPoint =  'ºÏ·Ê' and endPoint = 'ÉÏº£'
+Thu May 25 13:37:26 CST 2017   select * from orderlist where tid = ? and uid = ?
+Thu May 25 13:37:26 CST 2017   select * from plane where pid = 000001
+Thu May 25 13:37:26 CST 2017   select * from plane where pid = 000001
+Thu May 25 13:37:31 CST 2017   select * from bankInfo where username = 'lxc'
+Thu May 25 13:37:56 CST 2017   select * from bankInfo where username = 'lxc'
+Thu May 25 13:48:17 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Thu May 25 13:48:19 CST 2017   select * from bankInfo where username = 'lxc'
+Thu May 25 19:56:45 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Thu May 25 19:56:50 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Thu May 25 19:57:20 CST 2017   select * from bankInfo where username = 'lxc'
+Thu May 25 19:59:53 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Thu May 25 19:59:57 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Thu May 25 19:59:59 CST 2017   select * from bankInfo where username = 'lxc'
+Thu May 25 20:01:52 CST 2017   select * from bankInfo where username = 'lxc'
+Thu May 25 20:02:06 CST 2017   update usertbl set sex = ?, email = ?, tel = ?, idnum = ? where username = ?
+Thu May 25 20:02:08 CST 2017   select * from bankInfo where username = 'lxc'
+Thu May 25 20:02:50 CST 2017   select password from usertbl where username = 'lxc'
+Thu May 25 20:02:50 CST 2017   update usertbl set password = 'e8587521f52f5622a456461bf9482dce' where username = 'lxc'
+Thu May 25 20:02:51 CST 2017   select * from bankInfo where username = 'lxc'
+Thu May 25 20:03:05 CST 2017   select password from usertbl where username = 'lxc'
+Thu May 25 20:03:05 CST 2017   update usertbl set password = '3b41cfe52236b18078d237cac3bd4735' where username = 'lxc'
+Thu May 25 20:03:11 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Thu May 25 20:03:13 CST 2017   select * from bankInfo where username = 'lxc'
+Thu May 25 20:03:22 CST 2017   select password from usertbl where username = 'lxc'
+Thu May 25 20:03:22 CST 2017   update usertbl set password = 'e8587521f52f5622a456461bf9482dce' where username = 'lxc'
+Thu May 25 20:03:28 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Thu May 25 20:03:30 CST 2017   select * from orderlist where uid = ?
+Thu May 25 20:03:30 CST 2017   select * from ticket where tid = ?
+Thu May 25 20:03:30 CST 2017   select * from insurance where inid = 0
+Thu May 25 20:03:30 CST 2017   select * from movie where mid = 0
+Thu May 25 20:03:31 CST 2017   select * from meal where mealid = 0
+Thu May 25 20:03:40 CST 2017   select * from bankInfo where username = 'lxc'
+Thu May 25 20:04:12 CST 2017   select * from orderlist where uid = ?
+Thu May 25 20:04:12 CST 2017   select * from ticket where tid = ?
+Thu May 25 20:04:12 CST 2017   select * from insurance where inid = 0
+Thu May 25 20:04:12 CST 2017   select * from movie where mid = 0
+Thu May 25 20:04:12 CST 2017   select * from meal where mealid = 0
+Thu May 25 20:04:15 CST 2017   select * from ticket where tid = ?
+Thu May 25 20:04:15 CST 2017   select * from flight where fid = 00001
+Thu May 25 20:04:15 CST 2017   select * from flight  where pid = '000001' and startPoint =  'ºÏ·Ê' and endPoint = 'ÉÏº£'
+Thu May 25 20:04:15 CST 2017   select * from orderlist where tid = ? and uid = ?
+Thu May 25 20:04:15 CST 2017   select * from plane where pid = 000001
+Thu May 25 20:04:15 CST 2017   select * from plane where pid = 000001
+Thu May 25 20:04:20 CST 2017   select * from ticket where tid = ?
+Thu May 25 20:04:20 CST 2017   select * from orderlist where uid = ?
+Thu May 25 20:04:20 CST 2017   select * from ticket where tid = ?
+Thu May 25 20:04:20 CST 2017   select * from insurance where inid = 0
+Thu May 25 20:04:21 CST 2017   select * from movie where mid = 0
+Thu May 25 20:04:21 CST 2017   select * from meal where mealid = 0
+Thu May 25 20:04:22 CST 2017   select * from orderlist where uid = ?
+Thu May 25 20:04:22 CST 2017   select * from ticket where tid = ?
+Thu May 25 20:04:22 CST 2017   select * from insurance where inid = 0
+Thu May 25 20:04:22 CST 2017   select * from movie where mid = 0
+Thu May 25 20:04:22 CST 2017   select * from meal where mealid = 0
+Thu May 25 20:04:48 CST 2017   select * from flight  where 1=1 order by fid
+Thu May 25 20:04:52 CST 2017   select * from flight  where 1=1 order by fid
+Thu May 25 20:05:00 CST 2017   select * from flight  where 1=1 and startDate > '2017-05-14 00:00:00' and startDate < '2017-05-14 23:59:59' order by fid
+Fri May 26 18:28:38 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Fri May 26 18:28:41 CST 2017   select * from bankInfo where username = 'lxc'
+Fri May 26 18:29:07 CST 2017   select * from bankInfo where username = 'lxc'
+Fri May 26 18:38:55 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Fri May 26 18:39:00 CST 2017   select * from bankInfo where username = 'lxc'
+Fri May 26 18:39:00 CST 2017   select * from bankInfo where username = 'lxc'
+Fri May 26 18:40:02 CST 2017   select * from bankInfo where username = 'lxc'
+Fri May 26 18:40:02 CST 2017   select * from bankInfo where username = 'lxc'
+Fri May 26 18:40:03 CST 2017   select * from bankInfo where username = 'lxc'
+Fri May 26 18:40:03 CST 2017   select * from bankInfo where username = 'lxc'
+Fri May 26 18:41:05 CST 2017   select * from bankInfo where username = 'lxc'
+Fri May 26 18:41:05 CST 2017   select * from bankInfo where username = 'lxc'
+Fri May 26 18:41:43 CST 2017   select * from bankInfo where username = 'lxc'
+Fri May 26 18:41:43 CST 2017   select * from bankInfo where username = 'lxc'
+Fri May 26 18:41:55 CST 2017   select * from bankInfo where username = 'lxc'
+Fri May 26 18:41:55 CST 2017   select * from bankInfo where username = 'lxc'
+Fri May 26 18:43:51 CST 2017   select * from bankInfo where username = 'lxc'
+Fri May 26 18:43:51 CST 2017   select * from bankInfo where username = 'lxc'
+Sat May 27 21:45:57 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Sat May 27 21:45:59 CST 2017   select * from bankInfo where username = 'lxc'
+Sat May 27 21:45:59 CST 2017   select * from bankInfo where username = 'lxc'
+Sat May 27 21:46:14 CST 2017   select * from flight  where 1=1 order by fid
+Sat May 27 21:46:16 CST 2017   select * from ticket where fid = 00001
+Sat May 27 21:46:16 CST 2017   select * from flight where fid = 00001
+Sat May 27 21:46:16 CST 2017   select * from insuranceplane where pid = 000001
+Sat May 27 21:46:16 CST 2017   select * from insurance where inid = 1
+Sat May 27 21:46:16 CST 2017   select * from insurance where inid = 2
+Sat May 27 21:46:16 CST 2017   select * from movieplane where pid = 000001
+Sat May 27 21:46:16 CST 2017   select * from movie where mid = 1
+Sat May 27 21:46:16 CST 2017   select * from movie where mid = 2
+Sat May 27 21:46:16 CST 2017   select * from mealplane where pid = 000001
+Sat May 27 21:46:16 CST 2017   select * from meal where mealid = 1
+Sat May 27 21:46:16 CST 2017   select * from meal where mealid = 2
+Sat May 27 21:46:24 CST 2017   select * from ticket where fid = 00001
+Sat May 27 21:46:24 CST 2017   select * from flight where fid = 00001
+Sat May 27 21:46:24 CST 2017   select * from insuranceplane where pid = 000001
+Sat May 27 21:46:24 CST 2017   select * from insurance where inid = 1
+Sat May 27 21:46:24 CST 2017   select * from insurance where inid = 2
+Sat May 27 21:46:24 CST 2017   select * from movieplane where pid = 000001
+Sat May 27 21:46:24 CST 2017   select * from movie where mid = 1
+Sat May 27 21:46:24 CST 2017   select * from movie where mid = 2
+Sat May 27 21:46:24 CST 2017   select * from mealplane where pid = 000001
+Sat May 27 21:46:24 CST 2017   select * from meal where mealid = 1
+Sat May 27 21:46:24 CST 2017   select * from meal where mealid = 2
+Sat May 27 21:46:29 CST 2017   select * from bankInfo where username = 'lxc'
+Sat May 27 21:46:29 CST 2017   select * from bankInfo where username = 'lxc'
+Sat May 27 21:47:28 CST 2017   select * from flight 
+Sat May 27 21:48:17 CST 2017   select * from ticket where tid = ?
+Sat May 27 21:48:24 CST 2017   select * from flight 
+Sat May 27 21:48:29 CST 2017   select * from flight where fid = 00001
+Mon May 29 22:26:24 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Mon May 29 22:29:09 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Mon May 29 22:29:13 CST 2017   select * from bankInfo where username = 'lxc'
+Mon May 29 22:29:13 CST 2017   select * from bankInfo where username = 'lxc'
+Wed May 31 19:28:32 CST 2017   select * from flight  where 1=1 order by fid
+Wed May 31 19:28:44 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Wed May 31 19:28:50 CST 2017   select * from flight  where 1=1 order by fid
+Wed May 31 19:28:59 CST 2017   select * from ticket where fid = 00001
+Wed May 31 19:28:59 CST 2017   select * from flight where fid = 00001
+Wed May 31 19:28:59 CST 2017   select * from insuranceplane where pid = 000001
+Wed May 31 19:29:00 CST 2017   select * from insurance where inid = 1
+Wed May 31 19:29:00 CST 2017   select * from insurance where inid = 2
+Wed May 31 19:29:00 CST 2017   select * from movieplane where pid = 000001
+Wed May 31 19:29:00 CST 2017   select * from movie where mid = 1
+Wed May 31 19:29:00 CST 2017   select * from movie where mid = 2
+Wed May 31 19:29:00 CST 2017   select * from mealplane where pid = 000001
+Wed May 31 19:29:00 CST 2017   select * from meal where mealid = 1
+Wed May 31 19:29:00 CST 2017   select * from meal where mealid = 2
+Wed May 31 19:29:20 CST 2017   select * from orderlist where uid = ?
+Wed May 31 19:29:20 CST 2017   select * from ticket where tid = ?
+Wed May 31 19:29:20 CST 2017   select * from insurance where inid = 0
+Wed May 31 19:29:20 CST 2017   select * from movie where mid = 0
+Wed May 31 19:29:20 CST 2017   select * from meal where mealid = 0
+Wed May 31 19:29:23 CST 2017   select * from ticket where tid = ?
+Wed May 31 19:29:23 CST 2017   select * from flight where fid = 00001
+Wed May 31 19:29:23 CST 2017   select * from flight  where pid = '000001' and startPoint =  'ºÏ·Ê' and endPoint = 'ÉÏº£'
+Wed May 31 19:29:24 CST 2017   select * from orderlist where tid = ? and uid = ?
+Wed May 31 19:29:24 CST 2017   select * from plane where pid = 000001
+Wed May 31 19:29:24 CST 2017   select * from plane where pid = 000001
+Wed May 31 19:29:33 CST 2017   select * from ticket where tid = ?
+Wed May 31 19:29:33 CST 2017   select * from orderlist where uid = ?
+Wed May 31 19:29:33 CST 2017   select * from ticket where tid = ?
+Wed May 31 19:29:33 CST 2017   select * from insurance where inid = 0
+Wed May 31 19:29:33 CST 2017   select * from movie where mid = 0
+Wed May 31 19:29:33 CST 2017   select * from meal where mealid = 0
+Wed May 31 19:29:38 CST 2017   select * from orderlist where uid = ?
+Wed May 31 19:29:38 CST 2017   select * from ticket where tid = ?
+Wed May 31 19:29:38 CST 2017   select * from insurance where inid = 0
+Wed May 31 19:29:38 CST 2017   select * from movie where mid = 0
+Wed May 31 19:29:38 CST 2017   select * from meal where mealid = 0
+Wed May 31 19:31:07 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Wed May 31 19:31:10 CST 2017   select * from bankInfo where username = 'lxc'
+Wed May 31 19:31:10 CST 2017   select * from bankInfo where username = 'lxc'
+Wed May 31 19:32:47 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Wed May 31 19:33:15 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Wed May 31 19:34:00 CST 2017   select * from flight 
+Wed May 31 19:34:09 CST 2017   select * from flight where fid = 00002
+Wed May 31 19:34:15 CST 2017   select * from flight 
+Wed May 31 19:34:16 CST 2017   select * from flight 
+Wed May 31 19:34:17 CST 2017   select * from flight 
+Wed May 31 19:34:27 CST 2017   select * from flight 
+Wed May 31 19:35:36 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Wed May 31 19:35:43 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Wed May 31 19:35:45 CST 2017   select * from bankInfo where username = 'lxc'
+Wed May 31 19:35:45 CST 2017   select * from bankInfo where username = 'lxc'
+Thu Jun 01 19:33:49 CST 2017   select * from usertbl where username = ?
+Thu Jun 01 19:33:49 CST 2017   insert into usertbl(username,password,sex,email,tel,idnum,point) values(?,?,?,?,?,?,?)
+Thu Jun 01 19:37:01 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Thu Jun 01 19:37:12 CST 2017   select * from bankInfo where username = 'yk'
+Thu Jun 01 19:37:12 CST 2017   select * from bankInfo where username = 'yk'
+Thu Jun 01 20:01:08 CST 2017   select * from flight  where 1=1 order by fid
+Thu Jun 01 20:01:17 CST 2017   select * from ticket where fid = 00001
+Thu Jun 01 20:01:17 CST 2017   select * from flight where fid = 00001
+Thu Jun 01 20:01:18 CST 2017   select * from insuranceplane where pid = 000001
+Thu Jun 01 20:01:18 CST 2017   select * from insurance where inid = 1
+Thu Jun 01 20:01:18 CST 2017   select * from insurance where inid = 2
+Thu Jun 01 20:01:18 CST 2017   select * from movieplane where pid = 000001
+Thu Jun 01 20:01:19 CST 2017   select * from movie where mid = 1
+Thu Jun 01 20:01:19 CST 2017   select * from movie where mid = 2
+Thu Jun 01 20:01:19 CST 2017   select * from mealplane where pid = 000001
+Thu Jun 01 20:01:20 CST 2017   select * from meal where mealid = 1
+Thu Jun 01 20:01:20 CST 2017   select * from meal where mealid = 2
+Thu Jun 01 20:03:00 CST 2017   select * from ticket where fid = 00001
+Thu Jun 01 20:03:00 CST 2017   select * from seat where tid = ?
+Thu Jun 01 20:03:00 CST 2017   update seat set flag = 1 where tid = ? and seatnum = ?
+Thu Jun 01 20:03:01 CST 2017   update Ticket set remainSeat = remainSeat - 1 where tid = ?
+Thu Jun 01 20:03:01 CST 2017   insert into orderlist (uid,tid,seatno,inid,mid,mealid,time) values(?,?,?,?,?,?,?)
+Thu Jun 01 20:03:03 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 20:03:03 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 20:03:03 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 20:03:03 CST 2017   select * from movie where mid = 0
+Thu Jun 01 20:03:03 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 20:03:04 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 20:03:04 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 20:03:04 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 20:03:04 CST 2017   select * from movie where mid = 0
+Thu Jun 01 20:03:04 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 20:05:07 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 20:05:07 CST 2017   select * from flight where fid = 00001
+Thu Jun 01 20:05:07 CST 2017   select * from flight  where pid = '000001' and startPoint =  'ºÏ·Ê' and endPoint = 'ÉÏº£'
+Thu Jun 01 20:05:07 CST 2017   select * from orderlist where tid = ? and uid = ?
+Thu Jun 01 20:05:07 CST 2017   select * from plane where pid = 000001
+Thu Jun 01 20:05:07 CST 2017   select * from plane where pid = 000001
+Thu Jun 01 20:06:49 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 20:06:50 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 20:06:50 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 20:06:50 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 20:06:50 CST 2017   select * from movie where mid = 0
+Thu Jun 01 20:06:51 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 20:06:53 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 20:06:53 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 20:06:53 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 20:06:53 CST 2017   select * from movie where mid = 0
+Thu Jun 01 20:06:53 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 20:17:22 CST 2017   select * from flight  where 1=1 order by fid
+Thu Jun 01 20:33:07 CST 2017   select * from insurance where inid = 1
+Thu Jun 01 20:33:16 CST 2017   select * from insurance where inid = 2
+Thu Jun 01 20:33:22 CST 2017   update insurance set inname = ?, inmoney = ?  where inid = ?
+Thu Jun 01 20:33:25 CST 2017   select * from insurance where inid = 2
+Thu Jun 01 20:33:29 CST 2017   update insurance set inname = ?, inmoney = ?  where inid = ?
+Thu Jun 01 20:44:34 CST 2017   insert into insurance (inname, inmoney) values(?,?)
+Thu Jun 01 20:44:47 CST 2017   delete from insurance where inid = ?
+Thu Jun 01 20:46:24 CST 2017   insert into movie (mname, mmoney, mlong, mhot, mpoint) values(?,?,?,?,?)
+Thu Jun 01 20:47:45 CST 2017   insert into movie (mname, mmoney, mlong, mhot, mpoint) values(?,?,?,?,?)
+Thu Jun 01 20:47:50 CST 2017   select * from movie where mid = 2
+Thu Jun 01 20:47:55 CST 2017   update movie set mname = ?, mmoney = ?, mlong = ?, mhot = ?, mpoint = ?  where mid = ?
+Thu Jun 01 20:48:01 CST 2017   delete from movie where mid = ?
+Thu Jun 01 20:48:12 CST 2017   insert into movie (mname, mmoney, mlong, mhot, mpoint) values(?,?,?,?,?)
+Thu Jun 01 20:50:07 CST 2017   insert into meal (mealname, mealmoney, mealtext, mealhot, mealpoint) values(?,?,?,?,?)
+Thu Jun 01 20:50:11 CST 2017   select * from meal where mealid = 5
+Thu Jun 01 20:50:15 CST 2017   update meal set mealname = ?, mealmoney = ?, mealtext = ?, mealhot = ?, mealpoint = ?  where mealid = ?
+Thu Jun 01 20:52:54 CST 2017   insert into plane (pid, company) values(?,?)
+Thu Jun 01 20:52:55 CST 2017   insert into mealplane values(?,?)
+Thu Jun 01 20:52:55 CST 2017   insert into mealplane values(?,?)
+Thu Jun 01 20:53:08 CST 2017   select * from plane where pid = 000004
+Thu Jun 01 20:53:18 CST 2017   select * from plane where pid = 000004
+Thu Jun 01 20:53:35 CST 2017   delete from plane where pid = ?
+Thu Jun 01 20:53:54 CST 2017   delete from plane where pid = ?
+Thu Jun 01 20:56:15 CST 2017   select * from flight 
+Thu Jun 01 20:56:18 CST 2017   select * from flight where fid = 00004
+Thu Jun 01 20:56:22 CST 2017   select * from flight where fid = 00004
+Thu Jun 01 20:56:33 CST 2017   select * from flight 
+Thu Jun 01 20:56:44 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 20:57:08 CST 2017   select * from plane where pid = 000004
+Thu Jun 01 21:20:32 CST 2017   select * from plane where pid = 000004
+Thu Jun 01 21:20:44 CST 2017   delete from plane where pid = ?
+Thu Jun 01 21:23:50 CST 2017   delete from plane where pid = ?
+Thu Jun 01 21:25:09 CST 2017   delete from plane where pid = ?
+Thu Jun 01 21:26:26 CST 2017   delete from plane where pid = ?
+Thu Jun 01 21:28:16 CST 2017   delete from plane where pid = ?
+Thu Jun 01 21:30:05 CST 2017   delete from plane where pid = ?
+Thu Jun 01 21:32:11 CST 2017   delete from plane where pid = ?
+Thu Jun 01 21:32:51 CST 2017   delete from plane where pid = ?
+Thu Jun 01 21:33:04 CST 2017   insert into plane (pid, company) values(?,?)
+Thu Jun 01 21:33:08 CST 2017   delete from plane where pid = ?
+Thu Jun 01 21:33:14 CST 2017   select * from flight 
+Thu Jun 01 21:33:20 CST 2017   select * from flight 
+Thu Jun 01 21:35:17 CST 2017   insert into flight (fid,startPoint,middlePoint,endPoint,startDate,endDate,STATUS,pid) values(?,?,?,?,?,?,?,?)
+Thu Jun 01 21:35:21 CST 2017   select * from flight 
+Thu Jun 01 21:35:32 CST 2017   select * from flight where fid = 00007
+Thu Jun 01 21:35:40 CST 2017   select * from flight where fid = 00007
+Thu Jun 01 21:35:53 CST 2017   select * from flight 
+Thu Jun 01 21:35:56 CST 2017   delete from flight where fid = ?
+Thu Jun 01 21:35:59 CST 2017   select * from flight 
+Thu Jun 01 21:36:16 CST 2017   select * from flight 
+Thu Jun 01 21:36:46 CST 2017   select * from flight 
+Thu Jun 01 21:37:01 CST 2017   select * from flight 
+Thu Jun 01 21:39:11 CST 2017   select * from flight 
+Thu Jun 01 21:39:52 CST 2017   select * from flight 
+Thu Jun 01 21:40:05 CST 2017   select * from flight 
+Thu Jun 01 21:40:52 CST 2017   select * from flight 
+Thu Jun 01 21:42:04 CST 2017   select * from flight 
+Thu Jun 01 21:42:47 CST 2017   select * from flight 
+Thu Jun 01 21:44:17 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 21:44:19 CST 2017   select * from flight 
+Thu Jun 01 21:45:09 CST 2017   select * from flight 
+Thu Jun 01 21:46:33 CST 2017   select * from flight 
+Thu Jun 01 21:46:55 CST 2017   select * from flight 
+Thu Jun 01 21:49:49 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 21:49:51 CST 2017   select * from flight 
+Thu Jun 01 21:57:12 CST 2017   select * from flight 
+Thu Jun 01 21:57:52 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 21:58:08 CST 2017   select * from flight 
+Thu Jun 01 21:58:52 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 21:59:01 CST 2017   select * from flight 
+Thu Jun 01 21:59:23 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 21:59:44 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 21:59:50 CST 2017   select * from flight 
+Thu Jun 01 22:00:22 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 22:00:26 CST 2017   select * from flight 
+Thu Jun 01 22:00:51 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 22:00:59 CST 2017   select * from flight 
+Thu Jun 01 22:01:27 CST 2017   select * from flight 
+Thu Jun 01 22:01:52 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 22:02:06 CST 2017   select * from flight 
+Thu Jun 01 22:02:29 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 22:02:32 CST 2017   select * from flight 
+Thu Jun 01 22:03:04 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 22:03:15 CST 2017   select * from flight 
+Thu Jun 01 22:03:35 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 22:22:21 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Thu Jun 01 23:21:41 CST 2017   select * from usertbl where username = ?
+Thu Jun 01 23:22:03 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Thu Jun 01 23:23:11 CST 2017   select * from flight  where 1=1 order by fid
+Thu Jun 01 23:24:15 CST 2017   select * from flight  where 1=1 and startPoint = 'ºÏ·Ê' and endPoint = 'ÉÏº£' and startDate > '2017-06-30 00:00:00' and startDate < '2017-06-30 23:59:59' order by startDate
+Thu Jun 01 23:24:24 CST 2017   select * from flight  where 1=1 and startPoint = 'ºÏ·Ê' and endPoint = 'ÉÏº£' and startDate > '2017-06-01 00:00:00' and startDate < '2017-06-01 23:59:59' order by startDate
+Thu Jun 01 23:24:35 CST 2017   select * from flight  where 1=1 and startPoint = 'ºÏ·Ê' and endPoint = 'ÉÏº£' and startDate > '2017-06-13 00:00:00' and startDate < '2017-06-13 23:59:59' order by startDate
+Thu Jun 01 23:24:53 CST 2017   select * from flight  where 1=1 and startPoint = 'ºÏ·Ê' and endPoint = 'ÉÏº£' and startDate > '2017-05-13 00:00:00' and startDate < '2017-05-13 23:59:59' order by startDate
+Thu Jun 01 23:25:00 CST 2017   select * from ticket where fid = 00001
+Thu Jun 01 23:25:00 CST 2017   select * from flight where fid = 00001
+Thu Jun 01 23:25:00 CST 2017   select * from insuranceplane where pid = 000001
+Thu Jun 01 23:25:00 CST 2017   select * from insurance where inid = 1
+Thu Jun 01 23:25:00 CST 2017   select * from insurance where inid = 2
+Thu Jun 01 23:25:00 CST 2017   select * from movieplane where pid = 000001
+Thu Jun 01 23:25:00 CST 2017   select * from movie where mid = 1
+Thu Jun 01 23:25:00 CST 2017   select * from movie where mid = 2
+Thu Jun 01 23:25:00 CST 2017   select * from mealplane where pid = 000001
+Thu Jun 01 23:25:00 CST 2017   select * from meal where mealid = 1
+Thu Jun 01 23:25:00 CST 2017   select * from meal where mealid = 2
+Thu Jun 01 23:25:44 CST 2017   select * from ticket where fid = 00001
+Thu Jun 01 23:25:44 CST 2017   select * from seat where tid = ?
+Thu Jun 01 23:25:44 CST 2017   update seat set flag = 1 where tid = ? and seatnum = ?
+Thu Jun 01 23:25:44 CST 2017   update Ticket set remainSeat = remainSeat - 1 where tid = ?
+Thu Jun 01 23:25:45 CST 2017   insert into orderlist (uid,tid,seatno,inid,mid,mealid,time) values(?,?,?,?,?,?,?)
+Thu Jun 01 23:25:45 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:25:45 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:25:45 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:25:45 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:25:45 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 23:25:47 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:25:47 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:25:47 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:25:47 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:25:47 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 23:25:51 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:25:51 CST 2017   select * from flight where fid = 00001
+Thu Jun 01 23:25:51 CST 2017   select * from flight  where pid = '000001' and startPoint =  'ºÏ·Ê' and endPoint = 'ÉÏº£'
+Thu Jun 01 23:25:51 CST 2017   select * from orderlist where tid = ? and uid = ?
+Thu Jun 01 23:25:51 CST 2017   select * from plane where pid = 000001
+Thu Jun 01 23:25:51 CST 2017   select * from plane where pid = 000001
+Thu Jun 01 23:25:56 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:25:56 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:25:56 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:25:56 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:25:56 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:25:56 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 23:25:58 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:25:58 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:25:58 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:25:58 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:25:58 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 23:26:00 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:26:00 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:26:00 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:26:00 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:26:00 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:26:00 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 23:26:02 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:26:02 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:26:02 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:26:02 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:26:02 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 23:26:18 CST 2017   select * from bankInfo where username = 'yk'
+Thu Jun 01 23:26:18 CST 2017   select * from bankInfo where username = 'yk'
+Thu Jun 01 23:26:45 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:26:45 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:26:45 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:26:45 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:26:45 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 23:26:49 CST 2017   select * from bankInfo where username = 'yk'
+Thu Jun 01 23:26:49 CST 2017   select * from bankInfo where username = 'yk'
+Thu Jun 01 23:26:59 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:27:00 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:27:00 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:27:00 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:27:00 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 23:27:35 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:27:35 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:27:35 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:27:35 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:27:35 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 23:29:25 CST 2017   select * from flight 
+Thu Jun 01 23:29:32 CST 2017   select * from flight 
+Thu Jun 01 23:30:00 CST 2017   select * from meal where mealid = 2
+Thu Jun 01 23:30:31 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Thu Jun 01 23:31:00 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Thu Jun 01 23:31:06 CST 2017   select * from bankInfo where username = 'yk'
+Thu Jun 01 23:31:06 CST 2017   select * from bankInfo where username = 'yk'
+Thu Jun 01 23:31:37 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:31:37 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:31:37 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:31:37 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:31:37 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 23:32:07 CST 2017   select * from flight  where 1=1 and startPoint = 'ºÏ·Ê' and endPoint = 'ÉÏº£' and startDate > '2017-05-13 00:00:00' and startDate < '2017-05-13 23:59:59' order by fid
+Thu Jun 01 23:32:21 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Thu Jun 01 23:32:46 CST 2017   select * from flight  where 1=1 and startDate > '2017-05-13 00:00:00' and startDate < '2017-05-13 23:59:59' order by startDate
+Thu Jun 01 23:32:52 CST 2017   select * from flight  where 1=1 and startDate > '2017-06-03 00:00:00' and startDate < '2017-06-03 23:59:59' order by endDate
+Thu Jun 01 23:32:56 CST 2017   select * from flight  where 1=1 and startDate > '2017-06-13 00:00:00' and startDate < '2017-06-13 23:59:59' order by fid
+Thu Jun 01 23:33:08 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:33:08 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:33:08 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:33:08 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:33:08 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 23:33:13 CST 2017   select * from bankInfo where username = 'yk'
+Thu Jun 01 23:33:13 CST 2017   select * from bankInfo where username = 'yk'
+Thu Jun 01 23:33:16 CST 2017   select * from bankInfo where username = 'yk'
+Thu Jun 01 23:33:16 CST 2017   select * from bankInfo where username = 'yk'
+Thu Jun 01 23:33:32 CST 2017   select * from flight  where 1=1 order by fid
+Thu Jun 01 23:33:43 CST 2017   select * from flight  where 1=1 order by startDate
+Thu Jun 01 23:33:50 CST 2017   select * from ticket where fid = 00002
+Thu Jun 01 23:33:50 CST 2017   select * from flight where fid = 00002
+Thu Jun 01 23:33:50 CST 2017   select * from insuranceplane where pid = 000001
+Thu Jun 01 23:33:50 CST 2017   select * from insurance where inid = 1
+Thu Jun 01 23:33:50 CST 2017   select * from insurance where inid = 2
+Thu Jun 01 23:33:50 CST 2017   select * from movieplane where pid = 000001
+Thu Jun 01 23:33:50 CST 2017   select * from movie where mid = 1
+Thu Jun 01 23:33:50 CST 2017   select * from movie where mid = 2
+Thu Jun 01 23:33:50 CST 2017   select * from mealplane where pid = 000001
+Thu Jun 01 23:33:50 CST 2017   select * from meal where mealid = 1
+Thu Jun 01 23:33:50 CST 2017   select * from meal where mealid = 2
+Thu Jun 01 23:41:26 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:41:26 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:41:26 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:41:26 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:41:26 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 23:41:32 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:41:32 CST 2017   select * from flight where fid = 00001
+Thu Jun 01 23:41:32 CST 2017   select * from flight  where pid = '000001' and startPoint =  'ºÏ·Ê' and endPoint = 'ÉÏº£'
+Thu Jun 01 23:41:32 CST 2017   select * from orderlist where tid = ? and uid = ?
+Thu Jun 01 23:41:32 CST 2017   select * from plane where pid = 000001
+Thu Jun 01 23:41:32 CST 2017   select * from plane where pid = 000001
+Thu Jun 01 23:41:39 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:41:39 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:41:39 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:41:39 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:41:39 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:41:39 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 23:41:41 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:41:41 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:41:41 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:41:41 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:41:41 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 23:41:47 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:41:47 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:41:47 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:41:47 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:41:47 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 23:41:52 CST 2017   select * from flight  where 1=1 order by fid
+Thu Jun 01 23:41:55 CST 2017   select * from ticket where fid = 00006
+Thu Jun 01 23:41:55 CST 2017   select * from flight where fid = 00006
+Thu Jun 01 23:41:55 CST 2017   select * from insuranceplane where pid = 000001
+Thu Jun 01 23:41:55 CST 2017   select * from insurance where inid = 1
+Thu Jun 01 23:41:55 CST 2017   select * from insurance where inid = 2
+Thu Jun 01 23:41:55 CST 2017   select * from movieplane where pid = 000001
+Thu Jun 01 23:41:55 CST 2017   select * from movie where mid = 1
+Thu Jun 01 23:41:55 CST 2017   select * from movie where mid = 2
+Thu Jun 01 23:41:55 CST 2017   select * from mealplane where pid = 000001
+Thu Jun 01 23:41:55 CST 2017   select * from meal where mealid = 1
+Thu Jun 01 23:41:55 CST 2017   select * from meal where mealid = 2
+Thu Jun 01 23:42:01 CST 2017   select * from ticket where fid = 00006
+Thu Jun 01 23:42:01 CST 2017   select * from seat where tid = ?
+Thu Jun 01 23:42:01 CST 2017   update seat set flag = 1 where tid = ? and seatnum = ?
+Thu Jun 01 23:42:01 CST 2017   update Ticket set remainSeat = remainSeat - 1 where tid = ?
+Thu Jun 01 23:42:01 CST 2017   insert into orderlist (uid,tid,seatno,inid,mid,mealid,time) values(?,?,?,?,?,?,?)
+Thu Jun 01 23:42:01 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:42:01 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:42:01 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:42:01 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:42:02 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 23:42:02 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:42:02 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:42:02 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:42:02 CST 2017   select * from meal where mealid = 1
+Thu Jun 01 23:42:03 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:42:03 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:42:03 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:42:03 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:42:03 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 23:42:03 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:42:03 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:42:03 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:42:03 CST 2017   select * from meal where mealid = 1
+Thu Jun 01 23:42:14 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:42:14 CST 2017   select * from flight where fid = 00006
+Thu Jun 01 23:42:14 CST 2017   select * from flight  where pid = '000001' and startPoint =  'ºÏ·Ê' and endPoint = 'ÉÏº£'
+Thu Jun 01 23:42:14 CST 2017   select * from orderlist where tid = ? and uid = ?
+Thu Jun 01 23:42:14 CST 2017   select * from plane where pid = 000001
+Thu Jun 01 23:42:14 CST 2017   select * from plane where pid = 000001
+Thu Jun 01 23:42:20 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:42:20 CST 2017   select * from flight where fid = 00001
+Thu Jun 01 23:42:20 CST 2017   select * from flight  where pid = '000001' and startPoint =  'ºÏ·Ê' and endPoint = 'ÉÏº£'
+Thu Jun 01 23:42:20 CST 2017   select * from orderlist where tid = ? and uid = ?
+Thu Jun 01 23:42:20 CST 2017   select * from plane where pid = 000001
+Thu Jun 01 23:42:20 CST 2017   select * from plane where pid = 000001
+Thu Jun 01 23:42:35 CST 2017   select * from ticket where fid = 00004
+Thu Jun 01 23:42:35 CST 2017   select * from flight where fid = 00004
+Thu Jun 01 23:42:35 CST 2017   select * from insuranceplane where pid = 000003
+Thu Jun 01 23:42:35 CST 2017   select * from movieplane where pid = 000003
+Thu Jun 01 23:42:35 CST 2017   select * from mealplane where pid = 000003
+Thu Jun 01 23:42:42 CST 2017   select * from ticket where fid = 00003
+Thu Jun 01 23:42:42 CST 2017   select * from flight where fid = 00003
+Thu Jun 01 23:42:42 CST 2017   select * from insuranceplane where pid = 000002
+Thu Jun 01 23:42:42 CST 2017   select * from movieplane where pid = 000002
+Thu Jun 01 23:42:42 CST 2017   select * from mealplane where pid = 000002
+Thu Jun 01 23:42:47 CST 2017   select * from ticket where fid = 00002
+Thu Jun 01 23:42:47 CST 2017   select * from flight where fid = 00002
+Thu Jun 01 23:42:47 CST 2017   select * from insuranceplane where pid = 000001
+Thu Jun 01 23:42:47 CST 2017   select * from insurance where inid = 1
+Thu Jun 01 23:42:47 CST 2017   select * from insurance where inid = 2
+Thu Jun 01 23:42:48 CST 2017   select * from movieplane where pid = 000001
+Thu Jun 01 23:42:48 CST 2017   select * from movie where mid = 1
+Thu Jun 01 23:42:48 CST 2017   select * from movie where mid = 2
+Thu Jun 01 23:42:48 CST 2017   select * from mealplane where pid = 000001
+Thu Jun 01 23:42:48 CST 2017   select * from meal where mealid = 1
+Thu Jun 01 23:42:48 CST 2017   select * from meal where mealid = 2
+Thu Jun 01 23:42:54 CST 2017   select * from ticket where fid = 00002
+Thu Jun 01 23:42:54 CST 2017   select * from seat where tid = ?
+Thu Jun 01 23:42:54 CST 2017   update seat set flag = 1 where tid = ? and seatnum = ?
+Thu Jun 01 23:42:54 CST 2017   update Ticket set remainSeat = remainSeat - 1 where tid = ?
+Thu Jun 01 23:42:54 CST 2017   insert into orderlist (uid,tid,seatno,inid,mid,mealid,time) values(?,?,?,?,?,?,?)
+Thu Jun 01 23:42:55 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:42:55 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:42:55 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:42:55 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:42:55 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 23:42:55 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:42:55 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:42:55 CST 2017   select * from movie where mid = 1
+Thu Jun 01 23:42:55 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 23:42:55 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:42:55 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:42:55 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:42:55 CST 2017   select * from meal where mealid = 1
+Thu Jun 01 23:42:56 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:42:56 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:42:56 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:42:56 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:42:56 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 23:42:56 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:42:56 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:42:56 CST 2017   select * from movie where mid = 1
+Thu Jun 01 23:42:56 CST 2017   select * from meal where mealid = 0
+Thu Jun 01 23:42:56 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:42:56 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:42:56 CST 2017   select * from movie where mid = 0
+Thu Jun 01 23:42:56 CST 2017   select * from meal where mealid = 1
+Thu Jun 01 23:42:58 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:42:58 CST 2017   select * from flight where fid = 00006
+Thu Jun 01 23:42:58 CST 2017   select * from flight  where pid = '000001' and startPoint =  'ºÏ·Ê' and endPoint = 'ÉÏº£'
+Thu Jun 01 23:42:58 CST 2017   select * from orderlist where tid = ? and uid = ?
+Thu Jun 01 23:42:58 CST 2017   select * from plane where pid = 000001
+Thu Jun 01 23:42:58 CST 2017   select * from plane where pid = 000001
+Thu Jun 01 23:43:02 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:43:02 CST 2017   select * from flight where fid = 00001
+Thu Jun 01 23:43:02 CST 2017   select * from flight  where pid = '000001' and startPoint =  'ºÏ·Ê' and endPoint = 'ÉÏº£'
+Thu Jun 01 23:43:02 CST 2017   select * from orderlist where tid = ? and uid = ?
+Thu Jun 01 23:43:02 CST 2017   select * from plane where pid = 000001
+Thu Jun 01 23:43:02 CST 2017   select * from plane where pid = 000001
+Thu Jun 01 23:43:05 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:43:05 CST 2017   select * from flight where fid = 00002
+Thu Jun 01 23:43:05 CST 2017   select * from flight  where pid = '000001' and startPoint =  '´óÁ¬' and endPoint = '¹ãÖÝ'
+Thu Jun 01 23:43:05 CST 2017   select * from orderlist where tid = ? and uid = ?
+Thu Jun 01 23:43:05 CST 2017   select * from plane where pid = 000001
+Thu Jun 01 23:43:09 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:43:09 CST 2017   delete from orderlist where tid = 00004 and uid = 11
+Thu Jun 01 23:43:10 CST 2017   update Ticket set remainSeat = remainSeat + 1 where tid = ?
+Thu Jun 01 23:43:10 CST 2017   update seat set flag = 0 where tid = ? and seatnum = ?
+Thu Jun 01 23:43:10 CST 2017   select * from ticket where fid = 00002
+Thu Jun 01 23:43:10 CST 2017   select * from seat where tid = ?
+Thu Jun 01 23:43:10 CST 2017   update seat set flag = 1 where tid = ? and seatnum = ?
+Thu Jun 01 23:43:10 CST 2017   update Ticket set remainSeat = remainSeat - 1 where tid = ?
+Thu Jun 01 23:43:10 CST 2017   insert into orderlist (uid,tid,seatno,inid,mid,mealid,time) values(?,?,?,?,?,?,?)
+Thu Jun 01 23:43:10 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:43:10 CST 2017   select * from ticket where tid = ?
+Thu Jun 01 23:43:10 CST 2017   select * from insurance where inid = 0
+Thu Jun 01 23:43:12 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:43:18 CST 2017   select * from orderlist where uid = ?
+Thu Jun 01 23:43:20 CST 2017   select * from orderlist where uid = ?
+Fri Jun 02 00:10:12 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Fri Jun 02 00:10:15 CST 2017   select * from orderlist where uid = ?
+Fri Jun 02 00:10:15 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 00:10:16 CST 2017   select * from insurance where inid = 0
+Fri Jun 02 00:10:16 CST 2017   select * from movie where mid = 0
+Fri Jun 02 00:10:16 CST 2017   select * from meal where mealid = 0
+Fri Jun 02 00:10:16 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 00:10:16 CST 2017   select * from insurance where inid = 0
+Fri Jun 02 00:10:16 CST 2017   select * from movie where mid = 1
+Fri Jun 02 00:10:16 CST 2017   select * from meal where mealid = 0
+Fri Jun 02 00:10:16 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 00:10:16 CST 2017   select * from insurance where inid = 0
+Fri Jun 02 00:10:16 CST 2017   select * from movie where mid = 0
+Fri Jun 02 00:10:16 CST 2017   select * from meal where mealid = 1
+Fri Jun 02 00:10:29 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 00:10:29 CST 2017   delete from orderlist where tid = 00013 and uid = 11
+Fri Jun 02 00:10:29 CST 2017   update Ticket set remainSeat = remainSeat + 1 where tid = ?
+Fri Jun 02 00:10:29 CST 2017   update seat set flag = 0 where tid = ? and seatnum = ?
+Fri Jun 02 00:10:29 CST 2017   select * from orderlist where uid = ?
+Fri Jun 02 00:10:29 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 00:10:29 CST 2017   select * from insurance where inid = 0
+Fri Jun 02 00:10:29 CST 2017   select * from movie where mid = 0
+Fri Jun 02 00:10:29 CST 2017   select * from meal where mealid = 0
+Fri Jun 02 00:10:30 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 00:10:30 CST 2017   select * from insurance where inid = 0
+Fri Jun 02 00:10:30 CST 2017   select * from movie where mid = 1
+Fri Jun 02 00:10:30 CST 2017   select * from meal where mealid = 0
+Fri Jun 02 00:10:31 CST 2017   select * from orderlist where uid = ?
+Fri Jun 02 00:10:31 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 00:10:31 CST 2017   select * from insurance where inid = 0
+Fri Jun 02 00:10:31 CST 2017   select * from movie where mid = 0
+Fri Jun 02 00:10:31 CST 2017   select * from meal where mealid = 0
+Fri Jun 02 00:10:31 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 00:10:31 CST 2017   select * from insurance where inid = 0
+Fri Jun 02 00:10:31 CST 2017   select * from movie where mid = 1
+Fri Jun 02 00:10:31 CST 2017   select * from meal where mealid = 0
+Fri Jun 02 00:10:35 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 00:10:35 CST 2017   select * from flight where fid = 00002
+Fri Jun 02 00:10:35 CST 2017   select * from flight  where pid = '000001' and startPoint =  '´óÁ¬' and endPoint = '¹ãÖÝ'
+Fri Jun 02 00:10:35 CST 2017   select * from orderlist where tid = ? and uid = ?
+Fri Jun 02 00:10:35 CST 2017   select * from plane where pid = 000001
+Fri Jun 02 00:10:40 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 00:10:40 CST 2017   delete from orderlist where tid = 00005 and uid = 11
+Fri Jun 02 00:10:40 CST 2017   update Ticket set remainSeat = remainSeat + 1 where tid = ?
+Fri Jun 02 00:10:40 CST 2017   update seat set flag = 0 where tid = ? and seatnum = ?
+Fri Jun 02 00:10:40 CST 2017   select * from ticket where fid = 00002
+Fri Jun 02 00:10:40 CST 2017   select * from seat where tid = ?
+Fri Jun 02 00:10:40 CST 2017   update seat set flag = 1 where tid = ? and seatnum = ?
+Fri Jun 02 00:10:41 CST 2017   update Ticket set remainSeat = remainSeat - 1 where tid = ?
+Fri Jun 02 00:10:41 CST 2017   insert into orderlist (uid,tid,seatno,inid,mid,mealid,time) values(?,?,?,?,?,?,?)
+Fri Jun 02 00:10:41 CST 2017   select * from orderlist where uid = ?
+Fri Jun 02 00:10:41 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 00:10:41 CST 2017   select * from insurance where inid = 0
+Fri Jun 02 00:10:41 CST 2017   select * from movie where mid = 0
+Fri Jun 02 00:10:41 CST 2017   select * from meal where mealid = 0
+Fri Jun 02 00:10:41 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 00:10:41 CST 2017   select * from insurance where inid = 0
+Fri Jun 02 00:10:41 CST 2017   select * from movie where mid = 1
+Fri Jun 02 00:10:41 CST 2017   select * from meal where mealid = 0
+Fri Jun 02 00:10:42 CST 2017   select * from orderlist where uid = ?
+Fri Jun 02 00:10:42 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 00:10:42 CST 2017   select * from insurance where inid = 0
+Fri Jun 02 00:10:42 CST 2017   select * from movie where mid = 0
+Fri Jun 02 00:10:42 CST 2017   select * from meal where mealid = 0
+Fri Jun 02 00:10:42 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 00:10:42 CST 2017   select * from insurance where inid = 0
+Fri Jun 02 00:10:42 CST 2017   select * from movie where mid = 1
+Fri Jun 02 00:10:42 CST 2017   select * from meal where mealid = 0
+Fri Jun 02 00:10:46 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 00:10:46 CST 2017   select * from flight where fid = 00001
+Fri Jun 02 00:10:46 CST 2017   select * from flight  where pid = '000001' and startPoint =  'ºÏ·Ê' and endPoint = 'ÉÏº£'
+Fri Jun 02 00:10:46 CST 2017   select * from orderlist where tid = ? and uid = ?
+Fri Jun 02 00:10:46 CST 2017   select * from plane where pid = 000001
+Fri Jun 02 00:10:46 CST 2017   select * from plane where pid = 000001
+Fri Jun 02 00:10:54 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 00:10:54 CST 2017   select * from orderlist where uid = ?
+Fri Jun 02 00:10:54 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 00:10:54 CST 2017   select * from insurance where inid = 0
+Fri Jun 02 00:10:55 CST 2017   select * from movie where mid = 0
+Fri Jun 02 00:10:55 CST 2017   select * from meal where mealid = 0
+Fri Jun 02 00:10:55 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 00:10:55 CST 2017   select * from insurance where inid = 0
+Fri Jun 02 00:10:55 CST 2017   select * from movie where mid = 1
+Fri Jun 02 00:10:55 CST 2017   select * from meal where mealid = 0
+Fri Jun 02 00:10:56 CST 2017   select * from orderlist where uid = ?
+Fri Jun 02 00:10:56 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 00:10:56 CST 2017   select * from insurance where inid = 0
+Fri Jun 02 00:10:56 CST 2017   select * from movie where mid = 0
+Fri Jun 02 00:10:56 CST 2017   select * from meal where mealid = 0
+Fri Jun 02 00:10:56 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 00:10:56 CST 2017   select * from insurance where inid = 0
+Fri Jun 02 00:10:56 CST 2017   select * from movie where mid = 1
+Fri Jun 02 00:10:56 CST 2017   select * from meal where mealid = 0
+Fri Jun 02 09:37:59 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Fri Jun 02 09:38:09 CST 2017   select * from flight  where 1=1 order by fid
+Fri Jun 02 09:38:20 CST 2017   select * from bankInfo where username = 'lxc'
+Fri Jun 02 09:38:20 CST 2017   select * from bankInfo where username = 'lxc'
+Fri Jun 02 09:38:34 CST 2017   select * from orderlist where uid = ?
+Fri Jun 02 09:38:34 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 09:38:34 CST 2017   select * from insurance where inid = 0
+Fri Jun 02 09:38:34 CST 2017   select * from movie where mid = 0
+Fri Jun 02 09:38:34 CST 2017   select * from meal where mealid = 0
+Fri Jun 02 10:19:06 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Fri Jun 02 10:19:08 CST 2017   select * from bankInfo where username = 'lxc'
+Fri Jun 02 10:19:08 CST 2017   select * from bankInfo where username = 'lxc'
+Fri Jun 02 10:24:05 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Fri Jun 02 10:24:10 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Fri Jun 02 10:24:36 CST 2017   select * from flight 
+Fri Jun 02 10:26:03 CST 2017   insert into flight (fid,startPoint,middlePoint,endPoint,startDate,endDate,STATUS,pid) values(?,?,?,?,?,?,?,?)
+Fri Jun 02 10:26:05 CST 2017   select * from flight 
+Fri Jun 02 10:26:18 CST 2017   select * from flight 
+Fri Jun 02 10:26:24 CST 2017   select * from flight 
+Fri Jun 02 10:26:34 CST 2017   select * from flight 
+Fri Jun 02 10:27:45 CST 2017   select * from flight 
+Fri Jun 02 10:28:37 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 10:28:45 CST 2017   select * from flight 
+Fri Jun 02 11:36:17 CST 2017   select * from flight 
+Fri Jun 02 11:36:36 CST 2017   select * from flight 
+Fri Jun 02 11:37:41 CST 2017   select * from flight 
+Fri Jun 02 11:38:36 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 11:46:36 CST 2017   insert into insurance (inname, inmoney) values(?,?)
+Fri Jun 02 11:46:44 CST 2017   delete from insurance where inid = ?
+Fri Jun 02 11:47:50 CST 2017   insert into insurance (inname, inmoney) values(?,?)
+Fri Jun 02 11:48:09 CST 2017   delete from insurance where inid = ?
+Fri Jun 02 11:48:14 CST 2017   select * from insurance where inid = 2
+Fri Jun 02 11:48:17 CST 2017   update insurance set inname = ?, inmoney = ?  where inid = ?
+Fri Jun 02 12:08:01 CST 2017   select * from flight  where 1=1 order by fid
+Fri Jun 02 12:09:01 CST 2017   select * from usertbl where username = ?
+Fri Jun 02 12:09:01 CST 2017   insert into usertbl(username,password,sex,email,tel,idnum,point) values(?,?,?,?,?,?,?)
+Fri Jun 02 12:09:27 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Fri Jun 02 12:09:35 CST 2017   select * from bankInfo where username = 'lxc'
+Fri Jun 02 12:09:35 CST 2017   select * from bankInfo where username = 'lxc'
+Fri Jun 02 12:10:11 CST 2017   select * from flight  where 1=1 order by fid
+Fri Jun 02 12:10:23 CST 2017   select * from flight  where 1=1 and startPoint = 'ºÏ·Ê' order by fid
+Fri Jun 02 12:10:29 CST 2017   select * from flight  where 1=1 and endPoint = 'ÉÏº£' order by fid
+Fri Jun 02 12:10:35 CST 2017   select * from flight  where 1=1 order by fid
+Fri Jun 02 12:10:54 CST 2017   select * from flight  where 1=1 and startDate > '2017-06-10 00:00:00' and startDate < '2017-06-10 23:59:59' order by fid
+Fri Jun 02 12:11:03 CST 2017   select * from flight  where 1=1 order by fid
+Fri Jun 02 12:11:12 CST 2017   select * from flight  where 1=1 order by startDate
+Fri Jun 02 12:11:15 CST 2017   select * from flight  where 1=1 order by endDate
+Fri Jun 02 12:11:25 CST 2017   select * from ticket where fid = 00002
+Fri Jun 02 12:11:25 CST 2017   select * from flight where fid = 00002
+Fri Jun 02 12:11:25 CST 2017   select * from insuranceplane where pid = 000001
+Fri Jun 02 12:11:25 CST 2017   select * from insurance where inid = 1
+Fri Jun 02 12:11:25 CST 2017   select * from insurance where inid = 2
+Fri Jun 02 12:11:25 CST 2017   select * from movieplane where pid = 000001
+Fri Jun 02 12:11:25 CST 2017   select * from movie where mid = 1
+Fri Jun 02 12:11:25 CST 2017   select * from movie where mid = 2
+Fri Jun 02 12:11:25 CST 2017   select * from mealplane where pid = 000001
+Fri Jun 02 12:11:25 CST 2017   select * from meal where mealid = 1
+Fri Jun 02 12:11:25 CST 2017   select * from meal where mealid = 2
+Fri Jun 02 12:11:52 CST 2017   select * from ticket where fid = 00002
+Fri Jun 02 12:11:52 CST 2017   select * from seat where tid = ?
+Fri Jun 02 12:11:52 CST 2017   update seat set flag = 1 where tid = ? and seatnum = ?
+Fri Jun 02 12:11:52 CST 2017   update Ticket set remainSeat = remainSeat - 1 where tid = ?
+Fri Jun 02 12:11:52 CST 2017   insert into orderlist (uid,tid,seatno,inid,mid,mealid,time) values(?,?,?,?,?,?,?)
+Fri Jun 02 12:11:52 CST 2017   select * from orderlist where uid = ?
+Fri Jun 02 12:11:52 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 12:11:52 CST 2017   select * from insurance where inid = 0
+Fri Jun 02 12:11:52 CST 2017   select * from movie where mid = 1
+Fri Jun 02 12:11:52 CST 2017   select * from meal where mealid = 1
+Fri Jun 02 12:11:54 CST 2017   select * from orderlist where uid = ?
+Fri Jun 02 12:11:54 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 12:11:54 CST 2017   select * from insurance where inid = 0
+Fri Jun 02 12:11:54 CST 2017   select * from movie where mid = 1
+Fri Jun 02 12:11:54 CST 2017   select * from meal where mealid = 1
+Fri Jun 02 12:12:17 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 12:12:17 CST 2017   select * from flight where fid = 00002
+Fri Jun 02 12:12:17 CST 2017   select * from flight  where pid = '000001' and startPoint =  '´óÁ¬' and endPoint = '¹ãÖÝ'
+Fri Jun 02 12:12:17 CST 2017   select * from orderlist where tid = ? and uid = ?
+Fri Jun 02 12:12:17 CST 2017   select * from plane where pid = 000001
+Fri Jun 02 12:12:40 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 12:12:40 CST 2017   delete from orderlist where tid = 00005 and uid = 12
+Fri Jun 02 12:12:40 CST 2017   update Ticket set remainSeat = remainSeat + 1 where tid = ?
+Fri Jun 02 12:12:40 CST 2017   update seat set flag = 0 where tid = ? and seatnum = ?
+Fri Jun 02 12:12:40 CST 2017   select * from ticket where fid = 00002
+Fri Jun 02 12:12:40 CST 2017   select * from seat where tid = ?
+Fri Jun 02 12:12:40 CST 2017   update seat set flag = 1 where tid = ? and seatnum = ?
+Fri Jun 02 12:12:40 CST 2017   update Ticket set remainSeat = remainSeat - 1 where tid = ?
+Fri Jun 02 12:12:40 CST 2017   insert into orderlist (uid,tid,seatno,inid,mid,mealid,time) values(?,?,?,?,?,?,?)
+Fri Jun 02 12:12:40 CST 2017   select * from orderlist where uid = ?
+Fri Jun 02 12:12:40 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 12:12:40 CST 2017   select * from insurance where inid = 0
+Fri Jun 02 12:12:40 CST 2017   select * from movie where mid = 1
+Fri Jun 02 12:12:40 CST 2017   select * from meal where mealid = 1
+Fri Jun 02 12:12:58 CST 2017   select * from orderlist where uid = ?
+Fri Jun 02 12:12:58 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 12:12:58 CST 2017   select * from insurance where inid = 0
+Fri Jun 02 12:12:58 CST 2017   select * from movie where mid = 1
+Fri Jun 02 12:12:58 CST 2017   select * from meal where mealid = 1
+Fri Jun 02 12:13:08 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 12:13:08 CST 2017   delete from orderlist where tid = 00006 and uid = 12
+Fri Jun 02 12:13:08 CST 2017   update Ticket set remainSeat = remainSeat + 1 where tid = ?
+Fri Jun 02 12:13:08 CST 2017   update seat set flag = 0 where tid = ? and seatnum = ?
+Fri Jun 02 12:13:08 CST 2017   select * from orderlist where uid = ?
+Fri Jun 02 12:13:14 CST 2017   select * from orderlist where uid = ?
+Fri Jun 02 12:13:40 CST 2017   select * from orderlist where uid = ?
+Fri Jun 02 12:14:42 CST 2017   select * from insurance where inid = 2
+Fri Jun 02 12:14:47 CST 2017   update insurance set inname = ?, inmoney = ?  where inid = ?
+Fri Jun 02 12:15:04 CST 2017   insert into insurance (inname, inmoney) values(?,?)
+Fri Jun 02 12:15:11 CST 2017   delete from insurance where inid = ?
+Fri Jun 02 12:15:22 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 12:15:59 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 12:16:35 CST 2017   select * from ticket where tid = ?
+Fri Jun 02 12:17:16 CST 2017   select * from flight 
+Fri Jun 02 12:17:20 CST 2017   select * from flight 
+Fri Jun 02 12:18:47 CST 2017   insert into flight (fid,startPoint,middlePoint,endPoint,startDate,endDate,STATUS,pid) values(?,?,?,?,?,?,?,?)
+Fri Jun 02 12:18:50 CST 2017   select * from flight 
+Tue Jun 06 17:03:31 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Tue Jun 06 17:03:34 CST 2017   select * from bankInfo where username = 'lxc'
+Tue Jun 06 17:03:34 CST 2017   select * from bankInfo where username = 'lxc'
+Mon Jun 12 09:48:36 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Mon Jun 12 09:49:17 CST 2017   select * from bankInfo where username = 'lxc'
+Mon Jun 12 09:49:17 CST 2017   select * from bankInfo where username = 'lxc'
+Mon Jun 12 09:54:15 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 09:55:02 CST 2017   select * from flight  where 1=1 order by fid
+Mon Jun 12 09:55:20 CST 2017   select * from flight  where 1=1 and startPoint = 'ºÏ·Ê' order by fid
+Mon Jun 12 09:55:34 CST 2017   select * from flight  where 1=1 order by fid
+Mon Jun 12 09:56:31 CST 2017   select * from ticket where fid = 00002
+Mon Jun 12 09:56:32 CST 2017   select * from flight where fid = 00002
+Mon Jun 12 09:56:32 CST 2017   select * from insuranceplane where pid = 000001
+Mon Jun 12 09:56:32 CST 2017   select * from insurance where inid = 1
+Mon Jun 12 09:56:32 CST 2017   select * from insurance where inid = 2
+Mon Jun 12 09:56:32 CST 2017   select * from movieplane where pid = 000001
+Mon Jun 12 09:56:32 CST 2017   select * from movie where mid = 1
+Mon Jun 12 09:56:32 CST 2017   select * from movie where mid = 2
+Mon Jun 12 09:56:32 CST 2017   select * from mealplane where pid = 000001
+Mon Jun 12 09:56:33 CST 2017   select * from meal where mealid = 1
+Mon Jun 12 09:56:33 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 14:07:27 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Mon Jun 12 14:09:49 CST 2017   select * from bankInfo where username = 'lxc'
+Mon Jun 12 14:09:49 CST 2017   select * from bankInfo where username = 'lxc'
+Mon Jun 12 14:11:00 CST 2017   select password from usertbl where username = 'lxc'
+Mon Jun 12 14:11:00 CST 2017   update usertbl set password = '3b41cfe52236b18078d237cac3bd4735' where username = 'lxc'
+Mon Jun 12 14:12:41 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Mon Jun 12 14:12:45 CST 2017   select * from bankInfo where username = 'lxc'
+Mon Jun 12 14:12:45 CST 2017   select * from bankInfo where username = 'lxc'
+Mon Jun 12 14:13:09 CST 2017   update usertbl set sex = ?, email = ?, tel = ?, idnum = ? where username = ?
+Mon Jun 12 14:14:15 CST 2017   select * from bankInfo where username = 'lxc'
+Mon Jun 12 14:14:15 CST 2017   select * from bankInfo where username = 'lxc'
+Mon Jun 12 14:14:34 CST 2017   select * from bankInfo where username = 'lxc'
+Mon Jun 12 14:14:34 CST 2017   update bankInfo set bankId = ?, bankName = ? where username = ?
+Mon Jun 12 14:15:13 CST 2017   select * from bankInfo where username = 'lxc'
+Mon Jun 12 14:15:13 CST 2017   select * from bankInfo where username = 'lxc'
+Mon Jun 12 14:15:32 CST 2017   select * from flight  where 1=1 order by fid
+Mon Jun 12 14:16:38 CST 2017   select * from flight  where 1=1 and startPoint = 'ºÏ·Ê' and startDate > '2017-07-20 00:00:00' and startDate < '2017-07-20 23:59:59' order by startDate
+Mon Jun 12 14:17:42 CST 2017   select * from flight  where 1=1 order by fid
+Mon Jun 12 14:17:53 CST 2017   select * from ticket where fid = 00001
+Mon Jun 12 14:17:53 CST 2017   select * from flight where fid = 00001
+Mon Jun 12 14:17:53 CST 2017   select * from insuranceplane where pid = 000001
+Mon Jun 12 14:17:53 CST 2017   select * from insurance where inid = 1
+Mon Jun 12 14:17:53 CST 2017   select * from insurance where inid = 2
+Mon Jun 12 14:17:53 CST 2017   select * from movieplane where pid = 000001
+Mon Jun 12 14:17:54 CST 2017   select * from movie where mid = 1
+Mon Jun 12 14:17:54 CST 2017   select * from movie where mid = 2
+Mon Jun 12 14:17:54 CST 2017   select * from mealplane where pid = 000001
+Mon Jun 12 14:17:54 CST 2017   select * from meal where mealid = 1
+Mon Jun 12 14:17:54 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 14:18:51 CST 2017   select * from ticket where fid = 00001
+Mon Jun 12 14:18:51 CST 2017   select * from seat where tid = ?
+Mon Jun 12 14:18:51 CST 2017   update seat set flag = 1 where tid = ? and seatnum = ?
+Mon Jun 12 14:18:51 CST 2017   update Ticket set remainSeat = remainSeat - 1 where tid = ?
+Mon Jun 12 14:18:52 CST 2017   insert into orderlist (uid,tid,seatno,inid,mid,mealid,time) values(?,?,?,?,?,?,?)
+Mon Jun 12 14:18:52 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:18:52 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:18:52 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:18:52 CST 2017   select * from movie where mid = 1
+Mon Jun 12 14:18:52 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 14:22:48 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:22:48 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:22:48 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:22:48 CST 2017   select * from movie where mid = 1
+Mon Jun 12 14:22:48 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 14:23:00 CST 2017   select * from flight  where 1=1 order by startDate
+Mon Jun 12 14:23:03 CST 2017   select * from ticket where fid = 00003
+Mon Jun 12 14:23:03 CST 2017   select * from flight where fid = 00003
+Mon Jun 12 14:23:03 CST 2017   select * from insuranceplane where pid = 000002
+Mon Jun 12 14:23:03 CST 2017   select * from movieplane where pid = 000002
+Mon Jun 12 14:23:04 CST 2017   select * from mealplane where pid = 000002
+Mon Jun 12 14:23:21 CST 2017   select * from ticket where fid = 00003
+Mon Jun 12 14:23:21 CST 2017   select * from seat where tid = ?
+Mon Jun 12 14:23:21 CST 2017   update seat set flag = 1 where tid = ? and seatnum = ?
+Mon Jun 12 14:23:21 CST 2017   update Ticket set remainSeat = remainSeat - 1 where tid = ?
+Mon Jun 12 14:23:21 CST 2017   insert into orderlist (uid,tid,seatno,inid,mid,mealid,time) values(?,?,?,?,?,?,?)
+Mon Jun 12 14:23:22 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:23:22 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:23:22 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:23:22 CST 2017   select * from movie where mid = 1
+Mon Jun 12 14:23:22 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 14:23:22 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:23:22 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:23:22 CST 2017   select * from movie where mid = 0
+Mon Jun 12 14:23:22 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 14:23:23 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:23:23 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:23:24 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:23:24 CST 2017   select * from movie where mid = 1
+Mon Jun 12 14:23:24 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 14:23:24 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:23:25 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:23:25 CST 2017   select * from movie where mid = 0
+Mon Jun 12 14:23:25 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 14:28:31 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:28:31 CST 2017   select * from flight where fid = 00001
+Mon Jun 12 14:28:31 CST 2017   select * from flight  where pid = '000001' and startPoint =  'ºÏ·Ê' and endPoint = 'ÉÏº£'
+Mon Jun 12 14:28:31 CST 2017   select * from orderlist where tid = ? and uid = ?
+Mon Jun 12 14:28:31 CST 2017   select * from plane where pid = 000001
+Mon Jun 12 14:28:31 CST 2017   select * from plane where pid = 000001
+Mon Jun 12 14:30:02 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:30:02 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:30:02 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:30:02 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:30:02 CST 2017   select * from movie where mid = 1
+Mon Jun 12 14:30:02 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 14:30:02 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:30:02 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:30:02 CST 2017   select * from movie where mid = 0
+Mon Jun 12 14:30:02 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 14:33:32 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:33:32 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:33:32 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:33:32 CST 2017   select * from movie where mid = 1
+Mon Jun 12 14:33:32 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 14:33:32 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:33:33 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:33:33 CST 2017   select * from movie where mid = 0
+Mon Jun 12 14:33:33 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 14:33:36 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:33:36 CST 2017   select * from flight where fid = 00003
+Mon Jun 12 14:33:36 CST 2017   select * from flight  where pid = '000002' and startPoint =  'ºÏ·Ê' and endPoint = '±±¾©'
+Mon Jun 12 14:33:36 CST 2017   select * from orderlist where tid = ? and uid = ?
+Mon Jun 12 14:33:36 CST 2017   select * from plane where pid = 000002
+Mon Jun 12 14:33:41 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:33:41 CST 2017   delete from orderlist where tid = 00007 and uid = 12
+Mon Jun 12 14:33:41 CST 2017   update Ticket set remainSeat = remainSeat + 1 where tid = ?
+Mon Jun 12 14:33:42 CST 2017   update seat set flag = 0 where tid = ? and seatnum = ?
+Mon Jun 12 14:33:42 CST 2017   select * from ticket where fid = 00003
+Mon Jun 12 14:33:42 CST 2017   select * from seat where tid = ?
+Mon Jun 12 14:33:42 CST 2017   update seat set flag = 1 where tid = ? and seatnum = ?
+Mon Jun 12 14:33:42 CST 2017   update Ticket set remainSeat = remainSeat - 1 where tid = ?
+Mon Jun 12 14:33:42 CST 2017   insert into orderlist (uid,tid,seatno,inid,mid,mealid,time) values(?,?,?,?,?,?,?)
+Mon Jun 12 14:33:42 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:33:43 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:33:43 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:33:43 CST 2017   select * from movie where mid = 1
+Mon Jun 12 14:33:43 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 14:33:43 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:33:43 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:33:43 CST 2017   select * from movie where mid = 0
+Mon Jun 12 14:33:43 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 14:33:53 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:33:53 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:33:53 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:33:53 CST 2017   select * from movie where mid = 1
+Mon Jun 12 14:33:53 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 14:33:53 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:33:53 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:33:53 CST 2017   select * from movie where mid = 0
+Mon Jun 12 14:33:53 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 14:38:08 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:38:08 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:38:08 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:38:08 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:38:08 CST 2017   select * from movie where mid = 1
+Mon Jun 12 14:38:08 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 14:38:09 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:38:09 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:38:09 CST 2017   select * from movie where mid = 0
+Mon Jun 12 14:38:09 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 14:38:18 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:38:18 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:38:18 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:38:18 CST 2017   select * from movie where mid = 1
+Mon Jun 12 14:38:18 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 14:38:18 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:38:18 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:38:18 CST 2017   select * from movie where mid = 0
+Mon Jun 12 14:38:18 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 14:38:21 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:38:21 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:38:21 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:38:21 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:38:22 CST 2017   select * from movie where mid = 1
+Mon Jun 12 14:38:22 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 14:38:22 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:38:22 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:38:22 CST 2017   select * from movie where mid = 0
+Mon Jun 12 14:38:22 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 14:38:28 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:38:28 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:38:28 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:38:28 CST 2017   select * from movie where mid = 1
+Mon Jun 12 14:38:28 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 14:38:28 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:38:28 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:38:28 CST 2017   select * from movie where mid = 0
+Mon Jun 12 14:38:28 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 14:39:22 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:39:22 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:39:22 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:39:22 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:39:22 CST 2017   select * from movie where mid = 1
+Mon Jun 12 14:39:23 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:39:27 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:41:45 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Mon Jun 12 14:41:50 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Mon Jun 12 14:41:52 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:41:52 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:41:52 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:41:52 CST 2017   select * from movie where mid = 1
+Mon Jun 12 14:41:52 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 14:41:52 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:41:52 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:41:52 CST 2017   select * from movie where mid = 0
+Mon Jun 12 14:41:52 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 14:41:57 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:41:57 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:41:57 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:41:57 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:41:57 CST 2017   select * from movie where mid = 1
+Mon Jun 12 14:41:57 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 14:41:57 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:41:57 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:41:57 CST 2017   select * from movie where mid = 0
+Mon Jun 12 14:41:57 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 14:41:58 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:41:58 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:41:58 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:41:58 CST 2017   select * from movie where mid = 1
+Mon Jun 12 14:41:59 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 14:41:59 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:41:59 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:41:59 CST 2017   select * from movie where mid = 0
+Mon Jun 12 14:41:59 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 14:43:14 CST 2017   select * from flight  where 1=1 order by fid
+Mon Jun 12 14:43:20 CST 2017   select * from ticket where fid = 00004
+Mon Jun 12 14:43:20 CST 2017   select * from flight where fid = 00004
+Mon Jun 12 14:43:20 CST 2017   select * from insuranceplane where pid = 000003
+Mon Jun 12 14:43:20 CST 2017   select * from movieplane where pid = 000003
+Mon Jun 12 14:43:20 CST 2017   select * from mealplane where pid = 000003
+Mon Jun 12 14:43:24 CST 2017   select * from ticket where fid = 00004
+Mon Jun 12 14:43:24 CST 2017   select * from seat where tid = ?
+Mon Jun 12 14:43:24 CST 2017   update seat set flag = 1 where tid = ? and seatnum = ?
+Mon Jun 12 14:43:24 CST 2017   update Ticket set remainSeat = remainSeat - 1 where tid = ?
+Mon Jun 12 14:43:25 CST 2017   insert into orderlist (uid,tid,seatno,inid,mid,mealid,time) values(?,?,?,?,?,?,?)
+Mon Jun 12 14:43:25 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:43:25 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:43:25 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:43:25 CST 2017   select * from movie where mid = 1
+Mon Jun 12 14:43:25 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 14:43:25 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:43:25 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:43:25 CST 2017   select * from movie where mid = 0
+Mon Jun 12 14:43:25 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 14:43:25 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:43:25 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:43:25 CST 2017   select * from movie where mid = 0
+Mon Jun 12 14:43:25 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 14:43:26 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:43:26 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:43:26 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:43:26 CST 2017   select * from movie where mid = 1
+Mon Jun 12 14:43:26 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 14:43:26 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:43:26 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:43:26 CST 2017   select * from movie where mid = 0
+Mon Jun 12 14:43:26 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 14:43:26 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:43:26 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:43:27 CST 2017   select * from movie where mid = 0
+Mon Jun 12 14:43:27 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 14:43:41 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:43:41 CST 2017   delete from orderlist where tid = 00010 and uid = 12
+Mon Jun 12 14:43:41 CST 2017   update Ticket set remainSeat = remainSeat + 1 where tid = ?
+Mon Jun 12 14:43:41 CST 2017   update seat set flag = 0 where tid = ? and seatnum = ?
+Mon Jun 12 14:43:42 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:43:42 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:43:42 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:43:42 CST 2017   select * from movie where mid = 1
+Mon Jun 12 14:43:42 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 14:43:42 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:43:42 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:43:42 CST 2017   select * from movie where mid = 0
+Mon Jun 12 14:43:42 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 14:43:56 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 14:43:56 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:43:56 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:43:56 CST 2017   select * from movie where mid = 1
+Mon Jun 12 14:43:56 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 14:43:56 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 14:43:56 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 14:43:56 CST 2017   select * from movie where mid = 0
+Mon Jun 12 14:43:56 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 14:52:42 CST 2017   select * from flight 
+Mon Jun 12 14:54:25 CST 2017   select * from flight where fid = 00003
+Mon Jun 12 14:55:23 CST 2017   select * from flight 
+Mon Jun 12 15:00:28 CST 2017   insert into insurance (inname, inmoney) values(?,?)
+Mon Jun 12 15:01:41 CST 2017   delete from insurance where inid = ?
+Mon Jun 12 18:01:06 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Mon Jun 12 18:01:47 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Mon Jun 12 18:02:08 CST 2017   select * from flight  where 1=1 order by fid
+Mon Jun 12 18:02:28 CST 2017   select * from bankInfo where username = 'yk'
+Mon Jun 12 18:02:28 CST 2017   select * from bankInfo where username = 'yk'
+Mon Jun 12 18:02:42 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 18:02:42 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 18:02:42 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 18:02:42 CST 2017   select * from movie where mid = 0
+Mon Jun 12 18:02:42 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 18:02:42 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 18:02:42 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 18:02:42 CST 2017   select * from movie where mid = 1
+Mon Jun 12 18:02:42 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 18:03:08 CST 2017   select * from flight  where 1=1 order by fid
+Mon Jun 12 18:03:11 CST 2017   select * from ticket where fid = 00001
+Mon Jun 12 18:03:11 CST 2017   select * from flight where fid = 00001
+Mon Jun 12 18:03:11 CST 2017   select * from insuranceplane where pid = 000001
+Mon Jun 12 18:03:11 CST 2017   select * from insurance where inid = 1
+Mon Jun 12 18:03:11 CST 2017   select * from insurance where inid = 2
+Mon Jun 12 18:03:11 CST 2017   select * from movieplane where pid = 000001
+Mon Jun 12 18:03:11 CST 2017   select * from movie where mid = 1
+Mon Jun 12 18:03:11 CST 2017   select * from movie where mid = 2
+Mon Jun 12 18:03:11 CST 2017   select * from mealplane where pid = 000001
+Mon Jun 12 18:03:11 CST 2017   select * from meal where mealid = 1
+Mon Jun 12 18:03:11 CST 2017   select * from meal where mealid = 2
+Mon Jun 12 18:03:34 CST 2017   select * from ticket where fid = 00001
+Mon Jun 12 18:03:34 CST 2017   select * from seat where tid = ?
+Mon Jun 12 18:03:34 CST 2017   update seat set flag = 1 where tid = ? and seatnum = ?
+Mon Jun 12 18:03:34 CST 2017   update Ticket set remainSeat = remainSeat - 1 where tid = ?
+Mon Jun 12 18:03:34 CST 2017   insert into orderlist (uid,tid,seatno,inid,mid,mealid,time) values(?,?,?,?,?,?,?)
+Mon Jun 12 18:03:35 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 18:03:35 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 18:03:35 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 18:03:35 CST 2017   select * from movie where mid = 0
+Mon Jun 12 18:03:35 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 18:03:35 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 18:03:35 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 18:03:35 CST 2017   select * from movie where mid = 1
+Mon Jun 12 18:03:35 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 18:03:36 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 18:03:36 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 18:03:36 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 18:03:36 CST 2017   select * from movie where mid = 0
+Mon Jun 12 18:03:36 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 18:03:36 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 18:03:36 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 18:03:36 CST 2017   select * from movie where mid = 1
+Mon Jun 12 18:03:36 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 18:03:53 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 18:03:53 CST 2017   select * from flight where fid = 00001
+Mon Jun 12 18:03:53 CST 2017   select * from flight  where pid = '000001' and startPoint =  'ºÏ·Ê' and endPoint = 'ÉÏº£'
+Mon Jun 12 18:03:53 CST 2017   select * from orderlist where tid = ? and uid = ?
+Mon Jun 12 18:03:53 CST 2017   select * from plane where pid = 000001
+Mon Jun 12 18:03:53 CST 2017   select * from plane where pid = 000001
+Mon Jun 12 18:04:21 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 18:04:21 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 18:04:21 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 18:04:21 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 18:04:21 CST 2017   select * from movie where mid = 0
+Mon Jun 12 18:04:21 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 18:04:21 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 18:04:21 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 18:04:21 CST 2017   select * from movie where mid = 1
+Mon Jun 12 18:04:21 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 18:04:22 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 18:04:23 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 18:04:23 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 18:04:23 CST 2017   select * from movie where mid = 0
+Mon Jun 12 18:04:23 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 18:04:23 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 18:04:23 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 18:04:23 CST 2017   select * from movie where mid = 1
+Mon Jun 12 18:04:23 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 18:04:27 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 18:04:27 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 18:04:27 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 18:04:27 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 18:04:27 CST 2017   select * from movie where mid = 0
+Mon Jun 12 18:04:27 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 18:04:27 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 18:04:27 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 18:04:27 CST 2017   select * from movie where mid = 1
+Mon Jun 12 18:04:27 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 18:04:28 CST 2017   select * from orderlist where uid = ?
+Mon Jun 12 18:04:28 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 18:04:28 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 18:04:28 CST 2017   select * from movie where mid = 0
+Mon Jun 12 18:04:28 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 18:04:28 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 18:04:28 CST 2017   select * from insurance where inid = 0
+Mon Jun 12 18:04:28 CST 2017   select * from movie where mid = 1
+Mon Jun 12 18:04:29 CST 2017   select * from meal where mealid = 0
+Mon Jun 12 18:04:55 CST 2017   select * from usertbl where username = ? and password = ? and privilege = 1
+Mon Jun 12 18:04:56 CST 2017   select * from bankInfo where username = 'yk'
+Mon Jun 12 18:04:56 CST 2017   select * from bankInfo where username = 'yk'
+Mon Jun 12 18:07:03 CST 2017   select * from flight 
+Mon Jun 12 18:07:08 CST 2017   select * from flight where fid = 00001
+Mon Jun 12 18:07:26 CST 2017   select * from flight 
+Mon Jun 12 18:07:39 CST 2017   select * from flight where fid = 00001
+Mon Jun 12 18:08:15 CST 2017   select * from ticket where tid = ?
+Mon Jun 12 18:10:34 CST 2017   select * from meal where mealid = 1
+Mon Jun 12 18:10:42 CST 2017   select * from meal where mealid = 1
+Mon Jun 12 18:12:26 CST 2017   select * from ticket where tid = ?

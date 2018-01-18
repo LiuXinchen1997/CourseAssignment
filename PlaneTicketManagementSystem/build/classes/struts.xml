@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<!DOCTYPE struts PUBLIC    
+            "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"    
+    "http://struts.apache.org/dtds/struts-2.5.dtd">  
+<struts>    
+    
+ 
+	<include file="struts-default.xml"></include>  
+	<!-- 指定默认编码集 -->  
+	<constant name="struts.i18n.encoding" value="UTF-8"></constant>  
+	<!-- 指定需要Struts2处理的请求后缀 -->  
+	<!-- <constant name="struts.action.extension" value="do,action"></constant>-->  
+	<!-- 设置浏览器是否缓存静态内容，开发阶段应关闭，生产阶段打开，默认为打开 -->  
+	<constant name="struts.serve.static.browserCache" value="false"></constant>  
+	<!-- 当struts的配置文件修改后，系统是否自动重新加载该文件，默认为false，开发阶段应打开 -->  
+	<constant name="struts.configuration.xml.reload" value="true"></constant>  
+	<!-- 开发模式下使用，可以打印出更详细的错误信息 -->  
+	<constant name="struts.devMode" value="true"></constant>  
+	<!-- action全部用注解进行配置 -->  
+	
+	<!-- 是否开启动态方法调用 -->  
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
+
+    
+    
+    
+    
+    
+    <!--添加包 -->
+    <package name="PTMS" namespace="/" extends="struts-default">  
+        <action name="doLogin" class="com.PTMSystem.action.Login">  
+            <result name="success">index.jsp</result>
+            <result name="fail">login.jsp</result>
+        </action>
+        
+        <action name="doReg" class="com.PTMSystem.action.Reg">  
+            <result name="success">login.jsp</result>
+            <result name="fail">reg.jsp</result>
+        </action>
+        
+        <action name="addBankInfo" class="com.PTMSystem.action.addBankInfo" method="check">  
+            <result name="success">bankInfo.jsp</result>
+            <result name="fail">error.jsp</result>
+        </action>
+        
+        <action name="addBankInfoSubmit" class="com.PTMSystem.action.addBankInfo">  
+            <result name="success">message.jsp</result>
+            <result name="fail">error.jsp</result>
+        </action>
+        
+        <action name="modifyPassword" class="com.PTMSystem.action.modifyPassword" method="check">  
+            <result name="success">modifyPassword.jsp</result>
+            <result name="fail">error.jsp</result>
+        </action>
+        
+        <action name="modifyPasswordSubmit" class="com.PTMSystem.action.modifyPassword">  
+            <result name="success">login.jsp</result>
+            <result name="fail">error.jsp</result>
+        </action>
+        
+        <action name="modifyPersonalInfo" class="com.PTMSystem.action.modifyPersonalInfo" method="check">  
+            <result name="success">modifyPersonalInfo.jsp</result>
+            <result name="fail">error.jsp</result>
+        </action>
+        
+        <action name="modifyPersonalInfoSubmit" class="com.PTMSystem.action.modifyPersonalInfo">  
+            <result name="success">message.jsp</result>
+            <result name="fail">error.jsp</result>
+        </action>
+        
+        <action name="queryFlight" class="com.PTMSystem.action.queryFlight">  
+            <result name="success">queryFlight.jsp</result>
+            <result name="fail">error.jsp</result>
+        </action>
+        
+        <action name="BuyTicket" class="com.PTMSystem.action.BuyTicket">  
+            <result name="success">buyTicket.jsp</result>
+            <result name="fail">error.jsp</result>
+        </action>
+        
+        <action name="UserExit" class="com.PTMSystem.action.UserExit">  
+            <result name="success">index.jsp</result>
+        </action>
+        
+        <action name="BuyTicketConfirm" class="com.PTMSystem.action.BuyTicketConfirm">  
+            <result name="success">myBill.jsp</result>
+        </action>
+        
+        <action name="ReturnTicket" class="com.PTMSystem.action.ReturnTicket">  
+            <result name="success">myBill.jsp</result>
+        </action>
+        
+        <action name="ChangeTicket" class="com.PTMSystem.action.ChangeTicket">  
+            <result name="success">change.jsp</result>
+        </action>
+        
+        <action name="ChangeTicketConfirm" class="com.PTMSystem.action.ChangeTicketConfirm">  
+            <result name="success">myBill.jsp</result>
+        </action>
+        
+        
+        
+        
+        <action name="adminLogin" class="com.PTMSystem.admin.action.Login">  
+            <result name="success">adminIndex.html</result>
+            <result name="fail">admin.jsp</result>
+        </action>
+        
+        
+        
+        <action name="adminSelectPlane" class="com.PTMSystem.admin.action.SelectPlane">  
+            <result name="success">planeInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        <action name="adminInsertPlane" class="com.PTMSystem.admin.action.InsertPlane" method="check">  
+            <result name="success">insertPlane.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        <action name="adminInsertPlaneSubmit" class="com.PTMSystem.admin.action.InsertPlane">  
+            <result name="success">planeInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        <action name="adminDeletePlane" class="com.PTMSystem.admin.action.DeletePlane">  
+            <result name="success">planeInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        <action name="adminUpdatePlane" class="com.PTMSystem.admin.action.UpdatePlane" method="check">  
+            <result name="success">updatePlane.jsp</result>
+        </action>
+        
+        <action name="adminUpdatePlaneSubmit" class="com.PTMSystem.admin.action.UpdatePlane">  
+            <result name="success">planeInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        
+        
+        <action name="adminSelectInsurance" class="com.PTMSystem.admin.action.SelectInsurance">  
+            <result name="success">insuranceInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        <action name="adminDeleteInsurance" class="com.PTMSystem.admin.action.DeleteInsurance">  
+            <result name="success">insuranceInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        <action name="adminInsertInsurance" class="com.PTMSystem.admin.action.InsertInsurance">  
+            <result name="success">insuranceInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        <action name="adminUpdateInsurance" class="com.PTMSystem.admin.action.UpdateInsurance" method="check">  
+            <result name="success">updateInsurance.jsp</result>
+        </action>
+        
+        <action name="adminUpdateInsuranceSubmit" class="com.PTMSystem.admin.action.UpdateInsurance">  
+            <result name="success">insuranceInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        
+        
+        <action name="adminSelectMovie" class="com.PTMSystem.admin.action.SelectMovie">  
+            <result name="success">movieInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        <action name="adminDeleteMovie" class="com.PTMSystem.admin.action.DeleteMovie">  
+            <result name="success">movieInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        <action name="adminInsertMovie" class="com.PTMSystem.admin.action.InsertMovie">  
+            <result name="success">movieInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        <action name="adminUpdateMovie" class="com.PTMSystem.admin.action.UpdateMovie" method="check">  
+            <result name="success">updateMovie.jsp</result>
+        </action>
+        
+        <action name="adminUpdateMovieSubmit" class="com.PTMSystem.admin.action.UpdateMovie">  
+            <result name="success">movieInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        
+        
+        <action name="adminSelectMeal" class="com.PTMSystem.admin.action.SelectMeal">  
+            <result name="success">mealInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        <action name="adminDeleteMeal" class="com.PTMSystem.admin.action.DeleteMeal">  
+            <result name="success">mealInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        <action name="adminInsertMeal" class="com.PTMSystem.admin.action.InsertMeal">  
+            <result name="success">mealInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        <action name="adminUpdateMeal" class="com.PTMSystem.admin.action.UpdateMeal" method="check">  
+            <result name="success">updateMeal.jsp</result>
+        </action>
+        
+        <action name="adminUpdateMealSubmit" class="com.PTMSystem.admin.action.UpdateMeal">  
+            <result name="success">mealInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        
+        
+        
+        
+        <action name="adminSelectFlight" class="com.PTMSystem.admin.action.SelectFlight">  
+            <result name="success">flightInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        <action name="adminDeleteFlight" class="com.PTMSystem.admin.action.DeleteFlight">  
+            <result name="success">flightInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        <action name="adminInsertFlight" class="com.PTMSystem.admin.action.InsertFlight">  
+            <result name="success">flightInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        <action name="adminUpdateFlight" class="com.PTMSystem.admin.action.UpdateFlight" method="check">  
+            <result name="success">updateFlight.jsp</result>
+        </action>
+        
+        <action name="adminUpdateFlightSubmit" class="com.PTMSystem.admin.action.UpdateFlight">  
+            <result name="success">flightInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        
+        
+        
+        
+        
+        <action name="adminSelectTicket" class="com.PTMSystem.admin.action.SelectTicket">  
+            <result name="success">ticketInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        <action name="adminDeleteTicket" class="com.PTMSystem.admin.action.DeleteTicket">  
+            <result name="success">ticketInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        <action name="adminInsertTicket" class="com.PTMSystem.admin.action.InsertTicket">  
+            <result name="success">ticketInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        <action name="adminUpdateTicket" class="com.PTMSystem.admin.action.UpdateTicket" method="check">  
+            <result name="success">updateTicket.jsp</result>
+        </action>
+        
+        <action name="adminUpdateTicketSubmit" class="com.PTMSystem.admin.action.UpdateTicket">  
+            <result name="success">ticketInfoManage.jsp</result>
+            <result name="fail">adminIndex.html</result>
+        </action>
+        
+        
+        
+        <action name="adminExit" class="com.PTMSystem.admin.action.AdminExit">  
+            <result name="success">empty.jsp</result>
+        </action>
+        
+    </package>
+    
+</struts> 
