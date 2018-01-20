@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<!DOCTYPE struts PUBLIC    
+            "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"    
+    "http://struts.apache.org/dtds/struts-2.5.dtd">  
+<struts>    
+    
+ 
+	<include file="struts-default.xml"></include>  
+	<!-- 指定默认编码集 -->  
+	<constant name="struts.i18n.encoding" value="UTF-8"></constant>  
+	<!-- 指定需要Struts2处理的请求后缀 -->  
+	<!-- <constant name="struts.action.extension" value="do,action"></constant>-->  
+	<!-- 设置浏览器是否缓存静态内容，开发阶段应关闭，生产阶段打开，默认为打开 -->  
+	<constant name="struts.serve.static.browserCache" value="false"></constant>  
+	<!-- 当struts的配置文件修改后，系统是否自动重新加载该文件，默认为false，开发阶段应打开 -->  
+	<constant name="struts.configuration.xml.reload" value="true"></constant>  
+	<!-- 开发模式下使用，可以打印出更详细的错误信息 -->  
+	<constant name="struts.devMode" value="true"></constant>  
+	<!-- action全部用注解进行配置 -->  
+	
+	<!-- 是否开启动态方法调用 -->  
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
+
+
+    
+    <!--添加包 -->
+    <package name="NBMS" namespace="/" extends="struts-default">  
+        <action name="doLogin" class="com.bookstore.action.CustomerLogin">  
+            <result name="success">main.jsp</result>
+            <result name="fail">login.jsp</result>
+        </action>
+        
+        <action name="getVerifyCode" class="com.bookstore.action.GetVerifyCode">  
+        </action>
+        
+        <action name="doLogout" class="com.bookstore.action.CustomerLogout">  
+            <result name="success">login.jsp</result>
+        </action>
+        
+        
+        <action name="recommendAction" class="com.bookstore.action.RecommendAction">  
+            <result name="success">main/recommend.jsp</result>
+        </action>
+        
+        <action name="BookInfoAction" class="com.bookstore.action.BookInfoAction">  
+            <result name="success">product.jsp</result>
+            <result name="fail">login.jsp</result>
+        </action>
+        
+        <action name="BuyBook" class="com.bookstore.action.BuyBookAction">  
+            <result name="success">index.jsp</result>
+        </action>
+    </package>
+    
+</struts> 

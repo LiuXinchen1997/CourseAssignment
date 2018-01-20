@@ -1,2 +1,6 @@
 ./RPSLParser/node_modules/*
 ./RPSLParser/config/database.js
+./BookStoreOL/.settings
+./BookStoreOL/build
+./BookStoreOL/.classpath
+./BookStoreOL/.project
