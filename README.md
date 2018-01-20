@@ -6,3 +6,4 @@
 4. DataStructure：**数据结构**课程设计。
 5. EducationalManagementSystem：**C++程序设计**课程设计。
 6. BookStoreOL：**软件安全**课程大作业，一个简单的Web系统。
+7. CGExercise：**计算机图形学与仿真**编程作业。
