@@ -1,0 +1,93 @@
+# depslib dependency file v1.0
+1479908362 source:c:\users\dell\desktop\解压软件的实现\main.cpp
+	"BinTree.h"
+	"lib.h"
+
+1479898301 c:\users\dell\desktop\解压软件的实现\bintree.h
+	<queue>
+	"BinNode.h"
+
+1479890687 c:\users\dell\desktop\解压软件的实现\binnode.h
+	<iostream>
+
+1479903690 c:\users\dell\desktop\解压软件的实现\lib.h
+	"BinTree.h"
+	"HuffChar.h"
+	<vector>
+	<fstream>
+	<iostream>
+	<cstdlib>
+	<cstring>
+	<map>
+
+1479822517 c:\users\dell\desktop\解压软件的实现\huffchar.h
+
+1479953455 source:c:\users\dell\desktop\新建文件夹\解压软件的实现\main.cpp
+	"BinTree.h"
+	"lib.h"
+
+1479898301 c:\users\dell\desktop\新建文件夹\解压软件的实现\bintree.h
+	<queue>
+	"BinNode.h"
+
+1479890687 c:\users\dell\desktop\新建文件夹\解压软件的实现\binnode.h
+	<iostream>
+
+1479953766 c:\users\dell\desktop\新建文件夹\解压软件的实现\lib.h
+	"BinTree.h"
+	"HuffChar.h"
+	<vector>
+	<fstream>
+	<iostream>
+	<cstdlib>
+	<cstring>
+	<map>
+
+1479822517 c:\users\dell\desktop\新建文件夹\解压软件的实现\huffchar.h
+
+1479979501 source:c:\users\dell\desktop\改进版本\解压软件的实现\main.cpp
+	"BinTree.h"
+	"lib.h"
+
+1479898301 c:\users\dell\desktop\改进版本\解压软件的实现\bintree.h
+	<queue>
+	"BinNode.h"
+
+1479890687 c:\users\dell\desktop\改进版本\解压软件的实现\binnode.h
+	<iostream>
+
+1479978204 c:\users\dell\desktop\改进版本\解压软件的实现\lib.h
+	"BinTree.h"
+	"HuffChar.h"
+	<vector>
+	<fstream>
+	<iostream>
+	<cstdlib>
+	<cstring>
+	<map>
+
+1479822517 c:\users\dell\desktop\改进版本\解压软件的实现\huffchar.h
+
+1480211961 source:c:\users\acer\desktop\2015214450刘昕宸-实验10（2016.11.27）\改进版本\解压软件的实现\main.cpp
+	"BinTree.h"
+	"lib.h"
+
+1479898302 c:\users\acer\desktop\2015214450刘昕宸-实验10（2016.11.27）\改进版本\解压软件的实现\bintree.h
+	<queue>
+	"BinNode.h"
+
+1479890688 c:\users\acer\desktop\2015214450刘昕宸-实验10（2016.11.27）\改进版本\解压软件的实现\binnode.h
+	<iostream>
+
+1479978206 c:\users\acer\desktop\2015214450刘昕宸-实验10（2016.11.27）\改进版本\解压软件的实现\lib.h
+	"BinTree.h"
+	"HuffChar.h"
+	<vector>
+	<fstream>
+	<iostream>
+	<cstdlib>
+	<cstring>
+	<map>
+
+1479822518 c:\users\acer\desktop\2015214450刘昕宸-实验10（2016.11.27）\改进版本\解压软件的实现\huffchar.h
+

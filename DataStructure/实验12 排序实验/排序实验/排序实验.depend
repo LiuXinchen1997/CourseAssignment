@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1482540799 source:c:\users\dell\desktop\排序实验\main.cpp
+	"lib.h"
+
+1482539668 c:\users\dell\desktop\排序实验\sortlib.h
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<iomanip>
+	<ctime>
+	"windows.h"
+
+1482304756 c:\users\dell\desktop\排序实验\lib.h
+	"sortlib.h"
+
+1482654428 source:f:\2015214450刘昕宸-实验12（2016.12.24）\排序实验\main.cpp
+	"lib.h"
+
+1482304758 f:\2015214450刘昕宸-实验12（2016.12.24）\排序实验\lib.h
+	"sortlib.h"
+
+1482658168 f:\2015214450刘昕宸-实验12（2016.12.24）\排序实验\sortlib.h
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<iomanip>
+	<ctime>
+	"windows.h"
+

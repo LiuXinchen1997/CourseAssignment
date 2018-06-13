@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1479908362 source:c:\users\dell\desktop\解压软件的实现\main.cpp
+	"BinTree.h"
+	"lib.h"
+
+1479898301 c:\users\dell\desktop\解压软件的实现\bintree.h
+	<queue>
+	"BinNode.h"
+
+1479890687 c:\users\dell\desktop\解压软件的实现\binnode.h
+	<iostream>
+
+1479903690 c:\users\dell\desktop\解压软件的实现\lib.h
+	"BinTree.h"
+	"HuffChar.h"
+	<vector>
+	<fstream>
+	<iostream>
+	<cstdlib>
+	<cstring>
+	<map>
+
+1479822517 c:\users\dell\desktop\解压软件的实现\huffchar.h
+

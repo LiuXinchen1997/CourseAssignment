@@ -1,0 +1,550 @@
+****** Data Size: 5000 ******
+BubbleSort: 
+Mess1:            62 ms.
+Mess2:            47 ms.
+Mess3:            62 ms.
+messAverageTime:  57 ms.
+Sorted:           31 ms.
+Inversed:         47 ms.
+
+totalAverageTime: 49 ms.
+****** Data Size: 5000 ******
+InsertSort: 
+Mess1:            15 ms.
+Mess2:            16 ms.
+Mess3:            15 ms.
+messAverageTime:  15 ms.
+Sorted:           0 ms.
+Inversed:         47 ms.
+
+totalAverageTime: 18 ms.
+****** Data Size: 5000 ******
+SelectSort: 
+Mess1:            31 ms.
+Mess2:            31 ms.
+Mess3:            32 ms.
+messAverageTime:  31 ms.
+Sorted:           31 ms.
+Inversed:         32 ms.
+
+totalAverageTime: 31 ms.
+****** Data Size: 5000 ******
+MergeSort: 
+Mess1:            0 ms.
+Mess2:            16 ms.
+Mess3:            0 ms.
+messAverageTime:  5 ms.
+Sorted:           0 ms.
+Inversed:         0 ms.
+
+totalAverageTime: 3 ms.
+****** Data Size: 5000 ******
+ShellSort: 
+Mess1:            0 ms.
+Mess2:            0 ms.
+Mess3:            0 ms.
+messAverageTime:  0 ms.
+Sorted:           0 ms.
+Inversed:         0 ms.
+
+totalAverageTime: 0 ms.
+****** Data Size: 5000 ******
+QuickSort: 
+Mess1:            0 ms.
+Mess2:            0 ms.
+Mess3:            0 ms.
+messAverageTime:  0 ms.
+Sorted:           0 ms.
+Inversed:         0 ms.
+
+totalAverageTime: 0 ms.
+****** Data Size: 5000 ******
+HeapSort: 
+Mess1:            0 ms.
+Mess2:            0 ms.
+Mess3:            0 ms.
+messAverageTime:  0 ms.
+Sorted:           0 ms.
+Inversed:         0 ms.
+
+totalAverageTime: 0 ms.
+****** Data Size: 10000 ******
+BubbleSort: 
+Mess1:            250 ms.
+Mess2:            249 ms.
+Mess3:            234 ms.
+messAverageTime:  244 ms.
+Sorted:           140 ms.
+Inversed:         202 ms.
+
+totalAverageTime: 215 ms.
+****** Data Size: 10000 ******
+InsertSort: 
+Mess1:            94 ms.
+Mess2:            93 ms.
+Mess3:            63 ms.
+messAverageTime:  83 ms.
+Sorted:           0 ms.
+Inversed:         125 ms.
+
+totalAverageTime: 75 ms.
+****** Data Size: 10000 ******
+SelectSort: 
+Mess1:            125 ms.
+Mess2:            125 ms.
+Mess3:            156 ms.
+messAverageTime:  135 ms.
+Sorted:           125 ms.
+Inversed:         171 ms.
+
+totalAverageTime: 140 ms.
+****** Data Size: 10000 ******
+MergeSort: 
+Mess1:            0 ms.
+Mess2:            0 ms.
+Mess3:            0 ms.
+messAverageTime:  0 ms.
+Sorted:           0 ms.
+Inversed:         0 ms.
+
+totalAverageTime: 0 ms.
+****** Data Size: 10000 ******
+ShellSort: 
+Mess1:            0 ms.
+Mess2:            0 ms.
+Mess3:            0 ms.
+messAverageTime:  0 ms.
+Sorted:           0 ms.
+Inversed:         0 ms.
+
+totalAverageTime: 0 ms.
+****** Data Size: 10000 ******
+QuickSort: 
+Mess1:            0 ms.
+Mess2:            0 ms.
+Mess3:            0 ms.
+messAverageTime:  0 ms.
+Sorted:           0 ms.
+Inversed:         0 ms.
+
+totalAverageTime: 0 ms.
+****** Data Size: 10000 ******
+HeapSort: 
+Mess1:            0 ms.
+Mess2:            0 ms.
+Mess3:            0 ms.
+messAverageTime:  0 ms.
+Sorted:           0 ms.
+Inversed:         0 ms.
+
+totalAverageTime: 0 ms.
+****** Data Size: 15000 ******
+BubbleSort: 
+Mess1:            562 ms.
+Mess2:            561 ms.
+Mess3:            562 ms.
+messAverageTime:  561 ms.
+Sorted:           281 ms.
+Inversed:         452 ms.
+
+totalAverageTime: 483 ms.
+****** Data Size: 15000 ******
+InsertSort: 
+Mess1:            156 ms.
+Mess2:            156 ms.
+Mess3:            141 ms.
+messAverageTime:  151 ms.
+Sorted:           0 ms.
+Inversed:         281 ms.
+
+totalAverageTime: 146 ms.
+****** Data Size: 15000 ******
+SelectSort: 
+Mess1:            297 ms.
+Mess2:            281 ms.
+Mess3:            280 ms.
+messAverageTime:  286 ms.
+Sorted:           312 ms.
+Inversed:         359 ms.
+
+totalAverageTime: 305 ms.
+****** Data Size: 15000 ******
+MergeSort: 
+Mess1:            16 ms.
+Mess2:            0 ms.
+Mess3:            16 ms.
+messAverageTime:  10 ms.
+Sorted:           15 ms.
+Inversed:         0 ms.
+
+totalAverageTime: 9 ms.
+****** Data Size: 15000 ******
+ShellSort: 
+Mess1:            0 ms.
+Mess2:            0 ms.
+Mess3:            0 ms.
+messAverageTime:  0 ms.
+Sorted:           0 ms.
+Inversed:         0 ms.
+
+totalAverageTime: 0 ms.
+****** Data Size: 15000 ******
+QuickSort: 
+Mess1:            0 ms.
+Mess2:            0 ms.
+Mess3:            0 ms.
+messAverageTime:  0 ms.
+Sorted:           15 ms.
+Inversed:         0 ms.
+
+totalAverageTime: 3 ms.
+****** Data Size: 15000 ******
+HeapSort: 
+Mess1:            0 ms.
+Mess2:            0 ms.
+Mess3:            0 ms.
+messAverageTime:  0 ms.
+Sorted:           0 ms.
+Inversed:         0 ms.
+
+totalAverageTime: 0 ms.
+****** Data Size: 20000 ******
+BubbleSort: 
+Mess1:            983 ms.
+Mess2:            998 ms.
+Mess3:            1014 ms.
+messAverageTime:  998 ms.
+Sorted:           531 ms.
+Inversed:         749 ms.
+
+totalAverageTime: 855 ms.
+****** Data Size: 20000 ******
+InsertSort: 
+Mess1:            280 ms.
+Mess2:            265 ms.
+Mess3:            265 ms.
+messAverageTime:  270 ms.
+Sorted:           0 ms.
+Inversed:         515 ms.
+
+totalAverageTime: 265 ms.
+****** Data Size: 20000 ******
+SelectSort: 
+Mess1:            468 ms.
+Mess2:            484 ms.
+Mess3:            468 ms.
+messAverageTime:  473 ms.
+Sorted:           468 ms.
+Inversed:         640 ms.
+
+totalAverageTime: 505 ms.
+****** Data Size: 20000 ******
+MergeSort: 
+Mess1:            0 ms.
+Mess2:            16 ms.
+Mess3:            0 ms.
+messAverageTime:  5 ms.
+Sorted:           0 ms.
+Inversed:         0 ms.
+
+totalAverageTime: 3 ms.
+****** Data Size: 20000 ******
+ShellSort: 
+Mess1:            0 ms.
+Mess2:            16 ms.
+Mess3:            0 ms.
+messAverageTime:  5 ms.
+Sorted:           0 ms.
+Inversed:         0 ms.
+
+totalAverageTime: 3 ms.
+****** Data Size: 20000 ******
+QuickSort: 
+Mess1:            0 ms.
+Mess2:            0 ms.
+Mess3:            15 ms.
+messAverageTime:  5 ms.
+Sorted:           0 ms.
+Inversed:         0 ms.
+
+totalAverageTime: 3 ms.
+****** Data Size: 20000 ******
+HeapSort: 
+Mess1:            16 ms.
+Mess2:            0 ms.
+Mess3:            16 ms.
+messAverageTime:  10 ms.
+Sorted:           0 ms.
+Inversed:         15 ms.
+
+totalAverageTime: 9 ms.
+****** Data Size: 25000 ******
+BubbleSort: 
+Mess1:            1544 ms.
+Mess2:            1544 ms.
+Mess3:            1545 ms.
+messAverageTime:  1544 ms.
+Sorted:           780 ms.
+Inversed:         1171 ms.
+
+totalAverageTime: 1316 ms.
+****** Data Size: 25000 ******
+InsertSort: 
+Mess1:            406 ms.
+Mess2:            390 ms.
+Mess3:            390 ms.
+messAverageTime:  395 ms.
+Sorted:           0 ms.
+Inversed:         796 ms.
+
+totalAverageTime: 396 ms.
+****** Data Size: 25000 ******
+SelectSort: 
+Mess1:            748 ms.
+Mess2:            748 ms.
+Mess3:            749 ms.
+messAverageTime:  748 ms.
+Sorted:           749 ms.
+Inversed:         1061 ms.
+
+totalAverageTime: 811 ms.
+****** Data Size: 25000 ******
+MergeSort: 
+Mess1:            15 ms.
+Mess2:            16 ms.
+Mess3:            15 ms.
+messAverageTime:  15 ms.
+Sorted:           0 ms.
+Inversed:         0 ms.
+
+totalAverageTime: 9 ms.
+****** Data Size: 25000 ******
+ShellSort: 
+Mess1:            16 ms.
+Mess2:            16 ms.
+Mess3:            0 ms.
+messAverageTime:  10 ms.
+Sorted:           0 ms.
+Inversed:         0 ms.
+
+totalAverageTime: 6 ms.
+****** Data Size: 25000 ******
+QuickSort: 
+Mess1:            0 ms.
+Mess2:            0 ms.
+Mess3:            0 ms.
+messAverageTime:  0 ms.
+Sorted:           0 ms.
+Inversed:         16 ms.
+
+totalAverageTime: 3 ms.
+****** Data Size: 25000 ******
+HeapSort: 
+Mess1:            0 ms.
+Mess2:            0 ms.
+Mess3:            0 ms.
+messAverageTime:  0 ms.
+Sorted:           16 ms.
+Inversed:         0 ms.
+
+totalAverageTime: 3 ms.
+****** Data Size: 50000 ******
+MergeSort: 
+Mess1:            47 ms.
+Mess2:            16 ms.
+Mess3:            15 ms.
+messAverageTime:  26 ms.
+Sorted:           0 ms.
+Inversed:         15 ms.
+
+totalAverageTime: 18 ms.
+****** Data Size: 50000 ******
+ShellSort: 
+Mess1:            15 ms.
+Mess2:            15 ms.
+Mess3:            15 ms.
+messAverageTime:  15 ms.
+Sorted:           16 ms.
+Inversed:         16 ms.
+
+totalAverageTime: 15 ms.
+****** Data Size: 50000 ******
+QuickSort: 
+Mess1:            0 ms.
+Mess2:            15 ms.
+Mess3:            0 ms.
+messAverageTime:  5 ms.
+Sorted:           15 ms.
+Inversed:         16 ms.
+
+totalAverageTime: 9 ms.
+****** Data Size: 50000 ******
+HeapSort: 
+Mess1:            0 ms.
+Mess2:            16 ms.
+Mess3:            15 ms.
+messAverageTime:  10 ms.
+Sorted:           0 ms.
+Inversed:         0 ms.
+
+totalAverageTime: 6 ms.
+****** Data Size: 100000 ******
+MergeSort: 
+Mess1:            31 ms.
+Mess2:            31 ms.
+Mess3:            31 ms.
+messAverageTime:  31 ms.
+Sorted:           16 ms.
+Inversed:         15 ms.
+
+totalAverageTime: 24 ms.
+****** Data Size: 100000 ******
+ShellSort: 
+Mess1:            15 ms.
+Mess2:            15 ms.
+Mess3:            15 ms.
+messAverageTime:  15 ms.
+Sorted:           0 ms.
+Inversed:         0 ms.
+
+totalAverageTime: 9 ms.
+****** Data Size: 100000 ******
+QuickSort: 
+Mess1:            16 ms.
+Mess2:            16 ms.
+Mess3:            32 ms.
+messAverageTime:  21 ms.
+Sorted:           16 ms.
+Inversed:         16 ms.
+
+totalAverageTime: 19 ms.
+****** Data Size: 100000 ******
+HeapSort: 
+Mess1:            15 ms.
+Mess2:            16 ms.
+Mess3:            16 ms.
+messAverageTime:  15 ms.
+Sorted:           16 ms.
+Inversed:         16 ms.
+
+totalAverageTime: 15 ms.
+****** Data Size: 150000 ******
+MergeSort: 
+Mess1:            47 ms.
+Mess2:            47 ms.
+Mess3:            31 ms.
+messAverageTime:  41 ms.
+Sorted:           16 ms.
+Inversed:         62 ms.
+
+totalAverageTime: 40 ms.
+****** Data Size: 150000 ******
+ShellSort: 
+Mess1:            31 ms.
+Mess2:            47 ms.
+Mess3:            31 ms.
+messAverageTime:  36 ms.
+Sorted:           15 ms.
+Inversed:         16 ms.
+
+totalAverageTime: 28 ms.
+****** Data Size: 150000 ******
+QuickSort: 
+Mess1:            31 ms.
+Mess2:            62 ms.
+Mess3:            15 ms.
+messAverageTime:  36 ms.
+Sorted:           15 ms.
+Inversed:         32 ms.
+
+totalAverageTime: 31 ms.
+****** Data Size: 150000 ******
+HeapSort: 
+Mess1:            31 ms.
+Mess2:            31 ms.
+Mess3:            16 ms.
+messAverageTime:  26 ms.
+Sorted:           15 ms.
+Inversed:         16 ms.
+
+totalAverageTime: 21 ms.
+****** Data Size: 200000 ******
+MergeSort: 
+Mess1:            46 ms.
+Mess2:            46 ms.
+Mess3:            47 ms.
+messAverageTime:  46 ms.
+Sorted:           31 ms.
+Inversed:         31 ms.
+
+totalAverageTime: 40 ms.
+****** Data Size: 200000 ******
+ShellSort: 
+Mess1:            47 ms.
+Mess2:            62 ms.
+Mess3:            47 ms.
+messAverageTime:  52 ms.
+Sorted:           15 ms.
+Inversed:         16 ms.
+
+totalAverageTime: 37 ms.
+****** Data Size: 200000 ******
+QuickSort: 
+Mess1:            31 ms.
+Mess2:            32 ms.
+Mess3:            31 ms.
+messAverageTime:  31 ms.
+Sorted:           31 ms.
+Inversed:         47 ms.
+
+totalAverageTime: 34 ms.
+****** Data Size: 200000 ******
+HeapSort: 
+Mess1:            31 ms.
+Mess2:            31 ms.
+Mess3:            46 ms.
+messAverageTime:  36 ms.
+Sorted:           31 ms.
+Inversed:         31 ms.
+
+totalAverageTime: 34 ms.
+****** Data Size: 250000 ******
+MergeSort: 
+Mess1:            63 ms.
+Mess2:            78 ms.
+Mess3:            63 ms.
+messAverageTime:  68 ms.
+Sorted:           78 ms.
+Inversed:         46 ms.
+
+totalAverageTime: 65 ms.
+****** Data Size: 250000 ******
+ShellSort: 
+Mess1:            78 ms.
+Mess2:            94 ms.
+Mess3:            63 ms.
+messAverageTime:  78 ms.
+Sorted:           63 ms.
+Inversed:         31 ms.
+
+totalAverageTime: 65 ms.
+****** Data Size: 250000 ******
+QuickSort: 
+Mess1:            46 ms.
+Mess2:            93 ms.
+Mess3:            46 ms.
+messAverageTime:  61 ms.
+Sorted:           47 ms.
+Inversed:         63 ms.
+
+totalAverageTime: 59 ms.
+****** Data Size: 250000 ******
+HeapSort: 
+Mess1:            47 ms.
+Mess2:            47 ms.
+Mess3:            78 ms.
+messAverageTime:  57 ms.
+Sorted:           32 ms.
+Inversed:         63 ms.
+
+totalAverageTime: 53 ms.
