@@ -10,6 +10,7 @@
 6. BookStoreOL: **软件安全**课程大作业，一个简单的Web系统。
 7. CGExercise: **计算机图形学与仿真**编程作业。
 8. MCM-ICM: **数学建模**国赛与美赛。
+9. LearningDesignPattern: **设计模式**课程学习与作业。
 
 ## 2 postgraduate
 

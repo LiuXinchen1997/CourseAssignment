@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<config>
+	<className>Adapter.OperationAdapter</className>
+	<student>Adapter.StudentAdapter</student>
+	<product>Adapter.ProductAdapter</product></config>
